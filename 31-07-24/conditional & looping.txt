@@ -1,4 +1,6 @@
-###SIMPLE IF:
+SIMPLE IF:
+----------
+
 Q.1 To print if a person is adult based his/her age 
    Note: Dont print if not adult
 
@@ -12,6 +14,7 @@ Pseudo routine:
         if(IsAdult(age)) 
             print 'You are an adult.'
         end if
+
 C# Code:
     
     using System;
