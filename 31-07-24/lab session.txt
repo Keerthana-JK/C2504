@@ -155,7 +155,6 @@ Q.5 LargestFromArray
 
 
 
-
 Q.6 Write pseudocode to manage a simple bank account that allow deposits, withdrawals, and checking balance
 
     string acc_holder;
@@ -182,6 +181,8 @@ Q.6 Write pseudocode to manage a simple bank account that allow deposits, withdr
 		    break;
 	    default:
 		    print "invalid operation"
+
+
 
 Q.7 Sum of first 10 even numbers
 
