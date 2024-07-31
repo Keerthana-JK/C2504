@@ -1,0 +1,202 @@
+Q.1 Shopping Cart Total: Write pseudocode for calculating the total cost of items in a shopping cart, including applying a discount if the total exceeds a certain amount.
+
+    1) input the total number of items in the cart (say  int n)
+    2) make an array with the price of each item as the elements of the array (loop) 
+    3) make an array with the item count of each item (loop)
+    4) multiply price of an item with the specific item count (loop)
+    5) total cost = price[item] * item_count
+    6) input budget
+    7) set appropriate discount percentage
+    8) if total cost > budget, apply discount 
+	    total cost = total cost - [total cost * discountpercentage]
+    9) Print total cost
+
+    int n;
+    double a[10];
+    int b[10];
+    double total_cost;
+    int budget=1000;
+    double discount;
+    for(i=0;i<n;i++)
+    	for(j=0;j<n;j++)
+    		total_cost=a[i]*b[j]);
+    if(total_cost>budget)
+    	total_cost=total_cost-(total_cost * discount);
+    print(total_cost);
+
+
+    BEGIN
+        DECLARE items AS ARRAY OF FLOAT
+        DECLARE total AS FLOAT
+        DECLARE discount AS FLOAT
+        DECLARE finalTotal AS FLOAT
+        DECLARE threshold AS FLOAT
+        DECLARE discountRate AS FLOAT
+        SET items = [item1, item2, item3, ..., itemN]  //item1, item2,.. are prices of items
+        SET total = 0.0
+        SET threshold = 100.0  // Example threshold amount for discount
+        SET discountRate = 0.10  // Example discount rate of 10%
+
+        FOR EACH item IN items
+            total = total + item
+        END FOR
+        IF total > threshold THEN
+           discount = total * discountRate
+        ELSE
+           discount = 0
+        END IF
+        finalTotal = total - discount
+        PRINT "Total before discount: ", total
+        PRINT "Discount applied: ", discount
+        PRINT "Total after discount: ", finalTotal
+    END
+
+
+
+Q.2 Simple Calculator: Write pseudocode for a simple calculator that takes two numbers and an operator (+, -, *, /) as input and outputs the result of the operation.
+
+    1) input double num1, num2
+    2) input char operator "Choose from +,-,*,/", double result
+    3) double result
+    4) switch(operator):
+	    case +: 
+		    result = num1 + num2;
+		    print "you chose addition, sum={result}"
+		    break;
+	    case -: 
+	    	result = num1 - num2;
+	    	print "you chose subtraction, diff={result}"
+	    	break;
+	    case *: 
+	    	result = num1 * num2;
+	    	print "you chose multiplication, pdt={result}"
+	    	break;
+	    case /: 
+	    	result = num1 / num2;
+	    	print "you chose division, quotient={result}"
+	    	break;
+	    default :
+	    	print "unknown operation"
+
+
+    BEGIN
+        DECLARE num1, num2, result AS FLOAT
+        DECLARE operator AS CHAR
+        PRINT "Enter first number: "
+        INPUT num1
+        PRINT "Enter operator (+, -, *, /): "
+        INPUT operator
+        PRINT "Enter second number: "
+        INPUT num2
+ 
+        IF operator == '+' THEN
+            result = num1 + num2
+        ELSE IF operator == '-' THEN
+            result = num1 - num2
+        ELSE IF operator == '*' THEN
+            result = num1 * num2
+        ELSE IF operator == '/' THEN
+           IF num2 != 0 THEN
+               result = num1 / num2
+            ELSE
+               PRINT "Error: Division by zero"
+               EXIT
+            END IF
+        ELSE
+            PRINT "Error: Invalid operator"
+            EXIT
+        END IF
+ 
+        PRINT "The result is: ", result
+        END
+
+
+
+Q.3 FizzBuzz: Write pseudocode for the FizzBuzz problem: For numbers 1 to 100, print "Fizz" for multiples of 3, "Buzz" for multiples of 5, and "FizzBuzz" for multiples of both.
+
+
+    for (int i=1;i<=100;i++)
+	    if(i%3==0)&&(i%5==0)
+		    print "FizzBuzz"
+	    else if(i%3==0)
+		    print "Fizz"
+	    else if(i%5==0)
+		    print "Buzz"
+	    endif
+    endfor
+
+
+
+Q.4 Palindrome Checker: Write pseudocode to check if a given string is a palindrome.
+
+    input string
+    initialize start as 0 and end as stringlength-1
+    while(start<end)
+	    if(start!=end)
+	    	return false
+	    endif
+	    start++, end--
+	    if(start==end)
+	    	return true
+	    endif
+    end while
+
+
+
+Q.5 LargestFromArray
+
+    input int size of array
+    Enter int[] array elements using for loop
+    int largest=array[0]
+    iterate through loop from int i=0 to i<size
+    	if array[i+1]>array[i]
+    		largest=[i]
+    	print largest
+
+
+
+
+Q.6 Write pseudocode to manage a simple bank account that allow deposits, withdrawals, and checking balance
+
+    string acc_holder;
+    long acc_no;
+    double balance;
+    double amount;
+    int choice;
+
+    function: deposit(balance, amount)
+    balance=balance+amount;
+
+    function: withdraw(balance, amount)
+    balance=balance-amount;
+
+    function: printBalance()
+    	return balance;
+
+    switch(choice)
+	    case 1: deposit(balance, amount)
+	    	printBalance();
+		    break;
+	    case 2: withdraw(balance, amount)
+		    printBalance();
+		    break;
+	    default:
+		    print "invalid operation"
+
+Q.7 Sum of first 10 even numbers
+
+begin
+	declare sum as int
+	declare i as int
+	set i=0
+	set sum=0
+	declare count and int and set to 0
+	
+	for(i=0;count<10;i++)
+		if(i%2==0)
+			sum=sum+i
+			count=count+1
+		endif
+	endfor
+	print sum
+end
