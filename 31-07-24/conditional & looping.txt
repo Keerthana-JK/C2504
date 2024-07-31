@@ -12,6 +12,18 @@ Pseudo routine:
         if(IsAdult(age)) 
             print 'You are an adult.'
         end if
+C# Code:
+    
+    using System;
+    class Adult {
+        static void Main() {
+            int age=25;
+            if(age>18)
+            {
+                Console.WriteLine("Adult");
+            }
+        }
+    }
 
     Other Examples:
         1. Take a num 10, if num greater than 5
@@ -29,6 +41,22 @@ Pseudo routine: IsAdult(age)
                 else 
                     print "not an adult"
 
+C# Code: 
+    using System;
+    class Adult {
+        static void Main() {
+            int age=25;
+            if(age>18)
+            {
+                Console.WriteLine("Adult");
+            }
+            else
+            {
+                Console.WriteLine("Not an Adult");
+            }
+        }
+    }
+
 Q.3 Input mark, if IsMarkGreaterThan40(mark)
         print pass else fail
 
@@ -45,6 +73,25 @@ function TestIsMarkGreaterThan40(): -> None
         print "pass" 
     else 
         print "fail" 
+
+C# code:
+    using System;
+    class MarksGreaterThan40 {
+        static bool IsMarkGreaterThan40(int mark)
+        {
+            if(mark>40)
+                return true;
+            else
+                return false;
+        }
+    static void Main() {
+        int mark=60;
+        if(IsMarkGreaterThan40(mark))
+            Console.WriteLine("Pass");
+        else
+            Console.WriteLine("Fail");
+        }
+    }
 
 Q.4 To check tumour is cancerous if  malignant or not cancerous if benign
     Note: tumour is string of text either malignant or benign
@@ -68,6 +115,25 @@ Pseudo routine: IsAdultTeenOrChild(age)
                     print "Teenager"
                 else
                     print "Child"
+
+C# code:
+    using System;
+    class Adult {
+        static void Main() {
+            int age=18;
+            if(age>=18)
+            {
+                Console.WriteLine("Adult");
+            }
+            else if(age>=13)
+            {
+                Console.WriteLine("Teenager");
+            }
+            else
+                Console.WriteLine("Child");
+        }
+    }
+
     Other Examples:
         1. to check health risk based body mass index?
             get BMI, [underweight < 18.5, normal weight <= 24.9, overweight]
@@ -80,6 +146,35 @@ Q.6 To check heart rate | temperature for treatment prescription:
     if heart rate < 100
         temperature > 38 -> fewer -> fewer treatment 
         else patient is healthy
+
+C# code:
+    using System;
+    class Medical {
+        static void Main() {
+            int temp=18;
+            int heart_rate=108;
+            if(heart_rate>=100)
+            {
+                if(temp>38)
+                {
+                    Console.WriteLine("Patient is Critical, give Emergency Care");
+                }
+                else
+                {
+                    Console.WriteLine("Patient is not critical, prescribe treatment");
+                }
+            }
+            else
+                if(temp>38)
+                {
+                    Console.WriteLine("Fever, give Fever treatment");
+                }
+                else
+                {
+                    Console.WriteLine("Patient is healthy");
+                }
+            }
+        }
 
 ###SWITCH
 Q.7 Check for car maintenance
