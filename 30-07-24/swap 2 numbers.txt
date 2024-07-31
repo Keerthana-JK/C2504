@@ -1,0 +1,21 @@
+9. Swap 2 numbers
+
+Pseudo:
+		input num1, num2
+		temp = num1
+		num1 = num2
+		num2 = c
+		print num1, num2
+
+Pseudo routine:
+		function Swap(num1, num2)
+		temp = num1
+		num1 = num2
+		num2 = c
+		return num1,num2
+
+Pseudo test:
+		procedure SwapTest()
+		input num1, num2
+		num1, num2 = Swap(num1,num2)
+		print(num1, num2)

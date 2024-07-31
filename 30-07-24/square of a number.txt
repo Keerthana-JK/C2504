@@ -1,0 +1,17 @@
+15. Find square of a number
+
+Pseudo:
+        int num
+        square=num*num
+        print square
+
+Pseudo routine:
+        function FindSquare(num)
+        square = num*num
+        return square
+
+Pseudo Test:
+        procedure TestFindSquare()
+        input num
+        square = FindSquare(num)
+        print(square)

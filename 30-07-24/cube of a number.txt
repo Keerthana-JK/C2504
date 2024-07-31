@@ -1,0 +1,17 @@
+20. To find cube of number
+
+Pseudo:
+		int num
+		cube = num*num*num
+		print num
+
+Pseudo routine:
+		function FindCube(num)
+		cube = num*num*num
+		return cube
+
+Pseudo Test:
+		procedure FindCubeTest()
+		input num
+		cube=FindCube(num)
+		print(cube)

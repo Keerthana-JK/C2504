@@ -1,0 +1,23 @@
+28. To check number is divisible by 3
+
+Pseudo:
+		input num
+		if num % 3 ==0
+			print "its divisible by 3"
+		else
+			print "not divisible by 3"
+
+Pseudo routine:
+		function isDivisibleBy3(num)
+		if num % 3 ==0
+			return true
+		else
+			return false
+
+Pseudo Test:
+		procedure TestisDivisibleBy3()
+		input num
+		if isDivisibleBy3(num)
+			print("Divisible by 3")
+		else
+			print("Not divisible by 3")

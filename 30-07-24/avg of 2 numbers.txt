@@ -1,0 +1,19 @@
+19. To find average of two numbers
+
+Pseudo:
+		input num1, num2
+		sum = num1+num2
+		avg = sum/2
+		print avg
+
+Pseudo routine:
+		function FindAvgof2(num1, num2)
+		sum = num1+num2
+		avg = sum/2
+		return avg
+
+Pseudo test:
+		procedure TestFindAvgof2()
+		input num1, num2
+		avg=FindAvgof2(num1,num2)
+		print(avg)
