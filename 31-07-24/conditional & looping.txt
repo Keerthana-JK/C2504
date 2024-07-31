@@ -241,10 +241,22 @@ Q.7 Check for car maintenance
 FOR-LOOP
 --------
 
-Q.8
+Q.8 To print N whole numbers
+
+C# code:
+    using System;
+    class Medical {
+        static void Main() {
+            int n=10;
+            for(int i=0;i<=n;i++)
+            {
+                Console.WriteLine(i);
+            }
+        }
+    }
+
     Other Examples:
-        1. To print N whole numbers
-        2. To print name of passenger in a air bus.
+        1. To print name of passenger in a air bus.
             get list of passengers and print.
             --digital engineering service
 
