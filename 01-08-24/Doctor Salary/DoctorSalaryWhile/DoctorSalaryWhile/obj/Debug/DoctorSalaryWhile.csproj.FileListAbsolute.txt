@@ -1,0 +1,7 @@
+D:\GitHub\Quest Launchpad\C2504\01-08-24\Doctor Salary\DoctorSalaryWhile\DoctorSalaryWhile\bin\Debug\DoctorSalaryWhile.exe.config
+D:\GitHub\Quest Launchpad\C2504\01-08-24\Doctor Salary\DoctorSalaryWhile\DoctorSalaryWhile\bin\Debug\DoctorSalaryWhile.exe
+D:\GitHub\Quest Launchpad\C2504\01-08-24\Doctor Salary\DoctorSalaryWhile\DoctorSalaryWhile\bin\Debug\DoctorSalaryWhile.pdb
+D:\GitHub\Quest Launchpad\C2504\01-08-24\Doctor Salary\DoctorSalaryWhile\DoctorSalaryWhile\obj\Debug\DoctorSalaryWhile.csproj.AssemblyReference.cache
+D:\GitHub\Quest Launchpad\C2504\01-08-24\Doctor Salary\DoctorSalaryWhile\DoctorSalaryWhile\obj\Debug\DoctorSalaryWhile.csproj.CoreCompileInputs.cache
+D:\GitHub\Quest Launchpad\C2504\01-08-24\Doctor Salary\DoctorSalaryWhile\DoctorSalaryWhile\obj\Debug\DoctorSalaryWhile.exe
+D:\GitHub\Quest Launchpad\C2504\01-08-24\Doctor Salary\DoctorSalaryWhile\DoctorSalaryWhile\obj\Debug\DoctorSalaryWhile.pdb
