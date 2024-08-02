@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GitHub\\Quest Launchpad\\C2504\\02-08-24\\P6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5C8821-1426-46DE-8E43-2FDD9D10E564}|Q3\\Q3.csproj|d:\\github\\quest launchpad\\c2504\\02-08-24\\p6\\q3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF5C8821-1426-46DE-8E43-2FDD9D10E564}|Q3\\Q3.csproj|solutionrelative:q3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{516F819D-00F8-4FEB-BE09-CC9CE317C7DB}|Q1\\Q1.csproj|d:\\github\\quest launchpad\\c2504\\02-08-24\\p6\\q1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{516F819D-00F8-4FEB-BE09-CC9CE317C7DB}|Q1\\Q1.csproj|solutionrelative:q1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D97255FB-B8F9-4D90-9072-88C60A4713ED}|Q2\\Q2.csproj|d:\\github\\quest launchpad\\c2504\\02-08-24\\p6\\q2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D97255FB-B8F9-4D90-9072-88C60A4713ED}|Q2\\Q2.csproj|solutionrelative:q2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\Quest Launchpad\\C2504\\02-08-24\\P6\\Q3\\Program.cs",
+              "RelativeDocumentMoniker": "Q3\\Program.cs",
+              "ToolTip": "D:\\GitHub\\Quest Launchpad\\C2504\\02-08-24\\P6\\Q3\\Program.cs",
+              "RelativeToolTip": "Q3\\Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T12:47:56.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\Quest Launchpad\\C2504\\02-08-24\\P6\\Q2\\Program.cs",
+              "RelativeDocumentMoniker": "Q2\\Program.cs",
+              "ToolTip": "D:\\GitHub\\Quest Launchpad\\C2504\\02-08-24\\P6\\Q2\\Program.cs",
+              "RelativeToolTip": "Q2\\Program.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAgwDAAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T12:45:43.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\Quest Launchpad\\C2504\\02-08-24\\P6\\Q1\\Program.cs",
+              "RelativeDocumentMoniker": "Q1\\Program.cs",
+              "ToolTip": "D:\\GitHub\\Quest Launchpad\\C2504\\02-08-24\\P6\\Q1\\Program.cs",
+              "RelativeToolTip": "Q1\\Program.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAowCYAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T12:33:42.821Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
