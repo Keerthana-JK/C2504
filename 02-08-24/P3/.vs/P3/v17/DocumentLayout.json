@@ -7,18 +7,15 @@
       "RelativeMoniker": "D:0:0:{7C109904-1B85-4281-BAF3-071EE0D0C3BA}|Q3\\Q3.csproj|solutionrelative:q3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE5CD751-3F88-4EA3-87F7-553D3B40C66F}|Q2\\Q2.csproj|d:\\github\\quest launchpad\\c2504\\02-08-24\\p3\\q2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CE5CD751-3F88-4EA3-87F7-553D3B40C66F}|Q2\\Q2.csproj|D:\\GitHub\\Quest Launchpad\\C2504\\02-08-24\\P3\\q2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CE5CD751-3F88-4EA3-87F7-553D3B40C66F}|Q2\\Q2.csproj|solutionrelative:q2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B6E9E04-C75F-440E-B6BA-07FF3EC4E040}|Q1\\Q1.csproj|d:\\github\\quest launchpad\\c2504\\02-08-24\\p3\\q1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2B6E9E04-C75F-440E-B6BA-07FF3EC4E040}|Q1\\Q1.csproj|D:\\GitHub\\Quest Launchpad\\C2504\\02-08-24\\P3\\q1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B6E9E04-C75F-440E-B6BA-07FF3EC4E040}|Q1\\Q1.csproj|solutionrelative:q1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Q1||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B6E9E04-C75F-440E-B6BA-07FF3EC4E040}|Q1\\Q1.csproj|d:\\github\\quest launchpad\\c2504\\02-08-24\\p3\\q1\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|43e38d2e-43b8-4204-8225-9357316137a4"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +35,7 @@
               "RelativeDocumentMoniker": "Q3\\Program.cs",
               "ToolTip": "D:\\GitHub\\Quest Launchpad\\C2504\\02-08-24\\P3\\Q3\\Program.cs",
               "RelativeToolTip": "Q3\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA9AAAA",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAgwCwAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-02T11:21:34.212Z",
               "EditorCaption": ""
@@ -53,8 +50,7 @@
               "RelativeToolTip": "Q2\\Program.cs",
               "ViewState": "AQIAABgAAAAAAAAAAAAQwDYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T11:12:37.956Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-02T11:12:37.956Z"
             },
             {
               "$type": "Document",
@@ -65,8 +61,7 @@
               "ToolTip": "D:\\GitHub\\Quest Launchpad\\C2504\\02-08-24\\P3\\Q1\\Q1.csproj",
               "RelativeToolTip": "Q1\\Q1.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-08-02T11:09:39.575Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-02T11:09:39.575Z"
             },
             {
               "$type": "Document",
@@ -78,8 +73,7 @@
               "RelativeToolTip": "Q1\\Program.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAAQwDAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T11:03:10.261Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-02T11:03:10.261Z"
             }
           ]
         }
