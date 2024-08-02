@@ -1,0 +1,7 @@
+D:\GitHub\Quest Launchpad\C2504\02-08-24\P2\Q1\bin\Debug\Q1.exe.config
+D:\GitHub\Quest Launchpad\C2504\02-08-24\P2\Q1\bin\Debug\Q1.exe
+D:\GitHub\Quest Launchpad\C2504\02-08-24\P2\Q1\bin\Debug\Q1.pdb
+D:\GitHub\Quest Launchpad\C2504\02-08-24\P2\Q1\obj\Debug\Q1.csproj.AssemblyReference.cache
+D:\GitHub\Quest Launchpad\C2504\02-08-24\P2\Q1\obj\Debug\Q1.csproj.CoreCompileInputs.cache
+D:\GitHub\Quest Launchpad\C2504\02-08-24\P2\Q1\obj\Debug\Q1.exe
+D:\GitHub\Quest Launchpad\C2504\02-08-24\P2\Q1\obj\Debug\Q1.pdb

@@ -1,8 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿//P1.Q3
+//Print series 10 12 14 16 18... using do-while loop
+
+using System;
+
 
 namespace Q3
 {
