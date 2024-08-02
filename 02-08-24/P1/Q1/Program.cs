@@ -35,15 +35,5 @@ namespace Q1
             Console.WriteLine("Press any key to contine...");
             Console.ReadKey();
         }
-        //static void Main(string[] args)
-        //{   
-        //    //continue
-        //    for (int i = 1; i <= 10; i++)
-        //    {
-        //        if (i % 2 != 0)
-        //            continue;
-        //        Console.WriteLine(i);
-        //    }
-        //}
     }
 }
