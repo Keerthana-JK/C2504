@@ -130,13 +130,13 @@ namespace TestRevision
             while ((age = ReadAge()) >= 0)
             {
                 AgeSum();
-                avgAge = totalAge / count;
                 PrimeSum();
                 TeenSum();
                 MinAge();
                 OddSum();
                 SecMaxAge();
             }
+            avgAge = totalAge / count;
             Console.WriteLine($"Avg age: {avgAge}");
             Console.WriteLine($"Prime ages sum: {primeSum}");
             Console.WriteLine($"Teen ages sum: {teenSum}");
