@@ -194,6 +194,15 @@ select * from EHR_IntegrationLogs;
 
 --QUERIES
 
+
+-- to find age of Patient with PatientId = 1
+SELECT DATEDIFF( YEAR, DOB, Getdate() )  AS AGE 
+FROM Patients where PatientId=1;
+
+--number of days left till appointment for each patient
+select PatientId, DATEDIFF(day, GETDATE(), Date) from Appointments;
+
+--COUNT
 --find count of Patients
 SELECT COUNT(*) AS TOTAL_NUM_PATIENTS from Patients;
 select * from Patients;
@@ -206,60 +215,66 @@ SELECT COUNT(*) AS TOTAL_NUM_APPOINTMENTS from Appointments;
 
 --find count of Female Patients
 SELECT COUNT(*) AS TOTAL_NUM_FEMALE from Patients where Gender='Female';
---find sum
-
---find avg
-
---find min
-SELECT MIN( DATEDIFF( YEAR, DOB, GETDATE() ) ) AS MIN_AGE FROM PATIENTS;
-
---find max
-SELECT MAX( DATEDIFF( YEAR, DOB, GETDATE() ) ) AS MIN_AGE FROM PATIENTS;
-
-
--- to find earliest
-
-SELECT AVG( DATEDIFF( YEAR, CreatedAt, UpdatedAt ) ) AS AVG_EXPERIENCE 
-FROM Notifications;
-
--- to find age of Patient with PatientId = 1
-SELECT DATEDIFF( YEAR, DOB, Getdate() )  AS AGE 
-FROM Patients where PatientId=1;
-
--- to find age of average age of Patients
-SELECT AVG( DATEDIFF( YEAR, DOB, Getdate() ) ) AS AVG_AGE 
-FROM Patients;
-
--- to find avg of Patient's ages -- two aggregators used to find avg
-SELECT SUM(DATEDIFF( YEAR, DOB, Getdate()))/COUNT(*) AS AVG_AGE FROM Patients;
 
 -- to count distinct jobs 
 SELECT COUNT(DISTINCT JOB) FROM EMP;
 
--- to find Patients with age less than average age
 
-SELECT PatientId from Patients having ( DATEDIFF( YEAR, DOB, Getdate() ) ) < AVG( DATEDIFF( YEAR, DOB, Getdate() ));
+--SUM
 
---to diplay distinct role of users
+-- to find avg of Patient's ages -- two aggregators used to find avg (SUM & COUNT)
+SELECT SUM(DATEDIFF( YEAR, DOB, Getdate()))/COUNT(*) AS AVG_AGE FROM Patients;
+
+--AVG
+
+-- to find age of average age of Patients (AVG)
+SELECT AVG( DATEDIFF( YEAR, DOB, Getdate() ) ) AS AVG_AGE 
+FROM Patients;
+
+-- to find Patients with age less than average age (AVG)
+SELECT PatientId
+FROM Patients
+WHERE DATEDIFF(YEAR, DOB, GETDATE()) < (
+    SELECT AVG(DATEDIFF(YEAR, DOB, GETDATE()))
+    FROM Patients
+);
+
+--MIN
+-- to find minimum age from patients (MIN)
+SELECT MIN( DATEDIFF( YEAR, DOB, GETDATE() ) ) AS MIN_AGE FROM PATIENTS;
+
+--MAX
+-- to find maximum age from patients (MAX)
+SELECT MAX( DATEDIFF( YEAR, DOB, GETDATE() ) ) AS MIN_AGE FROM PATIENTS;
+
+
+
+
+-- GROUP BY
+
+--to diplay distinct role of users (using DISTINCT, not using group by)
 select distinct(role) from Users;
 
---to display roles of Users group by role
+--to display roles of Users group by role (GROUP BY)
 select role from Users group by role;
 
--- group by and having
-
--- to display the count of users for each role
+-- to display the count of users for each role (COUNT & GROUP BY)
 SELECT Role, COUNT(UserId) AS UserCount
 FROM Users
 GROUP BY Role;
 
---total number of patients with condition "Hypertension"
+--to display number of patients with each condition (COUNT & GROUP BY)
 SELECT Condition, COUNT(PatientId) AS PatientCount
+FROM MedicalHistory
+GROUP BY Condition;
+
+--total number of patients with condition "Hypertension" (COUNT & GROUP BY)
+SELECT Condition, COUNT(PatientId) AS PatientCount 
 FROM MedicalHistory
 WHERE Condition = 'Hypertension'
 GROUP BY Condition;
 
---average number of appointments per doctor
+--average number of appointments per doctor (SUB QUERY)
 SELECT DoctorId, AVG(AppointmentCount) AS AvgAppointments
 FROM (
     SELECT DoctorId, COUNT(AppointmentId) AS AppointmentCount
@@ -268,19 +283,40 @@ FROM (
 ) AS DoctorAppointments
 GROUP BY DoctorId;
 
---to display number of successful and failed EHR Integrations
+--to display number of successful and failed EHR Integrations (COUNT & GROUP BY)
 SELECT Status, COUNT(LogId) AS IntegrationCount
 FROM EHR_IntegrationLogs
 GROUP BY Status;
 
---display number of appointments each patient has
+--GROUP BY, HAVING
+
+--display number of appointments each patient has (GROUP BY, HAVING)
 SELECT PatientId, COUNT(AppointmentId) AS NumberOfAppointments
 FROM Appointments
 GROUP BY PatientId
 HAVING COUNT(AppointmentId) < 5;
 
---to find the name of the patient with age 30 greater than 30 using HAVING
+
+--to find the name of the patient with age 30 greater than 30 using HAVING (GROUP BY, HAVING)
 SELECT Name, Dob, DATEDIFF(YEAR, DOB, GETDATE()) AS Age
 FROM Patients
 GROUP BY Name, DOB
 HAVING DATEDIFF(YEAR, DOB, GETDATE()) >=30;
+
+--order by name desc
+--to find the name of the patient with age 30 greater than 30 using HAVING , then order by name in descending order (GROUP BY, HAVING, ORDER BY)
+SELECT Name, Dob, DATEDIFF(YEAR, DOB, GETDATE()) AS Age
+FROM Patients
+GROUP BY Name, DOB
+HAVING DATEDIFF(YEAR, DOB, GETDATE()) >=30
+order by name desc;
+
+--to find the name of the patient with age 30 greater than 30 using HAVING , then order by age first and then by name (GROUP BY, HAVING, ORDER BY)
+SELECT Name, Dob, DATEDIFF(YEAR, DOB, GETDATE()) AS Age
+FROM Patients
+GROUP BY Name, DOB
+HAVING DATEDIFF(YEAR, DOB, GETDATE()) >=30
+order by age, name;
+
+--to display the patient id, date, time of appointments order by time (ORDER BY)
+select PatientId,date, time from Appointments order by time;
