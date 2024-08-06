@@ -279,9 +279,8 @@ FROM Appointments
 GROUP BY PatientId
 HAVING COUNT(AppointmentId) < 5;
 
---SELECT AVG( DATEDIFF( YEAR, DOB, Getdate() ) ) AS AVG_AGE 
---FROM Patients;
-
-SELECT Role, COUNT(UserId) AS UserCount
-FROM Users
-GROUP BY Role;
+--to find the name of the patient with age 30 greater than 30 using HAVING
+SELECT Name, Dob, DATEDIFF(YEAR, DOB, GETDATE()) AS Age
+FROM Patients
+GROUP BY Name, DOB
+HAVING DATEDIFF(YEAR, DOB, GETDATE()) >=30;
