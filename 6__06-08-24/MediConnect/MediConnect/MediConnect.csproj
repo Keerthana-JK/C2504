@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3FDA2A7B-0A42-4DC1-AB11-6692FC59A6A7}</ProjectGuid>
+    <ProjectGuid>{7527057D-18E9-4851-A8E3-DFCBB2B26383}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>MediConnect</RootNamespace>
     <AssemblyName>MediConnect</AssemblyName>

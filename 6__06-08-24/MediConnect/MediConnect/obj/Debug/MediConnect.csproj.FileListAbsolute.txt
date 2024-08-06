@@ -1,0 +1,7 @@
+D:\GitHub\Quest Launchpad\C2504\6__06-08-24\MediConnect\MediConnect\bin\Debug\MediConnect.exe.config
+D:\GitHub\Quest Launchpad\C2504\6__06-08-24\MediConnect\MediConnect\bin\Debug\MediConnect.exe
+D:\GitHub\Quest Launchpad\C2504\6__06-08-24\MediConnect\MediConnect\bin\Debug\MediConnect.pdb
+D:\GitHub\Quest Launchpad\C2504\6__06-08-24\MediConnect\MediConnect\obj\Debug\MediConnect.csproj.AssemblyReference.cache
+D:\GitHub\Quest Launchpad\C2504\6__06-08-24\MediConnect\MediConnect\obj\Debug\MediConnect.csproj.CoreCompileInputs.cache
+D:\GitHub\Quest Launchpad\C2504\6__06-08-24\MediConnect\MediConnect\obj\Debug\MediConnect.exe
+D:\GitHub\Quest Launchpad\C2504\6__06-08-24\MediConnect\MediConnect\obj\Debug\MediConnect.pdb
