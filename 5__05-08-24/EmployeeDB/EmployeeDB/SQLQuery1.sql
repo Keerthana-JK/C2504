@@ -678,3 +678,5 @@ ORDER BY DNAME_SAL;
 -- LEFT OUTER JOIN : matched rows + extra rows in left table 
 -- RIGHT OUTER JOIN : matched rows + extra rows in right table
 -- FULL OUTER JOIN : matched rows + extra rows in left and right table
+
+SELECT EMP.*, DEPT.* FROM EMP INNER JOIN DEPT ON (EMP.DEPTNO=DEPT.DEPTNO);
