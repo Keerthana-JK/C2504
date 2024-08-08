@@ -3,7 +3,7 @@ use StudentDB;
 --create table Student if not exists
 if not exists( select * from sys.tables where name = 'Student')
 begin /* ( */
-	create table Student(id int primary key not null, first_name varchar(50) not null, last_name varchar(50) not null, email nvarchar(100) not null unique);
+	create table Student(id int primary key not null identity(1,1), first_name varchar(50) not null, last_name varchar(50) not null, email nvarchar(100) not null unique);
 	--sp_help Student;
 end		/* )*/
 
@@ -28,6 +28,8 @@ begin
 		constraint FK_Subject foreign key (subject_id) references Subjects(id))
 end
 
+set IDENTITY_INSERT Student off;
+
 insert into Student(id, first_name, last_name, email) values
 (1,'Joe','Doe','johndoe@gmail.com'),
 (2,'Elizabeth','Rodrigues','elirodrigues@gmail.com'),
@@ -45,7 +47,7 @@ insert into Subjects(id, name) values
 (105,'Biology');
 select * from Subjects;
 
-set IDENTITY_INSERT Marks on;
+set IDENTITY_INSERT Marks off;
 insert into Marks(id, student_id, subject_id, marks) values
 (33,1,101,100),
 (23,1,102,40),
@@ -79,3 +81,64 @@ select * from marks where student_id=(select id from student where email='Johndo
 
 --display id, first, last name of students, marks for subjects 
 select Student.id, Student.first_name, Student.last_name, Marks.marks, Marks.subject_id from Student inner join marks on Student.id=Marks.student_id;
+
+--Create View
+--create view as Student_marks as 
+--	select student.id as Student_id, Student.fname, Student.email, Subjects.name, Marks.mark 
+--		inner join mark on Marks.student_id = Student.id
+--		inner join Subjects on mark.subject_id = subject.id;
+
+-- STORED PROCEDURES
+
+--Create procedure to Insert data into Student Table
+--SP (Non-reusable code)
+create procedure InsertIntoStudentTable
+as
+begin
+	insert into Student(id, first_name, last_name, email) 
+	values
+	(7,'Ananya','BK', 'ananyabk@gmail.com'),
+	(8,'Diwan','Kapoor', 'diwankapoor@gmail.com'),
+	(9,'Maria','Nicholas', 'mariyan@gmail.com');
+end;
+
+--set IDENTITY_INSERT Student on;
+
+--DROP PROCEDURE IF EXISTS InsertIntoStudentTable;
+exec InsertIntoStudentTable;
+
+select * from Student;
+
+--SP (Reusable Code)
+create procedure sp_NewStudent
+	@FirstName varchar(50),
+	@LastName varchar(50),
+	@Email varchar(100)
+as
+begin
+	insert into Student(first_name, last_name, email)
+	VALUES (@FirstName, @LastName, @Email);
+end
+
+set IDENTITY_INSERT Student off;
+exec sp_NewStudent
+	@FirstName = 'Amy',
+	@LastName = 'Edward',
+	@Email = 'amyedward@gmail.com';
+
+--//To Ensure id is Auto-Increment//
+--select column_name, columnproperty(object_id(table_name), column_name, 'isidentity') as isidentity
+--from information_schema.columns
+--where table_name = 'student';
+
+select * from Student;
+
+--SP for selecting data of all Students
+
+create procedure ShowStudentDetails
+as
+begin
+	select * from Student;
+end
+
+exec ShowStudentDetails;
