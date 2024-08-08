@@ -1,0 +1,116 @@
+Interview Qns on SubQueries and Views :
+
+SubQueries :
+----------
+
+	1. What is a sub-query in SQL?
+		Ans : A sub-query is a query nested inside another query, often used to perform operations that require more than one step.
+		
+	2. Can you provide an example of a basic sub-query?
+		Ans : SELECT * FROM Employees WHERE DepartmentID IN (SELECT DepartmentID FROM Departments WHERE Location = 'New York');
+		
+	3. What are the types of subqueries?
+		Ans:
+			1. Single-row subquery: Returns a single row.
+			2. Multiple-row subquery: Returns multiple rows.
+			3. Multiple-column subquery: Returns multiple columns.
+			4. Correlated subquery: References columns from the outer query.
+		
+	4. What is the difference between a sub-query and a join?
+		Ans: A sub-query is a nested query that can return a single value or a list of values, 
+			whereas a join combines columns from two or more tables based on a related column.
+			
+	5. Explain the difference between correlated and uncorrelated sub-queries.
+		Ans: An uncorrelated sub-query is independent of the outer query and can be run on its own. 
+			Correlated sub-query depends on the outer query for its values and is executed once for each row processed by the outer query.
+			(works like a loop)
+			
+	6. Describe a scenario where a sub-query might be more advantageous than a join.
+		Ans: When you need to perform a calculation or retrieve a value that depends on a single row 
+			or a small set of rows that are not directly related to the main query, 
+			a sub-query might be more readable and easier to maintain than a join.
+
+	7. What are the limitations of using sub-queries in SQL?
+		Ans: Sub-queries can sometimes lead to Performance issues, particularly if they are not well-optimized. 
+			Less readable and 
+			Harder to Maintain than equivalent queries using joins.
+			
+	8. Write a query to find the employee with highest salary in the Employees table using a sub-query
+		Ans: SELECT EmployeeID, Name, Salary
+			FROM Employees
+			WHERE Salary = (SELECT MAX(Salary) FROM Employees);
+		
+	9. Using a sub-query, find the employees who earn more than the average salary in their department.
+		Ans: SELECT EmployeeID, Name FROM Employees e 
+			WHERE Salary > (SELECT AVG(Salary) 
+			FROM Employees 
+			WHERE DepartmentID = e.DepartmentID);
+		
+	10. Create a sub-query to list all departments with more than 10 employees.
+		Ans: SELECT DepartmentID, DepartmentName FROM Departments 
+			WHERE DepartmentID IN 
+			(SELECT DepartmentID FROM Employees 
+			GROUP BY DepartmentID HAVING COUNT(*) > 10);
+			
+VIEWS :
+-------
+
+	1. What is a view in SQL?
+		Ans: A view is a virtual table based on the result set of a SQL query. 
+			Does not store data itself but displays data stored in other tables.
+			
+	2. How do you create a view in SQL?
+		Ans: You can create a view using the CREATE VIEW statement.
+			CREATE VIEW view_name AS
+			SELECT column1, column2, ...
+			FROM table_name
+			WHERE condition;
+			
+	3. What are the advantages of using views?
+		Ans: Simplify complex queries, 
+			Enhance security by restricting access to specific columns or rows, and 
+			provide a level of Abstraction from the underlying table structures.
+			
+	4.	Can you update data through a view?
+		Ans: Yes, you can update data through a view if the view is updatable. 
+			Requires that the view is based on a single table, 
+			and does not include certain SQL constructs like GROUP BY, DISTINCT, or aggregate function	
+			
+	5. Explain the difference between a view and a table.
+		Ans: A table is a physical storage of data, 
+			View is a virtual table representing the result of a query. 
+			A view does not store data itself but provides a way to look at data in one or more tables.
+			
+	6. How do you modify an existing view?
+		Ans: You can modify an existing view using the CREATE OR REPLACE VIEW statement. 
+			CREATE OR REPLACE VIEW view_name AS
+			SELECT column1, column2, ...
+			FROM table_name
+			WHERE condition;
+
+	7. Can you drop a view? If so, how?
+		Ans: Yes, you can drop a view using the DROP VIEW statement.
+			DROP VIEW view_name;
+
+	8. How would you create a view that includes data from multiple tables?
+		Ans: You can create a view that includes data from multiple tables using joins.
+		CREATE VIEW view_name AS
+		SELECT a.column1, b.column2
+		FROM table1 a
+		JOIN table2 b ON a.common_column = b.common_column;
+		
+	9. What limitations exist when working with views?
+		Ans: Views cannot contain certain constructs like temporary tables, 
+			cannot be indexed directly,
+			limitations on updating data if the view involves complex queries such as those with GROUP BY, aggregate functions, or DISTINCT.
+			
+	10. Create a view to show all employees with their department names.
+		Ans: CREATE VIEW EmployeeDepartment AS
+			SELECT e.EmployeeID, e.Name, d.DepartmentName
+			FROM Employees e
+			JOIN Departments d ON e.DepartmentID = d.DepartmentID;
+		
+	11. Write a query to update a view showing the salary of employees.
+		Ans: UPDATE EmployeeSalaryView
+			SET Salary = Salary * 1.10
+			WHERE DepartmentID = 1;
