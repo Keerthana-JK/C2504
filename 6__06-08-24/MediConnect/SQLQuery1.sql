@@ -322,7 +322,7 @@ order by age, name;
 select PatientId,date, time from Appointments order by time;
 
 
-----view---
+----View---
 
 
 SELECT * FROM DEPT; -- normalized
@@ -366,6 +366,9 @@ CREATE TABLE MedicalHistory (
     CreatedAt DATETIME2 ,
     UpdatedAt DATETIME2 
 );
+
+
+--Alter Constraints--
 
 ALTER TABLE MedicalHistory
 ADD CONSTRAINT PK_MedicalHistory_MedicalHistoryId PRIMARY KEY(MedicalHistoryId);
