@@ -21,6 +21,7 @@ INSERT INTO Orders (OrderID, CustomerID, OrderDate)VALUES
 (4,104,'2023-01-23'),
 (5,105,'2021-12-29');
 
+--Find the Most Recent Order for Each Customer
 select OrderID, CustomerID, OrderDate 
 from Orders
 where OrderDate = (select min(OrderDate) from Orders);
@@ -48,6 +49,7 @@ INSERT INTO Sales(SalesPersonID, SaleAmount,SaleDate) VALUES
 
 select * from Sales;
 
+--Find the Top N Salespersons by Sales
 select SalesPersonId, SaleAmount from Sales
 order by SaleAmount desc;
 
@@ -72,6 +74,7 @@ INSERT INTO Orders (OrderID, CustomerID, OrderValue)VALUES
 (4,104,250),
 (5,105,10500);
 
+--Find Orders with the Largest Order Value
 select OrderID, CustomerID, OrderValue from Orders
 where OrderValue = (select max(OrderValue) from Orders);
 
@@ -100,6 +103,7 @@ INSERT INTO Orders (OrderID, CustomerID, SalesAmount)VALUES
 
 select * from Orders;
 
+--Find the Average Sales Per Customer
 select CustomerID, avg(SalesAmount) as Avg_Sales_Per_Customer 
 from Orders
 group by CustomerID;
