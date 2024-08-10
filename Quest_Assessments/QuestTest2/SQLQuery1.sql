@@ -19,12 +19,19 @@ INSERT INTO Orders (OrderID, CustomerID, OrderDate)VALUES
 (2,102,'2020-09-10'),
 (3,103,'2012-06-09'),
 (4,104,'2023-01-23'),
-(5,105,'2021-12-29');
+(5,105,'2021-12-29')
+INSERT INTO Orders (OrderID, CustomerID, OrderDate)VALUES(6,101,'2022-04-19');
+INSERT INTO Orders (OrderID, CustomerID, OrderDate)VALUES(7,101,'2022-04-17');
 
 --Find the Most Recent Order for Each Customer
 select OrderID, CustomerID, OrderDate 
 from Orders
-where OrderDate = (select min(OrderDate) from Orders);
+where OrderDate = (select max(OrderDate) from Orders);
+
+select OrderID, CustomerID, OrderDate
+from Orders as o
+where OrderDate = (select max(OrderDate) from Orders as r
+where o.CustomerID=r.CustomerID);
 
 --#2
 --Find the Top N Salespersons by Sales
@@ -39,6 +46,7 @@ SalesPersonID INT,
 SaleAmount DECIMAL(10, 2),
 SaleDate DATE
 );
+drop table Sales;
 
 INSERT INTO Sales(SalesPersonID, SaleAmount,SaleDate) VALUES
 (1, 2500.00, '2023-09-06'),
@@ -46,14 +54,21 @@ INSERT INTO Sales(SalesPersonID, SaleAmount,SaleDate) VALUES
 (3, 3000.19, '2015-10-03'),
 (4, 4600.09, '2002-12-25'),
 (5, 50000.13, '2017-11-02');
+INSERT INTO Sales(SalesPersonID, SaleAmount,SaleDate) VALUES(5, 50060.13, '2018-11-02');
 
 select * from Sales;
 
 --Find the Top N Salespersons by Sales
-select SalesPersonId, SaleAmount from Sales
+select SalesPersonId from Sales
+group by SalesPersonId
+order by sum(SaleAmount) desc;
+
+select SalesPersonId, sum(SaleAmount) as Total_Sales from Sales
+group by SalesPersonId
+order by Total_Sales desc;
+
+select SaleDate, SalesPersonId, SaleAmount from Sales
 order by SaleAmount desc;
-
-
 --#3
 --Find Orders with the Largest Order Value
 --Problem: Given an `Orders` table
@@ -135,6 +150,11 @@ select SalesAmount, SalesDate from Sales
 where SalesAmount=(select max(SalesAmount) from Sales);
 
 --to find day with highest sales
+select top 1 SalesDate, sum(SalesAmount) as TOTAL_SALES_OF_THE_DAY 
+from Sales
+group by SalesDate
+order by TOTAL_SALES_OF_THE_DAY desc;
+
 select SalesDate, sum(SalesAmount) as TOTAL_SALES_OF_THE_DAY 
 from Sales
 group by SalesDate
