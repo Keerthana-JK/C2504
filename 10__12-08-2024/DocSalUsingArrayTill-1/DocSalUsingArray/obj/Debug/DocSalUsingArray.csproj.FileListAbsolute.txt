@@ -1,0 +1,7 @@
+C:\Users\DELL\source\repos\DocSalUsingArray\DocSalUsingArray\bin\Debug\DocSalUsingArray.exe.config
+C:\Users\DELL\source\repos\DocSalUsingArray\DocSalUsingArray\bin\Debug\DocSalUsingArray.exe
+C:\Users\DELL\source\repos\DocSalUsingArray\DocSalUsingArray\bin\Debug\DocSalUsingArray.pdb
+C:\Users\DELL\source\repos\DocSalUsingArray\DocSalUsingArray\obj\Debug\DocSalUsingArray.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\DocSalUsingArray\DocSalUsingArray\obj\Debug\DocSalUsingArray.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\DocSalUsingArray\DocSalUsingArray\obj\Debug\DocSalUsingArray.exe
+C:\Users\DELL\source\repos\DocSalUsingArray\DocSalUsingArray\obj\Debug\DocSalUsingArray.pdb

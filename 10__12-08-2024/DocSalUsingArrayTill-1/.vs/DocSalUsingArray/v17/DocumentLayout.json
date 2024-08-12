@@ -1,0 +1,34 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\source\\repos\\DocSalUsingArray\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E2EA4FB6-8C36-463C-8A6E-C9570CBF2F06}|DocSalUsingArray\\DocSalUsingArray1.csproj|d:\\github\\quest launchpad\\c2504\\10__12-08-2024\\docsalusingarray1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DocSalUsingArray1.cs",
+              "DocumentMoniker": "D:\\GitHub\\Quest Launchpad\\C2504\\10__12-08-2024\\DocSalUsingArray1.cs",
+              "ToolTip": "D:\\GitHub\\Quest Launchpad\\C2504\\10__12-08-2024\\DocSalUsingArray1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T07:35:02.735Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
