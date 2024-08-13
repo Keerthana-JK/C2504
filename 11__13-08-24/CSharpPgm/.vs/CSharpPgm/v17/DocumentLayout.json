@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GitHub\\Quest Launchpad\\C2504\\11__13-08-24\\CSharpPgm\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1E6F4A93-8953-4A13-9D01-E3B15E80EB92}|CSharpPgm\\CSharpPgm.csproj|D:\\GitHub\\Quest Launchpad\\C2504\\11__13-08-24\\CSharpPgm\\csharppgm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E6F4A93-8953-4A13-9D01-E3B15E80EB92}|CSharpPgm\\CSharpPgm.csproj|solutionrelative:csharppgm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{936CF218-4647-4164-8FF7-58B590C894FB}|VBPgm\\VBPgm.vbproj|d:\\github\\quest launchpad\\c2504\\11__13-08-24\\csharppgm\\vbpgm\\vb.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{936CF218-4647-4164-8FF7-58B590C894FB}|VBPgm\\VBPgm.vbproj|solutionrelative:vbpgm\\vb.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VB.vb",
+              "DocumentMoniker": "D:\\GitHub\\Quest Launchpad\\C2504\\11__13-08-24\\CSharpPgm\\VBPgm\\VB.vb",
+              "RelativeDocumentMoniker": "VBPgm\\VB.vb",
+              "ToolTip": "D:\\GitHub\\Quest Launchpad\\C2504\\11__13-08-24\\CSharpPgm\\VBPgm\\VB.vb",
+              "RelativeToolTip": "VBPgm\\VB.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-08-13T04:29:57.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\Quest Launchpad\\C2504\\11__13-08-24\\CSharpPgm\\CSharpPgm\\Program.cs",
+              "RelativeDocumentMoniker": "CSharpPgm\\Program.cs",
+              "ToolTip": "D:\\GitHub\\Quest Launchpad\\C2504\\11__13-08-24\\CSharpPgm\\CSharpPgm\\Program.cs",
+              "RelativeToolTip": "CSharpPgm\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T04:26:55.667Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

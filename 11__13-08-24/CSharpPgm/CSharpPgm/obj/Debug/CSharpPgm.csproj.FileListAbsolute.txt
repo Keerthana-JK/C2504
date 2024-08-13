@@ -1,0 +1,11 @@
+D:\GitHub\Quest Launchpad\C2504\11__13-08-24\CSharpPgm\CSharpPgm\obj\Debug\CSharpPgm.csproj.AssemblyReference.cache
+D:\GitHub\Quest Launchpad\C2504\11__13-08-24\CSharpPgm\CSharpPgm\obj\Debug\CSharpPgm.csproj.CoreCompileInputs.cache
+D:\GitHub\Quest Launchpad\C2504\11__13-08-24\CSharpPgm\CSharpPgm\bin\Debug\CSharpPgm.exe.config
+D:\GitHub\Quest Launchpad\C2504\11__13-08-24\CSharpPgm\CSharpPgm\bin\Debug\CSharpPgm.exe
+D:\GitHub\Quest Launchpad\C2504\11__13-08-24\CSharpPgm\CSharpPgm\bin\Debug\CSharpPgm.pdb
+D:\GitHub\Quest Launchpad\C2504\11__13-08-24\CSharpPgm\CSharpPgm\bin\Debug\VBPgm.dll
+D:\GitHub\Quest Launchpad\C2504\11__13-08-24\CSharpPgm\CSharpPgm\bin\Debug\VBPgm.pdb
+D:\GitHub\Quest Launchpad\C2504\11__13-08-24\CSharpPgm\CSharpPgm\bin\Debug\VBPgm.xml
+D:\GitHub\Quest Launchpad\C2504\11__13-08-24\CSharpPgm\CSharpPgm\obj\Debug\CSharpPgm.csproj.Up2Date
+D:\GitHub\Quest Launchpad\C2504\11__13-08-24\CSharpPgm\CSharpPgm\obj\Debug\CSharpPgm.exe
+D:\GitHub\Quest Launchpad\C2504\11__13-08-24\CSharpPgm\CSharpPgm\obj\Debug\CSharpPgm.pdb

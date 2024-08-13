@@ -1,0 +1,10 @@
+D:\GitHub\Quest Launchpad\C2504\11__13-08-24\CSharpPgm\VBPgm\bin\Debug\VBPgm.dll
+D:\GitHub\Quest Launchpad\C2504\11__13-08-24\CSharpPgm\VBPgm\bin\Debug\VBPgm.pdb
+D:\GitHub\Quest Launchpad\C2504\11__13-08-24\CSharpPgm\VBPgm\bin\Debug\VBPgm.xml
+D:\GitHub\Quest Launchpad\C2504\11__13-08-24\CSharpPgm\VBPgm\obj\Debug\VBPgm.vbproj.AssemblyReference.cache
+D:\GitHub\Quest Launchpad\C2504\11__13-08-24\CSharpPgm\VBPgm\obj\Debug\VBPgm.Resources.resources
+D:\GitHub\Quest Launchpad\C2504\11__13-08-24\CSharpPgm\VBPgm\obj\Debug\VBPgm.vbproj.GenerateResource.cache
+D:\GitHub\Quest Launchpad\C2504\11__13-08-24\CSharpPgm\VBPgm\obj\Debug\VBPgm.vbproj.CoreCompileInputs.cache
+D:\GitHub\Quest Launchpad\C2504\11__13-08-24\CSharpPgm\VBPgm\obj\Debug\VBPgm.dll
+D:\GitHub\Quest Launchpad\C2504\11__13-08-24\CSharpPgm\VBPgm\obj\Debug\VBPgm.xml
+D:\GitHub\Quest Launchpad\C2504\11__13-08-24\CSharpPgm\VBPgm\obj\Debug\VBPgm.pdb
