@@ -45,10 +45,10 @@ namespace BankAccount
             }
             balance -= amount;
         }
-        public float GetBalance() 
-        {
-            return balance;
-        }
+        //public float GetBalance() 
+        //{
+        //    return balance;
+        //}
 
     }
     internal class Program
@@ -56,8 +56,11 @@ namespace BankAccount
         static void Main(string[] args)
         {
             Account keerthanaAcc = new Account("1001200230034");
+            Console.WriteLine($"Keerthana Acc balance: {keerthanaAcc.Balance}");
             keerthanaAcc.Deposit(7000000);
+            Console.WriteLine($"Keerthana Acc balance: {keerthanaAcc.Balance}");
             keerthanaAcc.Deposit(25000);
+            Console.WriteLine($"Keerthana Acc balance: {keerthanaAcc.Balance}");
             keerthanaAcc.Withdraw(15000);
             //keerthanaAcc.Balance = 45; //can be changed from outside (if balance is public)
                                         //cant be changed here, if made private to class
