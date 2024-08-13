@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "D:\\GitHub\\Quest Launchpad\\C2504\\11__13-08-24\\ObjectOriented\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3AB24759-5C52-4402-8856-0F6DD099E04C}|Solution Items{3AB24759-5C52-4402-8856-0F6DD099E04C}|D:\\GitHub\\Quest Launchpad\\C2504\\11__13-08-24\\ObjectOriented\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AB24759-5C52-4402-8856-0F6DD099E04C}|Solution Items{3AB24759-5C52-4402-8856-0F6DD099E04C}|solutionrelative:Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F11745D3-899E-4640-A3ED-90443667BE79}|ObjectOriented\\ObjectOriented.csproj|d:\\github\\quest launchpad\\c2504\\11__13-08-24\\objectoriented\\objectoriented\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F11745D3-899E-4640-A3ED-90443667BE79}|ObjectOriented\\ObjectOriented.csproj|solutionrelative:objectoriented\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F11745D3-899E-4640-A3ED-90443667BE79}|ObjectOriented\\ObjectOriented.csproj|d:\\github\\quest launchpad\\c2504\\11__13-08-24\\objectoriented\\objectoriented\\trainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F11745D3-899E-4640-A3ED-90443667BE79}|ObjectOriented\\ObjectOriented.csproj|D:\\GitHub\\Quest Launchpad\\C2504\\11__13-08-24\\ObjectOriented\\objectoriented\\trainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F11745D3-899E-4640-A3ED-90443667BE79}|ObjectOriented\\ObjectOriented.csproj|solutionrelative:objectoriented\\trainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,30 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\GitHub\\Quest Launchpad\\C2504\\11__13-08-24\\ObjectOriented\\Class1.cs",
+              "RelativeDocumentMoniker": "Class1.cs",
+              "ToolTip": "D:\\GitHub\\Quest Launchpad\\C2504\\11__13-08-24\\ObjectOriented\\Class1.cs",
+              "RelativeToolTip": "Class1.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAC8AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T07:25:23.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Trainer.cs",
               "DocumentMoniker": "D:\\GitHub\\Quest Launchpad\\C2504\\11__13-08-24\\ObjectOriented\\ObjectOriented\\Trainer.cs",
               "RelativeDocumentMoniker": "ObjectOriented\\Trainer.cs",
               "ToolTip": "D:\\GitHub\\Quest Launchpad\\C2504\\11__13-08-24\\ObjectOriented\\ObjectOriented\\Trainer.cs",
               "RelativeToolTip": "ObjectOriented\\Trainer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA1wA8AAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-13T06:46:41.401Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\GitHub\\Quest Launchpad\\C2504\\11__13-08-24\\ObjectOriented\\ObjectOriented\\Program.cs",
               "RelativeDocumentMoniker": "ObjectOriented\\Program.cs",
               "ToolTip": "D:\\GitHub\\Quest Launchpad\\C2504\\11__13-08-24\\ObjectOriented\\ObjectOriented\\Program.cs",
               "RelativeToolTip": "ObjectOriented\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBMAAAAbAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA1wB4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-13T06:45:55.626Z",
               "EditorCaption": ""
