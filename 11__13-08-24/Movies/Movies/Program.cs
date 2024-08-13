@@ -33,3 +33,7 @@ namespace Movies
         }
     }
 }
+
+//Output:
+//id = 1001, name = Manjummel Boys
+//id = 1002, name = Aavesham
