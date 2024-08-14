@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GitHub\\Quest Launchpad\\C2504\\12__14-08-24\\RectanglesAreaComparison\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E45FE1F7-667C-48B0-B765-6A250420401A}|RectanglesAreaComparison\\RectanglesAreaComparison.csproj|D:\\GitHub\\Quest Launchpad\\C2504\\12__14-08-24\\RectanglesAreaComparison\\rectanglesareacomparison\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45FE1F7-667C-48B0-B765-6A250420401A}|RectanglesAreaComparison\\RectanglesAreaComparison.csproj|solutionrelative:rectanglesareacomparison\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\Quest Launchpad\\C2504\\12__14-08-24\\RectanglesAreaComparison\\RectanglesAreaComparison\\Program.cs",
+              "RelativeDocumentMoniker": "RectanglesAreaComparison\\Program.cs",
+              "ToolTip": "D:\\GitHub\\Quest Launchpad\\C2504\\12__14-08-24\\RectanglesAreaComparison\\RectanglesAreaComparison\\Program.cs",
+              "RelativeToolTip": "RectanglesAreaComparison\\Program.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAhwBkAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T06:26:19.842Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

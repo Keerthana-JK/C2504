@@ -1,0 +1,7 @@
+D:\GitHub\Quest Launchpad\C2504\12__14-08-24\RectAreaComparisonUsingProperties\RectAreaComparisonUsingProperties\bin\Debug\RectAreaComparisonUsingProperties.exe.config
+D:\GitHub\Quest Launchpad\C2504\12__14-08-24\RectAreaComparisonUsingProperties\RectAreaComparisonUsingProperties\bin\Debug\RectAreaComparisonUsingProperties.exe
+D:\GitHub\Quest Launchpad\C2504\12__14-08-24\RectAreaComparisonUsingProperties\RectAreaComparisonUsingProperties\bin\Debug\RectAreaComparisonUsingProperties.pdb
+D:\GitHub\Quest Launchpad\C2504\12__14-08-24\RectAreaComparisonUsingProperties\RectAreaComparisonUsingProperties\obj\Debug\RectAreaComparisonUsingProperties.csproj.AssemblyReference.cache
+D:\GitHub\Quest Launchpad\C2504\12__14-08-24\RectAreaComparisonUsingProperties\RectAreaComparisonUsingProperties\obj\Debug\RectAreaComparisonUsingProperties.csproj.CoreCompileInputs.cache
+D:\GitHub\Quest Launchpad\C2504\12__14-08-24\RectAreaComparisonUsingProperties\RectAreaComparisonUsingProperties\obj\Debug\RectAreaComparisonUsingProperties.exe
+D:\GitHub\Quest Launchpad\C2504\12__14-08-24\RectAreaComparisonUsingProperties\RectAreaComparisonUsingProperties\obj\Debug\RectAreaComparisonUsingProperties.pdb
