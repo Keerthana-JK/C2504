@@ -1,0 +1,7 @@
+D:\GitHub\Quest Launchpad\C2504\12__14-08-24\CompareCircumferenceOf2Circles\CompareCircumferenceOf2Circles\bin\Debug\CompareCircumferenceOf2Circles.exe.config
+D:\GitHub\Quest Launchpad\C2504\12__14-08-24\CompareCircumferenceOf2Circles\CompareCircumferenceOf2Circles\bin\Debug\CompareCircumferenceOf2Circles.exe
+D:\GitHub\Quest Launchpad\C2504\12__14-08-24\CompareCircumferenceOf2Circles\CompareCircumferenceOf2Circles\bin\Debug\CompareCircumferenceOf2Circles.pdb
+D:\GitHub\Quest Launchpad\C2504\12__14-08-24\CompareCircumferenceOf2Circles\CompareCircumferenceOf2Circles\obj\Debug\CompareCircumferenceOf2Circles.csproj.AssemblyReference.cache
+D:\GitHub\Quest Launchpad\C2504\12__14-08-24\CompareCircumferenceOf2Circles\CompareCircumferenceOf2Circles\obj\Debug\CompareCircumferenceOf2Circles.csproj.CoreCompileInputs.cache
+D:\GitHub\Quest Launchpad\C2504\12__14-08-24\CompareCircumferenceOf2Circles\CompareCircumferenceOf2Circles\obj\Debug\CompareCircumferenceOf2Circles.exe
+D:\GitHub\Quest Launchpad\C2504\12__14-08-24\CompareCircumferenceOf2Circles\CompareCircumferenceOf2Circles\obj\Debug\CompareCircumferenceOf2Circles.pdb
