@@ -1,0 +1,7 @@
+D:\GitHub\Quest Launchpad\C2504\13__16-08-24\Enums\Enums\bin\Debug\Enums.exe.config
+D:\GitHub\Quest Launchpad\C2504\13__16-08-24\Enums\Enums\bin\Debug\Enums.exe
+D:\GitHub\Quest Launchpad\C2504\13__16-08-24\Enums\Enums\bin\Debug\Enums.pdb
+D:\GitHub\Quest Launchpad\C2504\13__16-08-24\Enums\Enums\obj\Debug\Enums.csproj.AssemblyReference.cache
+D:\GitHub\Quest Launchpad\C2504\13__16-08-24\Enums\Enums\obj\Debug\Enums.csproj.CoreCompileInputs.cache
+D:\GitHub\Quest Launchpad\C2504\13__16-08-24\Enums\Enums\obj\Debug\Enums.exe
+D:\GitHub\Quest Launchpad\C2504\13__16-08-24\Enums\Enums\obj\Debug\Enums.pdb
