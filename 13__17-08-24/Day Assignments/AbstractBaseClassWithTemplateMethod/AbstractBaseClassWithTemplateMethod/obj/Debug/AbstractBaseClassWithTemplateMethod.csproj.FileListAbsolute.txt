@@ -1,0 +1,7 @@
+D:\GitHub\Quest Launchpad\C2504\13__17-08-24\Day Assignments\AbstractBaseClassWithTemplateMethod\AbstractBaseClassWithTemplateMethod\bin\Debug\AbstractBaseClassWithTemplateMethod.exe.config
+D:\GitHub\Quest Launchpad\C2504\13__17-08-24\Day Assignments\AbstractBaseClassWithTemplateMethod\AbstractBaseClassWithTemplateMethod\bin\Debug\AbstractBaseClassWithTemplateMethod.exe
+D:\GitHub\Quest Launchpad\C2504\13__17-08-24\Day Assignments\AbstractBaseClassWithTemplateMethod\AbstractBaseClassWithTemplateMethod\bin\Debug\AbstractBaseClassWithTemplateMethod.pdb
+D:\GitHub\Quest Launchpad\C2504\13__17-08-24\Day Assignments\AbstractBaseClassWithTemplateMethod\AbstractBaseClassWithTemplateMethod\obj\Debug\AbstractBaseClassWithTemplateMethod.csproj.AssemblyReference.cache
+D:\GitHub\Quest Launchpad\C2504\13__17-08-24\Day Assignments\AbstractBaseClassWithTemplateMethod\AbstractBaseClassWithTemplateMethod\obj\Debug\AbstractBaseClassWithTemplateMethod.csproj.CoreCompileInputs.cache
+D:\GitHub\Quest Launchpad\C2504\13__17-08-24\Day Assignments\AbstractBaseClassWithTemplateMethod\AbstractBaseClassWithTemplateMethod\obj\Debug\AbstractBaseClassWithTemplateMethod.exe
+D:\GitHub\Quest Launchpad\C2504\13__17-08-24\Day Assignments\AbstractBaseClassWithTemplateMethod\AbstractBaseClassWithTemplateMethod\obj\Debug\AbstractBaseClassWithTemplateMethod.pdb

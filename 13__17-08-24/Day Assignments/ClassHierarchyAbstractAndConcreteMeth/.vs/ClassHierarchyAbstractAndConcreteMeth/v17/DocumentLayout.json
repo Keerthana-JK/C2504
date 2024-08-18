@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GitHub\\Quest Launchpad\\C2504\\13__17-08-24\\Day Assignments\\ClassHierarchyAbstractAndConcreteMeth\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6D18FC67-761D-4649-A4FF-D0B2694E64E3}|ClassHierarchyAbstractAndConcreteMeth\\ClassHierarchyAbstractAndConcreteMeth.csproj|d:\\github\\quest launchpad\\c2504\\13__17-08-24\\day assignments\\classhierarchyabstractandconcretemeth\\classhierarchyabstractandconcretemeth\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D18FC67-761D-4649-A4FF-D0B2694E64E3}|ClassHierarchyAbstractAndConcreteMeth\\ClassHierarchyAbstractAndConcreteMeth.csproj|solutionrelative:classhierarchyabstractandconcretemeth\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\Quest Launchpad\\C2504\\13__17-08-24\\Day Assignments\\ClassHierarchyAbstractAndConcreteMeth\\ClassHierarchyAbstractAndConcreteMeth\\Program.cs",
+              "RelativeDocumentMoniker": "ClassHierarchyAbstractAndConcreteMeth\\Program.cs",
+              "ToolTip": "D:\\GitHub\\Quest Launchpad\\C2504\\13__17-08-24\\Day Assignments\\ClassHierarchyAbstractAndConcreteMeth\\ClassHierarchyAbstractAndConcreteMeth\\Program.cs",
+              "RelativeToolTip": "ClassHierarchyAbstractAndConcreteMeth\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T09:20:43.973Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

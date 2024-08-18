@@ -1,0 +1,7 @@
+D:\GitHub\Quest Launchpad\C2504\13__17-08-24\Day Assignments\ClassHierarchyAbstractMethAndIF\ClassHierarchyAbstractMethAndIF\bin\Debug\ClassHierarchyAbstractMethAndIF.exe.config
+D:\GitHub\Quest Launchpad\C2504\13__17-08-24\Day Assignments\ClassHierarchyAbstractMethAndIF\ClassHierarchyAbstractMethAndIF\bin\Debug\ClassHierarchyAbstractMethAndIF.exe
+D:\GitHub\Quest Launchpad\C2504\13__17-08-24\Day Assignments\ClassHierarchyAbstractMethAndIF\ClassHierarchyAbstractMethAndIF\bin\Debug\ClassHierarchyAbstractMethAndIF.pdb
+D:\GitHub\Quest Launchpad\C2504\13__17-08-24\Day Assignments\ClassHierarchyAbstractMethAndIF\ClassHierarchyAbstractMethAndIF\obj\Debug\ClassHierarchyAbstractMethAndIF.csproj.AssemblyReference.cache
+D:\GitHub\Quest Launchpad\C2504\13__17-08-24\Day Assignments\ClassHierarchyAbstractMethAndIF\ClassHierarchyAbstractMethAndIF\obj\Debug\ClassHierarchyAbstractMethAndIF.csproj.CoreCompileInputs.cache
+D:\GitHub\Quest Launchpad\C2504\13__17-08-24\Day Assignments\ClassHierarchyAbstractMethAndIF\ClassHierarchyAbstractMethAndIF\obj\Debug\ClassHierarchyAbstractMethAndIF.exe
+D:\GitHub\Quest Launchpad\C2504\13__17-08-24\Day Assignments\ClassHierarchyAbstractMethAndIF\ClassHierarchyAbstractMethAndIF\obj\Debug\ClassHierarchyAbstractMethAndIF.pdb

@@ -1,0 +1,7 @@
+D:\GitHub\Quest Launchpad\C2504\13__17-08-24\Day Assignments\ClassHierarchywithAbstractAndIF\ClassHierarchywithAbstractAndIF\bin\Debug\ClassHierarchywithAbstractAndIF.exe.config
+D:\GitHub\Quest Launchpad\C2504\13__17-08-24\Day Assignments\ClassHierarchywithAbstractAndIF\ClassHierarchywithAbstractAndIF\bin\Debug\ClassHierarchywithAbstractAndIF.exe
+D:\GitHub\Quest Launchpad\C2504\13__17-08-24\Day Assignments\ClassHierarchywithAbstractAndIF\ClassHierarchywithAbstractAndIF\bin\Debug\ClassHierarchywithAbstractAndIF.pdb
+D:\GitHub\Quest Launchpad\C2504\13__17-08-24\Day Assignments\ClassHierarchywithAbstractAndIF\ClassHierarchywithAbstractAndIF\obj\Debug\ClassHierarchywithAbstractAndIF.csproj.AssemblyReference.cache
+D:\GitHub\Quest Launchpad\C2504\13__17-08-24\Day Assignments\ClassHierarchywithAbstractAndIF\ClassHierarchywithAbstractAndIF\obj\Debug\ClassHierarchywithAbstractAndIF.csproj.CoreCompileInputs.cache
+D:\GitHub\Quest Launchpad\C2504\13__17-08-24\Day Assignments\ClassHierarchywithAbstractAndIF\ClassHierarchywithAbstractAndIF\obj\Debug\ClassHierarchywithAbstractAndIF.exe
+D:\GitHub\Quest Launchpad\C2504\13__17-08-24\Day Assignments\ClassHierarchywithAbstractAndIF\ClassHierarchywithAbstractAndIF\obj\Debug\ClassHierarchywithAbstractAndIF.pdb

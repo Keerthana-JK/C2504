@@ -1,0 +1,7 @@
+D:\GitHub\Quest Launchpad\C2504\13__17-08-24\Day Assignments\ClassHierarchyAbstractAndConcreteMeth\ClassHierarchyAbstractAndConcreteMeth\bin\Debug\ClassHierarchyAbstractAndConcreteMeth.exe.config
+D:\GitHub\Quest Launchpad\C2504\13__17-08-24\Day Assignments\ClassHierarchyAbstractAndConcreteMeth\ClassHierarchyAbstractAndConcreteMeth\bin\Debug\ClassHierarchyAbstractAndConcreteMeth.exe
+D:\GitHub\Quest Launchpad\C2504\13__17-08-24\Day Assignments\ClassHierarchyAbstractAndConcreteMeth\ClassHierarchyAbstractAndConcreteMeth\bin\Debug\ClassHierarchyAbstractAndConcreteMeth.pdb
+D:\GitHub\Quest Launchpad\C2504\13__17-08-24\Day Assignments\ClassHierarchyAbstractAndConcreteMeth\ClassHierarchyAbstractAndConcreteMeth\obj\Debug\ClassHierarchyAbstractAndConcreteMeth.csproj.AssemblyReference.cache
+D:\GitHub\Quest Launchpad\C2504\13__17-08-24\Day Assignments\ClassHierarchyAbstractAndConcreteMeth\ClassHierarchyAbstractAndConcreteMeth\obj\Debug\ClassHierarchyAbstractAndConcreteMeth.csproj.CoreCompileInputs.cache
+D:\GitHub\Quest Launchpad\C2504\13__17-08-24\Day Assignments\ClassHierarchyAbstractAndConcreteMeth\ClassHierarchyAbstractAndConcreteMeth\obj\Debug\ClassHierarchyAbstractAndConcreteMeth.exe
+D:\GitHub\Quest Launchpad\C2504\13__17-08-24\Day Assignments\ClassHierarchyAbstractAndConcreteMeth\ClassHierarchyAbstractAndConcreteMeth\obj\Debug\ClassHierarchyAbstractAndConcreteMeth.pdb

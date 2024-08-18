@@ -1,0 +1,7 @@
+D:\GitHub\Quest Launchpad\C2504\13__17-08-24\AbstractClassWithMethodOverriding\AbstractClassWithMethodOverriding\bin\Debug\AbstractClassWithMethodOverriding.exe.config
+D:\GitHub\Quest Launchpad\C2504\13__17-08-24\AbstractClassWithMethodOverriding\AbstractClassWithMethodOverriding\bin\Debug\AbstractClassWithMethodOverriding.exe
+D:\GitHub\Quest Launchpad\C2504\13__17-08-24\AbstractClassWithMethodOverriding\AbstractClassWithMethodOverriding\bin\Debug\AbstractClassWithMethodOverriding.pdb
+D:\GitHub\Quest Launchpad\C2504\13__17-08-24\AbstractClassWithMethodOverriding\AbstractClassWithMethodOverriding\obj\Debug\AbstractClassWithMethodOverriding.csproj.AssemblyReference.cache
+D:\GitHub\Quest Launchpad\C2504\13__17-08-24\AbstractClassWithMethodOverriding\AbstractClassWithMethodOverriding\obj\Debug\AbstractClassWithMethodOverriding.csproj.CoreCompileInputs.cache
+D:\GitHub\Quest Launchpad\C2504\13__17-08-24\AbstractClassWithMethodOverriding\AbstractClassWithMethodOverriding\obj\Debug\AbstractClassWithMethodOverriding.exe
+D:\GitHub\Quest Launchpad\C2504\13__17-08-24\AbstractClassWithMethodOverriding\AbstractClassWithMethodOverriding\obj\Debug\AbstractClassWithMethodOverriding.pdb
