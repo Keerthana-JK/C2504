@@ -1,0 +1,7 @@
+D:\GitHub\Quest Launchpad\C2504\14__19-08-24\SelectionSortEmployeesSalary\SelectionSortEmployeesSalary\bin\Debug\SelectionSortEmployeesSalary.exe.config
+D:\GitHub\Quest Launchpad\C2504\14__19-08-24\SelectionSortEmployeesSalary\SelectionSortEmployeesSalary\bin\Debug\SelectionSortEmployeesSalary.exe
+D:\GitHub\Quest Launchpad\C2504\14__19-08-24\SelectionSortEmployeesSalary\SelectionSortEmployeesSalary\bin\Debug\SelectionSortEmployeesSalary.pdb
+D:\GitHub\Quest Launchpad\C2504\14__19-08-24\SelectionSortEmployeesSalary\SelectionSortEmployeesSalary\obj\Debug\SelectionSortEmployeesSalary.csproj.AssemblyReference.cache
+D:\GitHub\Quest Launchpad\C2504\14__19-08-24\SelectionSortEmployeesSalary\SelectionSortEmployeesSalary\obj\Debug\SelectionSortEmployeesSalary.csproj.CoreCompileInputs.cache
+D:\GitHub\Quest Launchpad\C2504\14__19-08-24\SelectionSortEmployeesSalary\SelectionSortEmployeesSalary\obj\Debug\SelectionSortEmployeesSalary.exe
+D:\GitHub\Quest Launchpad\C2504\14__19-08-24\SelectionSortEmployeesSalary\SelectionSortEmployeesSalary\obj\Debug\SelectionSortEmployeesSalary.pdb
