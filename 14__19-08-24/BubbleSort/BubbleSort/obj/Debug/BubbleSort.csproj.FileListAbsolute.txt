@@ -1,0 +1,7 @@
+D:\GitHub\Quest Launchpad\C2504\14__19-08-24\BubbleSort\BubbleSort\bin\Debug\BubbleSort.exe.config
+D:\GitHub\Quest Launchpad\C2504\14__19-08-24\BubbleSort\BubbleSort\bin\Debug\BubbleSort.exe
+D:\GitHub\Quest Launchpad\C2504\14__19-08-24\BubbleSort\BubbleSort\bin\Debug\BubbleSort.pdb
+D:\GitHub\Quest Launchpad\C2504\14__19-08-24\BubbleSort\BubbleSort\obj\Debug\BubbleSort.csproj.AssemblyReference.cache
+D:\GitHub\Quest Launchpad\C2504\14__19-08-24\BubbleSort\BubbleSort\obj\Debug\BubbleSort.csproj.CoreCompileInputs.cache
+D:\GitHub\Quest Launchpad\C2504\14__19-08-24\BubbleSort\BubbleSort\obj\Debug\BubbleSort.exe
+D:\GitHub\Quest Launchpad\C2504\14__19-08-24\BubbleSort\BubbleSort\obj\Debug\BubbleSort.pdb
