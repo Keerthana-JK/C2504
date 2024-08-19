@@ -1,0 +1,234 @@
+Q.1 Difference between Interface in Old and New C# :
+
+Interface in Old and New C#
+- Old (Before C# 8.0):
+	- only contain method declarations, properties, events, and indexers without any implementation.
+	- Any class or struct implementing an interface had to provide implementations for all its members.
+	- Once an interface was released, adding new members would break existing implementations. (Immutability)
+
+- New (After C# 8.0):
+	- Interfaces can now include methods with default implementations. (allows adding new methods to an interface without breaking existing code) 
+		(Default Interface methods)
+	- Classes or structs implementing the interface can use the default implementation or override it with their own. (Flexibility)
+	- Existing implementations of the interface remain functional even after new methods are added.
+
+
+//Interface in Older C# (Before 8.0)
+
+using System;
+
+namespace InterfaceInOldCSharp
+{
+    public interface IPlayer
+    {
+        void Play();//access modifier is not valid here for methods in interface (public void Play() not permitted)
+        void Out(); // Default inteface implementation is not allowed in Older C# (cannot have method definition)
+    }
+
+    public class FootBallPlayer : IPlayer
+    {
+        public void Play()
+        {
+            Console.WriteLine("FootBall Player is playing");
+        }
+        public void Out()
+        {
+            Console.WriteLine("FB player is out");
+        }
+    }
+
+    public class BasketBallPlayer : IPlayer
+    {
+        public void Play()
+        {
+            Console.WriteLine("BasketBall Player is playing");
+        }
+        public void Out()
+        {
+            Console.WriteLine("FB player is out");
+        }
+    }
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+
+            Console.WriteLine("Hello, World!");
+            var FootBallPlayer = new FootBallPlayer();
+            FootBallPlayer.Play();
+            FootBallPlayer.Out();
+
+            var BasketBallPlayer = new BasketBallPlayer();
+            BasketBallPlayer.Play();
+            BasketBallPlayer.Out();
+
+        }
+    }
+}
+
+
+//Interface in new C# (8.0 or above)
+using System;
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        Console.WriteLine("Hello, World!");
+        var FootBallPlayer = new FootBallPlayer();
+        FootBallPlayer.Play();
+        FootBallPlayer.Out();
+
+        var BasketBallPlayer = new BasketBallPlayer();
+        BasketBallPlayer.Play();
+        BasketBallPlayer.Out();
+    }
+}
+
+public interface IPlayer
+{
+    public void Play();
+    public void Out() // allows method definition //not possible in Older version
+    {
+        Console.WriteLine("Stop Playing!!!");
+    }
+}
+
+public class FootBallPlayer : IPlayer
+{
+    public void Play()
+    {
+        Console.WriteLine("FootBall Player is playing");
+    }
+    public void Out()
+    {
+        Console.WriteLine("FB player is out");
+    }
+}
+
+public class BasketBallPlayer : IPlayer
+{
+    public void Play()
+    {
+        Console.WriteLine("BasketBall Player is playing");
+    }
+    public void Out()
+    {
+        Console.WriteLine("FB player is out");
+    }
+}
+
+Q.2 Difference between Abstract Clas and Interface
+
+- Abstract class (incomplete class)
+	1. can have both abstract(without implementation) and non-abstract(with implementation) methods
+	2. can have final/non-final/static/non-static variables
+	3. can have ctors to initialize instance vars
+	4. A class can extend only 1 abstract class
+	5. any access modifier is possible
+	6. doesn't support multiple inheritance
+	7. can provide implementation of i/f
+	8. Use Case : when you want to share code among several closely related classes
+
+- Interface
+	1. can have only abstract methods (from Java 8, can have default and static methods also)
+	2. only static/final variables
+	3. cannot have ctors
+	4. A class can implement multiple i/fs
+	5. meths and props are implicitly public
+	6. supports multiple inheritance
+	7. can't provide the implementation of abstract class.
+	8. Use Case : when you want to specify that a class must implement certain methods, 
+		but you don’t care how these methods are implemented.
+		
+//e.g.Design a Class Hierarchy with Abstract Methods and Interfaces
+//   - Task: Create an abstract class `Vehicle` with an abstract method `Drive()`. Create an interface `IFuel` with a method `Refuel()`.
+//      Derive classes `Car` and `Motorcycle` from `Vehicle` and implement `IFuel`.
+//   - Requirements:
+//     - `Car` should have properties `FuelLevel` and `TankCapacity`. Implement the `Drive()` method to simulate driving and `Refuel()` to refill the tank.
+//     - `Motorcycle` should have properties `FuelLevel` and `TankCapacity`. Implement the `Drive()` method to simulate driving and `Refuel()` to refill the tank.
+
+
+using System;
+
+namespace ClassHierarchywithAbstractAndIF
+{
+    internal class Program
+    {
+        public abstract class Vehicle : IFuel
+        {
+            public abstract void Drive();
+            public abstract void Refuel(int amount);
+
+        }
+        interface IFuel
+        {
+            void Refuel(int r);
+        }
+        public class Car : Vehicle
+        {
+            int FuelLevel;
+            int TankCapacity;
+
+            public Car(int fuelLevel, int tankCapacity)
+            {
+                FuelLevel = fuelLevel;
+                TankCapacity = tankCapacity;
+            }
+
+            public override void Drive()
+            {
+                Console.WriteLine("You are driving the Car");
+            }
+            public override void Refuel(int r)
+            {
+                FuelLevel = Math.Min(FuelLevel + r, TankCapacity);
+                Console.WriteLine("You car is refueled");
+            }
+
+        }
+        public class Motorcycle : Vehicle
+        {
+            int FuelLevel;
+            int TankCapacity;
+
+            public Motorcycle(int fuelLevel, int tankCapacity)
+            {
+                FuelLevel = fuelLevel;
+                TankCapacity = tankCapacity;
+            }
+
+            public override void Drive()
+            {
+                Console.WriteLine("You are driving the Motocycle");
+            }
+            public override void Refuel(int r)
+            {
+                FuelLevel = Math.Min(FuelLevel + r, TankCapacity);
+                Console.WriteLine("You motorcycle is refueled");
+            }
+        }
+        static void Main(string[] args)
+        {
+            Vehicle car = new Car(10, 50);
+            car.Drive(); // Output: Car is driving
+            (car as IFuel).Refuel(20); // Output: Car is refueled  //casts the "car object" to the "IFuel interface" type explicitly
+
+
+            //IFuel fuelCar = car as IFuel;
+
+            //if (fuelCar != null)
+            //{
+            //    fuelCar.Refuel(20);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("The car does not support refueling.");
+            //}
+
+            Vehicle motorcycle = new Motorcycle(5, 15);
+            motorcycle.Drive(); // Output: Motorcycle is driving
+            (motorcycle as IFuel).Refuel(10); // Output: Motorcycle is refueled
+        }
+    }
+}
