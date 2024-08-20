@@ -1,0 +1,111 @@
+SDLC 
+
+- Stages :
+	1. Planning 
+	2. Defining
+	3. Designing
+	4. Building
+	5. Testing
+	6. Deployment
+
+- SDLC Models
+	1. Waterfall model
+	2. Iterative model
+	3. Agile Model
+	
+	
+	4. Spiral Model
+	5. DevOps
+	6. Incremental
+	
+- SDLC Stages :	
+	1. Requirement Analysis & Planning
+		- performed by Sr members
+		- i/p from customer
+		- plan basic project approach
+		- feasibibility study
+		- risk identification
+	2. Defining Requirements
+		- define and document pdt requirements
+		- get approval from customer/market analysis
+		- done through SRS documentation (Software Requirement Specification)
+			(contains all pdt requirements)
+	3. Designing and Pdt Arch
+		- Design approaches (more than 1) proposed in DDS (Design Document Specification)
+		- DDS reviewed by all important stakeholders
+		- best design selected (based on risk assessment, budget, time constraints etc)
+		- defines all arch modules (with comm, data flow representation)
+	4. Building / Developing Pdt
+		- development (code generation)
+	5. Testing the Pdt
+		- testing involved in all stages
+		- "testing only stage" (defects reported, fixed, retested
+		- until pdt reaches quality stds defined in SRS)
+	6. Deployment in Market & Maintenance
+		- pdt first released in limited segment (appropriate market)
+		- tested in real business environment (UAT - User Acceptance Testing)
+		- based on feedback (released as it is or with suggested enhancements)
+		- maintenance done
+	
+- SDLC Models
+	1. Waterfall model
+		- outcome of one phase acts as the input for the next phase sequentially.
+		- each phase must be completed before moving on to the next.
+		- Advantages:
+			- Simple and easy to understand and use
+			- Works well for smaller projects where 
+				requirements are very well understood
+		- Disadvantages:
+			- High amounts of risk and uncertainty.
+			- No working software is produced until late during the life cycle.
+			- Cannot accommodate changing requirements.
+
+	2. Iterative model
+		- Developers create a version of the software, test it, 
+			& improve it through multiple iterations
+		- At each iteration, design modifications made & new 
+			functional capabilities are added
+		- develop a system through repeated cycles (iterative) and in 
+			smaller portions at a time (incremental).
+		- Advantages:
+			- customer evaluation and feedback
+			- Parallel development can be planned
+			- Testing and debugging during smaller iteration is easy
+			- Better suited for large and mission-critical projects
+			- Risks are identified and resolved during iteration
+			- Issues, challenges and risks identified from each increment 
+				can be utilized/applied to the next increment
+		- Disadvantages:
+			- More resources may be required.
+			- More management attention is required
+			- System architecture or design issues may arise
+			- Defining increments may require defn of the complete system
+			- Not suitable for smaller projects
+			- End of project may not be known which is a risk.
+			- Highly skilled resources are required for risk analysis
+
+	3. Agile Model
+		- acquires features of Iterative or Incremental
+		- plans no. of iterations, duration, scope (lasts 1-4 weeks)
+		- each iteration consists cross-fnal teams working together
+			in diff areas of SDLC stages
+		- continuous feedback and collaboration
+		- breaks the project into small, manageable units ("sprints") 
+			(changes adaptable)
+		- most widely accepted
+		- Adv :
+			- allows customer to see result and understand if he is satisfied
+				or not after every development iteration
+			- Project is divided by short and transparent iterations
+			- Risks are minimized thanks to the flexible change process
+			- Fast release of the first product version
+		- Disadv :
+			- difficult to estimate the resources and development cost 
+				with the absence of defined requirements.
+			- Difficulties with measuring the final cost 
+				(due to permanent changes)
+
+
+	4. Spiral Model
+	5. DevOps
+	6. Incremental	

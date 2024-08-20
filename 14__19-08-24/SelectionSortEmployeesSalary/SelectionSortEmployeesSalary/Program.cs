@@ -128,18 +128,22 @@ namespace SelectionSortEmployeesSalary
             }
 
             //Sort employees using selection sort. 
-            for (int i = 0; i < employees.Length; i++)
+            for (int i = 0; i < employees.Length; i++)// i-selected index
             {
                 int min = i;
-                for (int j = i + 1; j < employees.Length; j++)
+                for (int j = i + 1; j < employees.Length; j++)//j-next index
                 {
                     if (employees[j].CalculateSalary() < employees[min].CalculateSalary())
                     {
                         min = j;
                     }
-                    Employee temp = employees[min];
-                    employees[min] = employees[i];
-                    employees[i] = temp;
+                    if (min != i)
+                    {
+                        Employee temp = employees[min];
+                        employees[min] = employees[i];
+                        employees[i] = temp;
+                    }
+                    
                 }
             }
             //Print sorted employees.
