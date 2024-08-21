@@ -1,0 +1,7 @@
+D:\GitHub\Quest Launchpad\C2504\16__21-08-24\CopyCtors\CopyCtors\bin\Debug\CopyCtors.exe.config
+D:\GitHub\Quest Launchpad\C2504\16__21-08-24\CopyCtors\CopyCtors\bin\Debug\CopyCtors.exe
+D:\GitHub\Quest Launchpad\C2504\16__21-08-24\CopyCtors\CopyCtors\bin\Debug\CopyCtors.pdb
+D:\GitHub\Quest Launchpad\C2504\16__21-08-24\CopyCtors\CopyCtors\obj\Debug\CopyCtors.csproj.AssemblyReference.cache
+D:\GitHub\Quest Launchpad\C2504\16__21-08-24\CopyCtors\CopyCtors\obj\Debug\CopyCtors.csproj.CoreCompileInputs.cache
+D:\GitHub\Quest Launchpad\C2504\16__21-08-24\CopyCtors\CopyCtors\obj\Debug\CopyCtors.exe
+D:\GitHub\Quest Launchpad\C2504\16__21-08-24\CopyCtors\CopyCtors\obj\Debug\CopyCtors.pdb
