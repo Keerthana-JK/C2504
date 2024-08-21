@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GitHub\\Quest Launchpad\\C2504\\16__21-08-24\\ConstructorsDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{12145A8C-E949-4EF6-89AA-90A5834ACDA6}|ConstructorsDemo\\ConstructorsDemo.csproj|d:\\github\\quest launchpad\\c2504\\16__21-08-24\\constructorsdemo\\constructorsdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12145A8C-E949-4EF6-89AA-90A5834ACDA6}|ConstructorsDemo\\ConstructorsDemo.csproj|solutionrelative:constructorsdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\Quest Launchpad\\C2504\\16__21-08-24\\ConstructorsDemo\\ConstructorsDemo\\Program.cs",
+              "RelativeDocumentMoniker": "ConstructorsDemo\\Program.cs",
+              "ToolTip": "D:\\GitHub\\Quest Launchpad\\C2504\\16__21-08-24\\ConstructorsDemo\\ConstructorsDemo\\Program.cs",
+              "RelativeToolTip": "ConstructorsDemo\\Program.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAqwE4AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T12:40:37.561Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
