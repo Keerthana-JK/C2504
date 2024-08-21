@@ -1,0 +1,7 @@
+D:\GitHub\Quest Launchpad\C2504\16__21-08-24\PartialClass\PartialClass\bin\Debug\PartialClass.exe.config
+D:\GitHub\Quest Launchpad\C2504\16__21-08-24\PartialClass\PartialClass\bin\Debug\PartialClass.exe
+D:\GitHub\Quest Launchpad\C2504\16__21-08-24\PartialClass\PartialClass\bin\Debug\PartialClass.pdb
+D:\GitHub\Quest Launchpad\C2504\16__21-08-24\PartialClass\PartialClass\obj\Debug\PartialClass.csproj.AssemblyReference.cache
+D:\GitHub\Quest Launchpad\C2504\16__21-08-24\PartialClass\PartialClass\obj\Debug\PartialClass.csproj.CoreCompileInputs.cache
+D:\GitHub\Quest Launchpad\C2504\16__21-08-24\PartialClass\PartialClass\obj\Debug\PartialClass.exe
+D:\GitHub\Quest Launchpad\C2504\16__21-08-24\PartialClass\PartialClass\obj\Debug\PartialClass.pdb
