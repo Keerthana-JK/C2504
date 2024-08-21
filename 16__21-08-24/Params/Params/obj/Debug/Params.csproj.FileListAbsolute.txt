@@ -1,0 +1,7 @@
+D:\GitHub\Quest Launchpad\C2504\16__21-08-24\Params\Params\bin\Debug\Params.exe.config
+D:\GitHub\Quest Launchpad\C2504\16__21-08-24\Params\Params\bin\Debug\Params.exe
+D:\GitHub\Quest Launchpad\C2504\16__21-08-24\Params\Params\bin\Debug\Params.pdb
+D:\GitHub\Quest Launchpad\C2504\16__21-08-24\Params\Params\obj\Debug\Params.csproj.AssemblyReference.cache
+D:\GitHub\Quest Launchpad\C2504\16__21-08-24\Params\Params\obj\Debug\Params.csproj.CoreCompileInputs.cache
+D:\GitHub\Quest Launchpad\C2504\16__21-08-24\Params\Params\obj\Debug\Params.exe
+D:\GitHub\Quest Launchpad\C2504\16__21-08-24\Params\Params\obj\Debug\Params.pdb
