@@ -1,0 +1,7 @@
+D:\GitHub\Quest Launchpad\C2504\16__21-08-24\ConstructorsTypesDemo\ConstructorsTypesDemo\bin\Debug\ConstructorsTypesDemo.exe.config
+D:\GitHub\Quest Launchpad\C2504\16__21-08-24\ConstructorsTypesDemo\ConstructorsTypesDemo\bin\Debug\ConstructorsTypesDemo.exe
+D:\GitHub\Quest Launchpad\C2504\16__21-08-24\ConstructorsTypesDemo\ConstructorsTypesDemo\bin\Debug\ConstructorsTypesDemo.pdb
+D:\GitHub\Quest Launchpad\C2504\16__21-08-24\ConstructorsTypesDemo\ConstructorsTypesDemo\obj\Debug\ConstructorsTypesDemo.csproj.AssemblyReference.cache
+D:\GitHub\Quest Launchpad\C2504\16__21-08-24\ConstructorsTypesDemo\ConstructorsTypesDemo\obj\Debug\ConstructorsTypesDemo.csproj.CoreCompileInputs.cache
+D:\GitHub\Quest Launchpad\C2504\16__21-08-24\ConstructorsTypesDemo\ConstructorsTypesDemo\obj\Debug\ConstructorsTypesDemo.exe
+D:\GitHub\Quest Launchpad\C2504\16__21-08-24\ConstructorsTypesDemo\ConstructorsTypesDemo\obj\Debug\ConstructorsTypesDemo.pdb
