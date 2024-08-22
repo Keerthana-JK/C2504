@@ -1,0 +1,7 @@
+D:\GitHub\Quest Launchpad\C2504\17__22-08-24\PhoneBook\PhoneBook\bin\Debug\PhoneBook.exe.config
+D:\GitHub\Quest Launchpad\C2504\17__22-08-24\PhoneBook\PhoneBook\bin\Debug\PhoneBook.exe
+D:\GitHub\Quest Launchpad\C2504\17__22-08-24\PhoneBook\PhoneBook\bin\Debug\PhoneBook.pdb
+D:\GitHub\Quest Launchpad\C2504\17__22-08-24\PhoneBook\PhoneBook\obj\Debug\PhoneBook.csproj.AssemblyReference.cache
+D:\GitHub\Quest Launchpad\C2504\17__22-08-24\PhoneBook\PhoneBook\obj\Debug\PhoneBook.csproj.CoreCompileInputs.cache
+D:\GitHub\Quest Launchpad\C2504\17__22-08-24\PhoneBook\PhoneBook\obj\Debug\PhoneBook.exe
+D:\GitHub\Quest Launchpad\C2504\17__22-08-24\PhoneBook\PhoneBook\obj\Debug\PhoneBook.pdb
