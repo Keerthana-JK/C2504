@@ -1,0 +1,7 @@
+D:\GitHub\Quest Launchpad\C2504\17__22-08-24\outParameter\outParameter\bin\Debug\outParameter.exe.config
+D:\GitHub\Quest Launchpad\C2504\17__22-08-24\outParameter\outParameter\bin\Debug\outParameter.exe
+D:\GitHub\Quest Launchpad\C2504\17__22-08-24\outParameter\outParameter\bin\Debug\outParameter.pdb
+D:\GitHub\Quest Launchpad\C2504\17__22-08-24\outParameter\outParameter\obj\Debug\outParameter.csproj.AssemblyReference.cache
+D:\GitHub\Quest Launchpad\C2504\17__22-08-24\outParameter\outParameter\obj\Debug\outParameter.csproj.CoreCompileInputs.cache
+D:\GitHub\Quest Launchpad\C2504\17__22-08-24\outParameter\outParameter\obj\Debug\outParameter.exe
+D:\GitHub\Quest Launchpad\C2504\17__22-08-24\outParameter\outParameter\obj\Debug\outParameter.pdb
