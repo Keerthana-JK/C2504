@@ -1,0 +1,7 @@
+D:\GitHub\Quest Launchpad\C2504\18__23-08-24\MatrixMultiplication\MatrixMultiplication\bin\Debug\MatrixMultiplication.exe.config
+D:\GitHub\Quest Launchpad\C2504\18__23-08-24\MatrixMultiplication\MatrixMultiplication\bin\Debug\MatrixMultiplication.exe
+D:\GitHub\Quest Launchpad\C2504\18__23-08-24\MatrixMultiplication\MatrixMultiplication\bin\Debug\MatrixMultiplication.pdb
+D:\GitHub\Quest Launchpad\C2504\18__23-08-24\MatrixMultiplication\MatrixMultiplication\obj\Debug\MatrixMultiplication.csproj.AssemblyReference.cache
+D:\GitHub\Quest Launchpad\C2504\18__23-08-24\MatrixMultiplication\MatrixMultiplication\obj\Debug\MatrixMultiplication.csproj.CoreCompileInputs.cache
+D:\GitHub\Quest Launchpad\C2504\18__23-08-24\MatrixMultiplication\MatrixMultiplication\obj\Debug\MatrixMultiplication.exe
+D:\GitHub\Quest Launchpad\C2504\18__23-08-24\MatrixMultiplication\MatrixMultiplication\obj\Debug\MatrixMultiplication.pdb
