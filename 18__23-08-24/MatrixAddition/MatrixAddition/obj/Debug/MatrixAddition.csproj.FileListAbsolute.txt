@@ -1,0 +1,7 @@
+D:\GitHub\Quest Launchpad\C2504\18__23-08-24\MatrixAddition\MatrixAddition\bin\Debug\MatrixAddition.exe.config
+D:\GitHub\Quest Launchpad\C2504\18__23-08-24\MatrixAddition\MatrixAddition\bin\Debug\MatrixAddition.exe
+D:\GitHub\Quest Launchpad\C2504\18__23-08-24\MatrixAddition\MatrixAddition\bin\Debug\MatrixAddition.pdb
+D:\GitHub\Quest Launchpad\C2504\18__23-08-24\MatrixAddition\MatrixAddition\obj\Debug\MatrixAddition.csproj.AssemblyReference.cache
+D:\GitHub\Quest Launchpad\C2504\18__23-08-24\MatrixAddition\MatrixAddition\obj\Debug\MatrixAddition.csproj.CoreCompileInputs.cache
+D:\GitHub\Quest Launchpad\C2504\18__23-08-24\MatrixAddition\MatrixAddition\obj\Debug\MatrixAddition.exe
+D:\GitHub\Quest Launchpad\C2504\18__23-08-24\MatrixAddition\MatrixAddition\obj\Debug\MatrixAddition.pdb
