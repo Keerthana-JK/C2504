@@ -37,9 +37,13 @@ namespace PhoneBook
 
     class Addresses
     {
-        public string AddressType { get; set; }
+        public enum AddressTypes
+        {
+            Home, Office
+        }
+        public AddressTypes AddressType { get; set; }
         public string FullAddress { get; set; }
-        public string Country { get; set; }
+        public Country Country { get; set; }
 
         public override string ToString()
         {
@@ -106,24 +110,43 @@ namespace PhoneBook
     {
         static void Main(string[] args)
         {
-            var ann = new Employees
+            var emp = new Employees
             {
                 Name = "Annett D'Souza",
                 Email = "annett@gmail.com",
                 Addresses = new Addresses[]
                 {
-                    new Addresses {AddressType="Home", FullAddress="xyz,abc,Columbia", Country="Columbia"},
-                    new Addresses {AddressType="Office", FullAddress="abc,xyz,Columbia", Country="Columbia"},
+                    new Addresses
+                    {
+                        AddressType = Addresses.AddressTypes.Home, 
+                        FullAddress="xyz,abc", 
+                        Country=new Country
+                        {
+                            Code="IN", CountryName="India" 
+                        }
+                    },
+                    new Addresses
+                    {
+                        AddressType=Addresses.AddressTypes.Office, 
+                        FullAddress="abc,xyz", 
+                        Country=new Country
+                        {
+                            Code="IN", CountryName="India" 
+                        }
+                    },
                 },
                 Experience = new Experiences[]
                 {
                     new Experiences {CompanyName="Infosys", Website="www.infy.in", Address="Colombia", ExperienceInYears=2 },
                     new Experiences {CompanyName="IBS", Website="ibs.in", Address="Australia", ExperienceInYears=4 },
                 },
-                PhoneNumbers = new long[2] { 98374745553, 2363218433 }
+                PhoneNumbers = new long[2] { 9837474553, 2363218433 }
             };
-
-            Console.WriteLine(ann);
+            //#1 emp.Experiences=new Experiences[] {....
+            //#2 emp.Experiences=new Experiences[1] 
+                //emp.Experiences[0] = new Experiences
+                //{.... }
+            Console.WriteLine(emp);
         }
     }
 }

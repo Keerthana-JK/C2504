@@ -121,9 +121,9 @@ public class BasketBallPlayer : IPlayer
 Q.2 Difference between Abstract Clas and Interface
 
 - Abstract class (incomplete class)
-	1. can have both abstract(without implementation) and non-abstract(with implementation) methods
+	1. both abstract & non-abstract methods
 	2. can have final/non-final/static/non-static variables
-	3. can have ctors to initialize instance vars
+	3. can have ctors (to initialize instance vars)
 	4. A class can extend only 1 abstract class
 	5. any access modifier is possible
 	6. doesn't support multiple inheritance
@@ -131,7 +131,7 @@ Q.2 Difference between Abstract Clas and Interface
 	8. Use Case : when you want to share code among several closely related classes
 
 - Interface
-	1. can have only abstract methods (from Java 8, can have default and static methods also)
+	1. only abstract methods (from Java 8, can have default and static methods also)
 	2. only static/final variables
 	3. cannot have ctors
 	4. A class can implement multiple i/fs
@@ -141,12 +141,12 @@ Q.2 Difference between Abstract Clas and Interface
 	8. Use Case : when you want to specify that a class must implement certain methods, 
 		but you don’t care how these methods are implemented.
 		
-//e.g.Design a Class Hierarchy with Abstract Methods and Interfaces
-//   - Task: Create an abstract class `Vehicle` with an abstract method `Drive()`. Create an interface `IFuel` with a method `Refuel()`.
-//      Derive classes `Car` and `Motorcycle` from `Vehicle` and implement `IFuel`.
-//   - Requirements:
-//     - `Car` should have properties `FuelLevel` and `TankCapacity`. Implement the `Drive()` method to simulate driving and `Refuel()` to refill the tank.
-//     - `Motorcycle` should have properties `FuelLevel` and `TankCapacity`. Implement the `Drive()` method to simulate driving and `Refuel()` to refill the tank.
+e.g.Design a Class Hierarchy with Abstract Methods and Interfaces
+   - Task: Create an abstract class `Vehicle` with an abstract method `Drive()`. Create an interface `IFuel` with a method `Refuel()`.
+      Derive classes `Car` and `Motorcycle` from `Vehicle` and implement `IFuel`.
+   - Requirements:
+     - `Car` should have properties `FuelLevel` and `TankCapacity`. Implement the `Drive()` method to simulate driving and `Refuel()` to refill the tank.
+     - `Motorcycle` should have properties `FuelLevel` and `TankCapacity`. Implement the `Drive()` method to simulate driving and `Refuel()` to refill the tank.
 
 
 using System;
