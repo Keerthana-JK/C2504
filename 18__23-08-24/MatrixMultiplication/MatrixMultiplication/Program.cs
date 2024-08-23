@@ -17,8 +17,8 @@ namespace MatrixAddition
         }
         static void Main(string[] args)
         {
-            int rowsA = 3, colsA = 2;
-            int rowsB = 2, colsB = 3;
+            const int rowsA = 3, colsA = 2;
+            const int rowsB = 2, colsB = 3;
             int[,] m1 = new int[ rowsA, colsA]
             {
                 { 1,2 },
