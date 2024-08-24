@@ -115,7 +115,7 @@ namespace AbstractClassWithMethodOverriding
                 {
                     Console.WriteLine("Invalid type of employee");
                 }
-
+ 
             }
             Console.WriteLine("\nEmployees before sorting:");
             foreach (var emp in employees)
