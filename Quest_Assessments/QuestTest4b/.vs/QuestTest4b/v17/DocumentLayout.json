@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GitHub\\Quest Launchpad\\C2504\\Quest_Assessments\\QuestTest4b\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F07539F0-E703-457B-8C96-6E770005719C}|QuestTest4b\\QuestTest4b.csproj|d:\\github\\quest launchpad\\c2504\\quest_assessments\\questtest4b\\questtest4b\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F07539F0-E703-457B-8C96-6E770005719C}|QuestTest4b\\QuestTest4b.csproj|solutionrelative:questtest4b\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\Quest Launchpad\\C2504\\Quest_Assessments\\QuestTest4b\\QuestTest4b\\Program.cs",
+              "RelativeDocumentMoniker": "QuestTest4b\\Program.cs",
+              "ToolTip": "D:\\GitHub\\Quest Launchpad\\C2504\\Quest_Assessments\\QuestTest4b\\QuestTest4b\\Program.cs",
+              "RelativeToolTip": "QuestTest4b\\Program.cs",
+              "ViewState": "AQIAAI4AAAAAAAAAAAAowKkAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T05:02:00.654Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

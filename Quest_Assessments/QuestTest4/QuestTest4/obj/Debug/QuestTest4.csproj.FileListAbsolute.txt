@@ -1,0 +1,7 @@
+D:\GitHub\Quest Launchpad\C2504\Quest_Assessments\QuestTest4\QuestTest4\bin\Debug\QuestTest4.exe.config
+D:\GitHub\Quest Launchpad\C2504\Quest_Assessments\QuestTest4\QuestTest4\bin\Debug\QuestTest4.exe
+D:\GitHub\Quest Launchpad\C2504\Quest_Assessments\QuestTest4\QuestTest4\bin\Debug\QuestTest4.pdb
+D:\GitHub\Quest Launchpad\C2504\Quest_Assessments\QuestTest4\QuestTest4\obj\Debug\QuestTest4.csproj.AssemblyReference.cache
+D:\GitHub\Quest Launchpad\C2504\Quest_Assessments\QuestTest4\QuestTest4\obj\Debug\QuestTest4.csproj.CoreCompileInputs.cache
+D:\GitHub\Quest Launchpad\C2504\Quest_Assessments\QuestTest4\QuestTest4\obj\Debug\QuestTest4.exe
+D:\GitHub\Quest Launchpad\C2504\Quest_Assessments\QuestTest4\QuestTest4\obj\Debug\QuestTest4.pdb
