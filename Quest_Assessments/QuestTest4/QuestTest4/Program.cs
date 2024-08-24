@@ -18,7 +18,7 @@
 //4. Sort Prescriptions by Medication Name:
 //-Implement and call your own sorting algorithm.
 //Dont use built-in C# sorting or LINQ.
-
+//Fn:To find minDosage of 1st and last dosage
 
 using System;
 using System.Collections.Generic;
@@ -142,6 +142,26 @@ namespace QuestTest4
                 Console.WriteLine($"{prescription.MedicationName} - {prescription.Dosage} mg");
             }
         }
+
+        //Fn:To find minDosage of 1st and last dosage
+        public static double FindMinimumDosage(List<Prescription> prescriptions, int N)
+        {
+            double minDosage = 0;
+            double first = prescriptions[0].Dosage;
+            Console.WriteLine($"First Dosage: {first}");
+            double last = prescriptions[N-1].Dosage;
+            Console.WriteLine($"Last Dosage: {last}");
+            if (first < last)
+            {
+                minDosage = first;
+            }
+            else
+            {
+                minDosage = last;
+            }
+
+            return minDosage;
+        }
     }
     internal class Program
     {
@@ -153,27 +173,28 @@ namespace QuestTest4
             //-Read N `prescriptions` from the keyboard.
 
             List<Prescription> prescriptions = new List<Prescription>();
-            Console.WriteLine("Enter the number of prescriptions:");
+            Console.Write("Enter the number of prescriptions:");
             int N = int.Parse(Console.ReadLine());
 
             for (int i = 0; i < N; i++)
             {
                 Console.WriteLine($"Enter details for prescription {i + 1}:");
                 Prescription p = new Prescription();
-                Console.Write("PrescriptionID: ");
+                Console.Write("Prescription ID: ");
                 p.PrescriptionID = int.Parse(Console.ReadLine());
-                Console.Write("PatientName: ");
+                Console.Write("Patient Name: ");
                 p.PatientName = Console.ReadLine();
-                Console.Write("MedicationName: ");
+                Console.Write("Medication Name: ");
                 p.MedicationName = Console.ReadLine();
                 Console.Write("Dosage (in mg): ");
                 p.Dosage = double.Parse(Console.ReadLine());
                 prescriptions.Add(p);
             }
-
+            Console.WriteLine();
             Prescription.FindMaxDosage(prescriptions,N);
             Prescription.FindThirdLeastDosage(prescriptions, N);
             Prescription.SortByMedicationName(prescriptions);
+            Console.WriteLine($"Min Dosage of 1st and last dosage : {Prescription.FindMinimumDosage(prescriptions, N)}"); 
         }
     }
 }
