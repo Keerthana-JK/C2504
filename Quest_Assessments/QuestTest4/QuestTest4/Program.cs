@@ -155,9 +155,14 @@ namespace QuestTest4
             {
                 minDosage = first;
             }
-            else
+            else if(first > last)
             {
                 minDosage = last;
+            }
+            else 
+            {
+                Console.WriteLine("Both first and last have equal dosage");
+                minDosage = first;// (OR) minDosage=last;
             }
 
             return minDosage;
