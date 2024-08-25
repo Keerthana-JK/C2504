@@ -1,0 +1,7 @@
+D:\GitHub\Quest Launchpad\C2504\18__23-08-24\LinearSearch\LinearSearch\bin\Debug\LinearSearch.exe.config
+D:\GitHub\Quest Launchpad\C2504\18__23-08-24\LinearSearch\LinearSearch\bin\Debug\LinearSearch.exe
+D:\GitHub\Quest Launchpad\C2504\18__23-08-24\LinearSearch\LinearSearch\bin\Debug\LinearSearch.pdb
+D:\GitHub\Quest Launchpad\C2504\18__23-08-24\LinearSearch\LinearSearch\obj\Debug\LinearSearch.csproj.AssemblyReference.cache
+D:\GitHub\Quest Launchpad\C2504\18__23-08-24\LinearSearch\LinearSearch\obj\Debug\LinearSearch.csproj.CoreCompileInputs.cache
+D:\GitHub\Quest Launchpad\C2504\18__23-08-24\LinearSearch\LinearSearch\obj\Debug\LinearSearch.exe
+D:\GitHub\Quest Launchpad\C2504\18__23-08-24\LinearSearch\LinearSearch\obj\Debug\LinearSearch.pdb
