@@ -19,7 +19,6 @@ namespace Binary
                 int mid = left + (right - left) / 2;
                 if (array[mid]==key)
                 {
-                    Console.WriteLine(mid);
                     return mid;
                 }
                 if (array[mid] < key)
