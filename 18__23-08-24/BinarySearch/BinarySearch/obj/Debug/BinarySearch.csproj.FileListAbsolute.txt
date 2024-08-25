@@ -1,0 +1,7 @@
+D:\GitHub\Quest Launchpad\C2504\18__23-08-24\BinarySearch\BinarySearch\bin\Debug\BinarySearch.exe.config
+D:\GitHub\Quest Launchpad\C2504\18__23-08-24\BinarySearch\BinarySearch\bin\Debug\BinarySearch.exe
+D:\GitHub\Quest Launchpad\C2504\18__23-08-24\BinarySearch\BinarySearch\bin\Debug\BinarySearch.pdb
+D:\GitHub\Quest Launchpad\C2504\18__23-08-24\BinarySearch\BinarySearch\obj\Debug\BinarySearch.csproj.AssemblyReference.cache
+D:\GitHub\Quest Launchpad\C2504\18__23-08-24\BinarySearch\BinarySearch\obj\Debug\BinarySearch.csproj.CoreCompileInputs.cache
+D:\GitHub\Quest Launchpad\C2504\18__23-08-24\BinarySearch\BinarySearch\obj\Debug\BinarySearch.exe
+D:\GitHub\Quest Launchpad\C2504\18__23-08-24\BinarySearch\BinarySearch\obj\Debug\BinarySearch.pdb
