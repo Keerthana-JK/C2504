@@ -1,0 +1,7 @@
+D:\GitHub\Quest Launchpad\C2504\18__23-08-24\TransposeOfMatrix\TransposeOfMatrix\bin\Debug\TransposeOfMatrix.exe.config
+D:\GitHub\Quest Launchpad\C2504\18__23-08-24\TransposeOfMatrix\TransposeOfMatrix\bin\Debug\TransposeOfMatrix.exe
+D:\GitHub\Quest Launchpad\C2504\18__23-08-24\TransposeOfMatrix\TransposeOfMatrix\bin\Debug\TransposeOfMatrix.pdb
+D:\GitHub\Quest Launchpad\C2504\18__23-08-24\TransposeOfMatrix\TransposeOfMatrix\obj\Debug\TransposeOfMatrix.csproj.AssemblyReference.cache
+D:\GitHub\Quest Launchpad\C2504\18__23-08-24\TransposeOfMatrix\TransposeOfMatrix\obj\Debug\TransposeOfMatrix.csproj.CoreCompileInputs.cache
+D:\GitHub\Quest Launchpad\C2504\18__23-08-24\TransposeOfMatrix\TransposeOfMatrix\obj\Debug\TransposeOfMatrix.exe
+D:\GitHub\Quest Launchpad\C2504\18__23-08-24\TransposeOfMatrix\TransposeOfMatrix\obj\Debug\TransposeOfMatrix.pdb
