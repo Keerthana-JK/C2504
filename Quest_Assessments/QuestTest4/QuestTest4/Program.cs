@@ -19,6 +19,9 @@
 //-Implement and call your own sorting algorithm.
 //Dont use built-in C# sorting or LINQ.
 //Fn:To find minDosage of 1st and last dosage
+// Additional :"	Define FindMinOfSecondAndLastSecondDosage()
+//argument: doctorPrescriptions, sorted array based on Dosage
+//		returns min value "
 
 using System;
 using System.Collections.Generic;
@@ -167,6 +170,32 @@ namespace QuestTest4
 
             return minDosage;
         }
+
+        // Additional : FindMinOfSecondAndSecondLastDosage()
+        //argument: doctorPrescriptions, sorted array based on Dosage
+        //		returns min value "
+        public static double FindMinOfSecondAndSecondLastDosage(List<Prescription> prescriptions, int N)
+        {
+            double minDosageSSL = 0;
+            double second = prescriptions[1].Dosage;
+            Console.WriteLine($"Second Dosage: {second}");
+            double secondLast = prescriptions[N - 2].Dosage;
+            Console.WriteLine($"Second Last Dosage: {secondLast}");
+            if (second < secondLast)
+            {
+                minDosageSSL = second;
+            }
+            else if (second > secondLast)
+            {
+                minDosageSSL = secondLast;
+            }
+            else
+            {
+                Console.WriteLine("Both first and last have equal dosage");
+                minDosageSSL = second;// (OR) minDosageSSL=secondLast;
+            }
+            return minDosageSSL;
+        }
     }
     internal class Program
     {
@@ -200,6 +229,7 @@ namespace QuestTest4
             Prescription.FindThirdLeastDosage(prescriptions, N);
             Prescription.SortByMedicationName(prescriptions);
             Console.WriteLine($"Min Dosage of 1st and last dosage : {Prescription.FindMinimumDosage(prescriptions, N)}"); 
+            Console.WriteLine($"Min Of 2nd and 2nd Last Dosage: { Prescription.FindMinOfSecondAndSecondLastDosage(prescriptions, N)}");
         }
     }
 }
