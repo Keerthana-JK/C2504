@@ -18,15 +18,15 @@ namespace LinearSearch
                     return i;
                 }
             }
-            return 0;
+            return -1;
         }
         static void Main(string[] args)
         {
-            int[] array = { 20, 35, 64, 92, 47, 86, 79, 23 };
+            int[] array = { 20, 35, 64, 92, 47, 86, 79, 23 };//unsorted array
             Console.Write("Enter the element to be searched: ");
             int key = int.Parse(Console.ReadLine());
             int result = LinearSearch(array, key);
-            if (result != 0)
+            if (result != -1)
             {
                 Console.WriteLine($"{key} is located at {result}");
             }
