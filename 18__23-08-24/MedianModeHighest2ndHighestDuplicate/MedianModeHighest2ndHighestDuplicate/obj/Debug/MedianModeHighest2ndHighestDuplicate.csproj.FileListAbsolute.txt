@@ -1,0 +1,7 @@
+D:\GitHub\Quest Launchpad\C2504\18__23-08-24\MedianModeHighest2ndHighestDuplicate\MedianModeHighest2ndHighestDuplicate\bin\Debug\MedianModeHighest2ndHighestDuplicate.exe.config
+D:\GitHub\Quest Launchpad\C2504\18__23-08-24\MedianModeHighest2ndHighestDuplicate\MedianModeHighest2ndHighestDuplicate\bin\Debug\MedianModeHighest2ndHighestDuplicate.exe
+D:\GitHub\Quest Launchpad\C2504\18__23-08-24\MedianModeHighest2ndHighestDuplicate\MedianModeHighest2ndHighestDuplicate\bin\Debug\MedianModeHighest2ndHighestDuplicate.pdb
+D:\GitHub\Quest Launchpad\C2504\18__23-08-24\MedianModeHighest2ndHighestDuplicate\MedianModeHighest2ndHighestDuplicate\obj\Debug\MedianModeHighest2ndHighestDuplicate.csproj.AssemblyReference.cache
+D:\GitHub\Quest Launchpad\C2504\18__23-08-24\MedianModeHighest2ndHighestDuplicate\MedianModeHighest2ndHighestDuplicate\obj\Debug\MedianModeHighest2ndHighestDuplicate.csproj.CoreCompileInputs.cache
+D:\GitHub\Quest Launchpad\C2504\18__23-08-24\MedianModeHighest2ndHighestDuplicate\MedianModeHighest2ndHighestDuplicate\obj\Debug\MedianModeHighest2ndHighestDuplicate.exe
+D:\GitHub\Quest Launchpad\C2504\18__23-08-24\MedianModeHighest2ndHighestDuplicate\MedianModeHighest2ndHighestDuplicate\obj\Debug\MedianModeHighest2ndHighestDuplicate.pdb
