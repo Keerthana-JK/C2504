@@ -1,0 +1,7 @@
+D:\GitHub\Quest Launchpad\C2504\19__26-08-24\Indexer\Indexer\bin\Debug\Indexer.exe.config
+D:\GitHub\Quest Launchpad\C2504\19__26-08-24\Indexer\Indexer\bin\Debug\Indexer.exe
+D:\GitHub\Quest Launchpad\C2504\19__26-08-24\Indexer\Indexer\bin\Debug\Indexer.pdb
+D:\GitHub\Quest Launchpad\C2504\19__26-08-24\Indexer\Indexer\obj\Debug\Indexer.csproj.AssemblyReference.cache
+D:\GitHub\Quest Launchpad\C2504\19__26-08-24\Indexer\Indexer\obj\Debug\Indexer.csproj.CoreCompileInputs.cache
+D:\GitHub\Quest Launchpad\C2504\19__26-08-24\Indexer\Indexer\obj\Debug\Indexer.exe
+D:\GitHub\Quest Launchpad\C2504\19__26-08-24\Indexer\Indexer\obj\Debug\Indexer.pdb
