@@ -1,0 +1,15 @@
+2024-08-26 15:23:51,428 [1] INFO  ProgramingFundamentalsProject.Programs - calc.Multiply(5.0, 20.0)=100
+2024-08-26 15:23:51,444 [1] INFO  ProgramingFundamentalsProject.Programs - calc.Multiply(3.0, 4.0)=12
+2024-08-26 15:23:51,444 [1] INFO  ProgramingFundamentalsProject.Programs - calc.Divide(10.0, 2.0)=5
+2024-08-26 15:23:51,445 [1] ERROR ProgramingFundamentalsProject.Calc - Denominator should not be zero.
+2024-08-26 15:23:51,446 [1] ERROR ProgramingFundamentalsProject.Programs - Denominator should not be zero.
+2024-08-26 15:24:14,739 [1] INFO  ProgramingFundamentalsProject.Programs - calc.Multiply(5.0, 20.0)=100
+2024-08-26 15:24:14,755 [1] INFO  ProgramingFundamentalsProject.Programs - calc.Multiply(3.0, 4.0)=12
+2024-08-26 15:24:14,757 [1] INFO  ProgramingFundamentalsProject.Programs - calc.Divide(10.0, 2.0)=5
+2024-08-26 15:24:14,757 [1] ERROR ProgramingFundamentalsProject.Calc - Denominator should not be zero.
+2024-08-26 15:24:14,757 [1] ERROR ProgramingFundamentalsProject.Programs - Denominator should not be zero.
+2024-08-26 15:38:37,735 [1] INFO  ProgramingFundamentalsProject.Programs - calc.Multiply(5.0, 20.0)=100
+2024-08-26 15:38:37,755 [1] INFO  ProgramingFundamentalsProject.Programs - calc.Multiply(3.0, 4.0)=12
+2024-08-26 15:38:37,755 [1] INFO  ProgramingFundamentalsProject.Programs - calc.Divide(10.0, 2.0)=5
+2024-08-26 15:38:37,755 [1] ERROR ProgramingFundamentalsProject.Calc - Denominator should not be zero.
+2024-08-26 15:38:37,756 [1] ERROR ProgramingFundamentalsProject.Programs - Denominator should not be zero.

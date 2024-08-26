@@ -1,0 +1,73 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GitHub\\Quest Launchpad\\C2504\\19__26-08-24\\CalculatorApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BC9450B2-39F3-4959-8609-9E523865C238}|Solution Items{BC9450B2-39F3-4959-8609-9E523865C238}|D:\\GitHub\\Quest Launchpad\\C2504\\19__26-08-24\\CalculatorApp\\SqlQuery_1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{BC9450B2-39F3-4959-8609-9E523865C238}|Solution Items{BC9450B2-39F3-4959-8609-9E523865C238}|solutionrelative:SqlQuery_1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4B6160-5356-4EF1-8BC5-8292FBA476AC}|Week4AssessmentApp\\Week4AssessmentApp.csproj|d:\\github\\quest launchpad\\c2504\\19__26-08-24\\calculatorapp\\week4assessmentapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C4B6160-5356-4EF1-8BC5-8292FBA476AC}|Week4AssessmentApp\\Week4AssessmentApp.csproj|solutionrelative:week4assessmentapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B53650F7-5509-4D58-8C2D-7EFA8006EB3F}|Week4AssessmentAppTests\\Week4AssessmentAppTests.csproj|D:\\GitHub\\Quest Launchpad\\C2504\\19__26-08-24\\CalculatorApp\\week4assessmentapptests\\medicationexpiryservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B53650F7-5509-4D58-8C2D-7EFA8006EB3F}|Week4AssessmentAppTests\\Week4AssessmentAppTests.csproj|solutionrelative:week4assessmentapptests\\medicationexpiryservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC9450B2-39F3-4959-8609-9E523865C238}|Solution Items{BC9450B2-39F3-4959-8609-9E523865C238}|D:\\GitHub\\Quest Launchpad\\C2504\\19__26-08-24\\CalculatorApp\\SqlQuery_1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{BC9450B2-39F3-4959-8609-9E523865C238}|Solution Items{BC9450B2-39F3-4959-8609-9E523865C238}|solutionrelative:SqlQuery_1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SqlQuery_1.sql ",
+              "DocumentMoniker": "D:\\GitHub\\Quest Launchpad\\C2504\\19__26-08-24\\CalculatorApp\\SqlQuery_1.sql",
+              "RelativeDocumentMoniker": "SqlQuery_1.sql",
+              "ToolTip": "D:\\GitHub\\Quest Launchpad\\C2504\\19__26-08-24\\CalculatorApp\\SqlQuery_1.sql",
+              "RelativeToolTip": "SqlQuery_1.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-08-26T12:50:42.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MedicationExpiryServiceTests.cs",
+              "DocumentMoniker": "D:\\GitHub\\Quest Launchpad\\C2504\\19__26-08-24\\CalculatorApp\\Week4AssessmentAppTests\\MedicationExpiryServiceTests.cs",
+              "RelativeDocumentMoniker": "Week4AssessmentAppTests\\MedicationExpiryServiceTests.cs",
+              "ToolTip": "D:\\GitHub\\Quest Launchpad\\C2504\\19__26-08-24\\CalculatorApp\\Week4AssessmentAppTests\\MedicationExpiryServiceTests.cs",
+              "RelativeToolTip": "Week4AssessmentAppTests\\MedicationExpiryServiceTests.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAwwDAAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T12:44:55.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\Quest Launchpad\\C2504\\19__26-08-24\\CalculatorApp\\Week4AssessmentApp\\Program.cs",
+              "RelativeDocumentMoniker": "Week4AssessmentApp\\Program.cs",
+              "ToolTip": "D:\\GitHub\\Quest Launchpad\\C2504\\19__26-08-24\\CalculatorApp\\Week4AssessmentApp\\Program.cs",
+              "RelativeToolTip": "Week4AssessmentApp\\Program.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAkwDoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T10:30:01.933Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

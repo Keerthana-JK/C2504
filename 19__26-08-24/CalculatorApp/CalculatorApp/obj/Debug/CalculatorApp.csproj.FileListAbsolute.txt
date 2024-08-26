@@ -1,0 +1,10 @@
+D:\GitHub\Quest Launchpad\C2504\19__26-08-24\CalculatorApp\CalculatorApp\bin\Debug\CalculatorApp.exe.config
+D:\GitHub\Quest Launchpad\C2504\19__26-08-24\CalculatorApp\CalculatorApp\bin\Debug\CalculatorApp.exe
+D:\GitHub\Quest Launchpad\C2504\19__26-08-24\CalculatorApp\CalculatorApp\bin\Debug\CalculatorApp.pdb
+D:\GitHub\Quest Launchpad\C2504\19__26-08-24\CalculatorApp\CalculatorApp\bin\Debug\log4net.dll
+D:\GitHub\Quest Launchpad\C2504\19__26-08-24\CalculatorApp\CalculatorApp\bin\Debug\log4net.xml
+D:\GitHub\Quest Launchpad\C2504\19__26-08-24\CalculatorApp\CalculatorApp\obj\Debug\CalculatorApp.csproj.AssemblyReference.cache
+D:\GitHub\Quest Launchpad\C2504\19__26-08-24\CalculatorApp\CalculatorApp\obj\Debug\CalculatorApp.csproj.CoreCompileInputs.cache
+D:\GitHub\Quest Launchpad\C2504\19__26-08-24\CalculatorApp\CalculatorApp\obj\Debug\Calculat.C0507999.Up2Date
+D:\GitHub\Quest Launchpad\C2504\19__26-08-24\CalculatorApp\CalculatorApp\obj\Debug\CalculatorApp.exe
+D:\GitHub\Quest Launchpad\C2504\19__26-08-24\CalculatorApp\CalculatorApp\obj\Debug\CalculatorApp.pdb
