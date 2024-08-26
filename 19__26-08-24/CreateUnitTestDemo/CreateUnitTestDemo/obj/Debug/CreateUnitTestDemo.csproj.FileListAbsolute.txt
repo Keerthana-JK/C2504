@@ -1,0 +1,7 @@
+D:\GitHub\Quest Launchpad\C2504\19__26-08-24\CreateUnitTestDemo\CreateUnitTestDemo\bin\Debug\CreateUnitTestDemo.exe.config
+D:\GitHub\Quest Launchpad\C2504\19__26-08-24\CreateUnitTestDemo\CreateUnitTestDemo\bin\Debug\CreateUnitTestDemo.exe
+D:\GitHub\Quest Launchpad\C2504\19__26-08-24\CreateUnitTestDemo\CreateUnitTestDemo\bin\Debug\CreateUnitTestDemo.pdb
+D:\GitHub\Quest Launchpad\C2504\19__26-08-24\CreateUnitTestDemo\CreateUnitTestDemo\obj\Debug\CreateUnitTestDemo.csproj.AssemblyReference.cache
+D:\GitHub\Quest Launchpad\C2504\19__26-08-24\CreateUnitTestDemo\CreateUnitTestDemo\obj\Debug\CreateUnitTestDemo.csproj.CoreCompileInputs.cache
+D:\GitHub\Quest Launchpad\C2504\19__26-08-24\CreateUnitTestDemo\CreateUnitTestDemo\obj\Debug\CreateUnitTestDemo.exe
+D:\GitHub\Quest Launchpad\C2504\19__26-08-24\CreateUnitTestDemo\CreateUnitTestDemo\obj\Debug\CreateUnitTestDemo.pdb
