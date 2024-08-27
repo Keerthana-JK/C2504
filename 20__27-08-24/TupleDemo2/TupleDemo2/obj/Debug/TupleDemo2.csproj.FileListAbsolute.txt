@@ -1,0 +1,7 @@
+D:\GitHub\Quest Launchpad\C2504\20__27-08-24\TupleDemo2\TupleDemo2\bin\Debug\TupleDemo2.exe.config
+D:\GitHub\Quest Launchpad\C2504\20__27-08-24\TupleDemo2\TupleDemo2\bin\Debug\TupleDemo2.exe
+D:\GitHub\Quest Launchpad\C2504\20__27-08-24\TupleDemo2\TupleDemo2\bin\Debug\TupleDemo2.pdb
+D:\GitHub\Quest Launchpad\C2504\20__27-08-24\TupleDemo2\TupleDemo2\obj\Debug\TupleDemo2.csproj.AssemblyReference.cache
+D:\GitHub\Quest Launchpad\C2504\20__27-08-24\TupleDemo2\TupleDemo2\obj\Debug\TupleDemo2.csproj.CoreCompileInputs.cache
+D:\GitHub\Quest Launchpad\C2504\20__27-08-24\TupleDemo2\TupleDemo2\obj\Debug\TupleDemo2.exe
+D:\GitHub\Quest Launchpad\C2504\20__27-08-24\TupleDemo2\TupleDemo2\obj\Debug\TupleDemo2.pdb
