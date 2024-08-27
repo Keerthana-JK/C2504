@@ -1,0 +1,7 @@
+D:\GitHub\Quest Launchpad\C2504\20__27-08-24\ExceptionHandlingDemo\ExceptionHandlingDemo\bin\Debug\ExceptionHandlingDemo.exe.config
+D:\GitHub\Quest Launchpad\C2504\20__27-08-24\ExceptionHandlingDemo\ExceptionHandlingDemo\bin\Debug\ExceptionHandlingDemo.exe
+D:\GitHub\Quest Launchpad\C2504\20__27-08-24\ExceptionHandlingDemo\ExceptionHandlingDemo\bin\Debug\ExceptionHandlingDemo.pdb
+D:\GitHub\Quest Launchpad\C2504\20__27-08-24\ExceptionHandlingDemo\ExceptionHandlingDemo\obj\Debug\ExceptionHandlingDemo.csproj.AssemblyReference.cache
+D:\GitHub\Quest Launchpad\C2504\20__27-08-24\ExceptionHandlingDemo\ExceptionHandlingDemo\obj\Debug\ExceptionHandlingDemo.csproj.CoreCompileInputs.cache
+D:\GitHub\Quest Launchpad\C2504\20__27-08-24\ExceptionHandlingDemo\ExceptionHandlingDemo\obj\Debug\ExceptionHandlingDemo.exe
+D:\GitHub\Quest Launchpad\C2504\20__27-08-24\ExceptionHandlingDemo\ExceptionHandlingDemo\obj\Debug\ExceptionHandlingDemo.pdb
