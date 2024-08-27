@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GitHub\\Quest Launchpad\\C2504\\20__27-08-24\\ExceptionHandlingBankAccount\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DF1FDDB3-4DB9-4CFB-9757-CB82DA3B712B}|ExceptionHandlingBankAccount\\ExceptionHandlingBankAccount.csproj|d:\\github\\quest launchpad\\c2504\\20__27-08-24\\exceptionhandlingbankaccount\\exceptionhandlingbankaccount\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF1FDDB3-4DB9-4CFB-9757-CB82DA3B712B}|ExceptionHandlingBankAccount\\ExceptionHandlingBankAccount.csproj|solutionrelative:exceptionhandlingbankaccount\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\Quest Launchpad\\C2504\\20__27-08-24\\ExceptionHandlingBankAccount\\ExceptionHandlingBankAccount\\Program.cs",
+              "RelativeDocumentMoniker": "ExceptionHandlingBankAccount\\Program.cs",
+              "ToolTip": "D:\\GitHub\\Quest Launchpad\\C2504\\20__27-08-24\\ExceptionHandlingBankAccount\\ExceptionHandlingBankAccount\\Program.cs",
+              "RelativeToolTip": "ExceptionHandlingBankAccount\\Program.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwCQAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T11:02:54.667Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
