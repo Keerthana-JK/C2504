@@ -1,0 +1,10 @@
+D:\GitHub\Quest Launchpad\C2504\19__26-08-24\log4netDemo\log4netDemo\bin\Debug\log4netDemo.exe.config
+D:\GitHub\Quest Launchpad\C2504\19__26-08-24\log4netDemo\log4netDemo\bin\Debug\log4netDemo.exe
+D:\GitHub\Quest Launchpad\C2504\19__26-08-24\log4netDemo\log4netDemo\bin\Debug\log4netDemo.pdb
+D:\GitHub\Quest Launchpad\C2504\19__26-08-24\log4netDemo\log4netDemo\bin\Debug\log4net.dll
+D:\GitHub\Quest Launchpad\C2504\19__26-08-24\log4netDemo\log4netDemo\bin\Debug\log4net.xml
+D:\GitHub\Quest Launchpad\C2504\19__26-08-24\log4netDemo\log4netDemo\obj\Debug\log4netDemo.csproj.AssemblyReference.cache
+D:\GitHub\Quest Launchpad\C2504\19__26-08-24\log4netDemo\log4netDemo\obj\Debug\log4netDemo.csproj.CoreCompileInputs.cache
+D:\GitHub\Quest Launchpad\C2504\19__26-08-24\log4netDemo\log4netDemo\obj\Debug\log4netD.E977F121.Up2Date
+D:\GitHub\Quest Launchpad\C2504\19__26-08-24\log4netDemo\log4netDemo\obj\Debug\log4netDemo.exe
+D:\GitHub\Quest Launchpad\C2504\19__26-08-24\log4netDemo\log4netDemo\obj\Debug\log4netDemo.pdb

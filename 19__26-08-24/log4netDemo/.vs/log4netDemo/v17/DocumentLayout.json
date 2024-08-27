@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GitHub\\Quest Launchpad\\C2504\\19__26-08-24\\log4netDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B29465C6-5C53-4085-9313-172C1DD09B2D}|log4netDemoTests\\log4netDemoTests.csproj|d:\\github\\quest launchpad\\c2504\\19__26-08-24\\log4netdemo\\log4netdemotests\\medicationexpiryservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B29465C6-5C53-4085-9313-172C1DD09B2D}|log4netDemoTests\\log4netDemoTests.csproj|solutionrelative:log4netdemotests\\medicationexpiryservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F51295F7-B644-4DE9-B862-26A97C850142}|log4netDemo\\log4netDemo.csproj|D:\\GitHub\\Quest Launchpad\\C2504\\19__26-08-24\\log4netDemo\\log4netdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F51295F7-B644-4DE9-B862-26A97C850142}|log4netDemo\\log4netDemo.csproj|solutionrelative:log4netdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\AppData\\Local\\Temp\\ewcf00dh..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MedicationExpiryServiceTests.cs",
+              "DocumentMoniker": "D:\\GitHub\\Quest Launchpad\\C2504\\19__26-08-24\\log4netDemo\\log4netDemoTests\\MedicationExpiryServiceTests.cs",
+              "RelativeDocumentMoniker": "log4netDemoTests\\MedicationExpiryServiceTests.cs",
+              "ToolTip": "D:\\GitHub\\Quest Launchpad\\C2504\\19__26-08-24\\log4netDemo\\log4netDemoTests\\MedicationExpiryServiceTests.cs",
+              "RelativeToolTip": "log4netDemoTests\\MedicationExpiryServiceTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T06:26:00.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SQLQuery1.sql",
+              "DocumentMoniker": "C:\\Users\\DELL\\AppData\\Local\\Temp\\ewcf00dh..sql",
+              "ToolTip": "SQLQuery1.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-08-27T06:19:44.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\Quest Launchpad\\C2504\\19__26-08-24\\log4netDemo\\log4netDemo\\Program.cs",
+              "RelativeDocumentMoniker": "log4netDemo\\Program.cs",
+              "ToolTip": "D:\\GitHub\\Quest Launchpad\\C2504\\19__26-08-24\\log4netDemo\\log4netDemo\\Program.cs",
+              "RelativeToolTip": "log4netDemo\\Program.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAowBkAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T06:17:04.702Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

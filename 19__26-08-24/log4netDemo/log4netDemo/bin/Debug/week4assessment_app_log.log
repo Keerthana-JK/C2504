@@ -1,0 +1,7 @@
+2024-08-27 11:52:51,741 [1] ERROR log4netDemo.Program - [0103]Server Errror.Keyword not supported: 'trust server certificate'.
+2024-08-27 11:53:26,678 [1] INFO  log4netDemo.Program - min=[3,Halls,31-05-2025 00:00:00]
+2024-08-27 11:53:26,690 [1] INFO  log4netDemo.Program - secondMax=[2,Vicks,20-11-2025 00:00:00]
+2024-08-27 11:53:26,690 [1] INFO  log4netDemo.Program - [3,Halls,31-05-2025 00:00:00] [2,Vicks,20-11-2025 00:00:00] [1,Dolo 650,12-12-2025 00:00:00] 
+2024-08-27 11:57:05,965 [1] INFO  log4netDemo.Program - min=[3,Halls,31-05-2025 00:00:00]
+2024-08-27 11:57:05,979 [1] INFO  log4netDemo.Program - secondMax=[2,Vicks,20-11-2025 00:00:00]
+2024-08-27 11:57:05,979 [1] INFO  log4netDemo.Program - [3,Halls,31-05-2025 00:00:00] [2,Vicks,20-11-2025 00:00:00] [1,Dolo 650,12-12-2025 00:00:00] 

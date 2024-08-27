@@ -1,0 +1,10 @@
+D:\GitHub\Quest Launchpad\C2504\19__26-08-24\MedicationDosageUsingLog4net\MedicationDosageUsingLog4net\bin\Debug\MedicationDosageUsingLog4net.exe.config
+D:\GitHub\Quest Launchpad\C2504\19__26-08-24\MedicationDosageUsingLog4net\MedicationDosageUsingLog4net\bin\Debug\MedicationDosageUsingLog4net.exe
+D:\GitHub\Quest Launchpad\C2504\19__26-08-24\MedicationDosageUsingLog4net\MedicationDosageUsingLog4net\bin\Debug\MedicationDosageUsingLog4net.pdb
+D:\GitHub\Quest Launchpad\C2504\19__26-08-24\MedicationDosageUsingLog4net\MedicationDosageUsingLog4net\bin\Debug\log4net.dll
+D:\GitHub\Quest Launchpad\C2504\19__26-08-24\MedicationDosageUsingLog4net\MedicationDosageUsingLog4net\bin\Debug\log4net.xml
+D:\GitHub\Quest Launchpad\C2504\19__26-08-24\MedicationDosageUsingLog4net\MedicationDosageUsingLog4net\obj\Debug\MedicationDosageUsingLog4net.csproj.AssemblyReference.cache
+D:\GitHub\Quest Launchpad\C2504\19__26-08-24\MedicationDosageUsingLog4net\MedicationDosageUsingLog4net\obj\Debug\MedicationDosageUsingLog4net.csproj.CoreCompileInputs.cache
+D:\GitHub\Quest Launchpad\C2504\19__26-08-24\MedicationDosageUsingLog4net\MedicationDosageUsingLog4net\obj\Debug\Medicati.0EFA0391.Up2Date
+D:\GitHub\Quest Launchpad\C2504\19__26-08-24\MedicationDosageUsingLog4net\MedicationDosageUsingLog4net\obj\Debug\MedicationDosageUsingLog4net.exe
+D:\GitHub\Quest Launchpad\C2504\19__26-08-24\MedicationDosageUsingLog4net\MedicationDosageUsingLog4net\obj\Debug\MedicationDosageUsingLog4net.pdb
