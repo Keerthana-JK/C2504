@@ -104,8 +104,23 @@ SDLC
 				with the absence of defined requirements.
 			- Difficulties with measuring the final cost 
 				(due to permanent changes)
+		- Scrum: A common agile framework
+			- uses fixed-length iterations called "sprints". 
+			- includes roles like Scrum Master and Product Owner
+			- & ceremonies like Daily Stand-ups, sprint planning, and retrospectives
 
 
 	4. Spiral Model
+		- Combines elements of both iterative and Waterfall models
+		- focuses on risk assessment and mitigation, 
+		- suitable for large, complex projects. 
+		- development process goes through 4 phases repeatedly: 
+			planning, risk analysis, engineering, and evaluation.
 	5. DevOps
+		-  Integrates development and operations teams 
+		- to improve collaboration and productivity 
+		- by automating infrastructure, workflows, and continuously measuring application performance.
 	6. Incremental	
+		- software is developed and delivered in small, manageable increments. 
+		- Each increment adds functionality until the complete system is implemented
+		- This allows for partial deployment and testing of the software.

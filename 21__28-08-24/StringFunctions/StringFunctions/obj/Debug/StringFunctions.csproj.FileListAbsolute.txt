@@ -1,0 +1,7 @@
+D:\GitHub\Quest Launchpad\C2504\21__28-08-24\StringFunctions\StringFunctions\bin\Debug\StringFunctions.exe.config
+D:\GitHub\Quest Launchpad\C2504\21__28-08-24\StringFunctions\StringFunctions\bin\Debug\StringFunctions.exe
+D:\GitHub\Quest Launchpad\C2504\21__28-08-24\StringFunctions\StringFunctions\bin\Debug\StringFunctions.pdb
+D:\GitHub\Quest Launchpad\C2504\21__28-08-24\StringFunctions\StringFunctions\obj\Debug\StringFunctions.csproj.AssemblyReference.cache
+D:\GitHub\Quest Launchpad\C2504\21__28-08-24\StringFunctions\StringFunctions\obj\Debug\StringFunctions.csproj.CoreCompileInputs.cache
+D:\GitHub\Quest Launchpad\C2504\21__28-08-24\StringFunctions\StringFunctions\obj\Debug\StringFunctions.exe
+D:\GitHub\Quest Launchpad\C2504\21__28-08-24\StringFunctions\StringFunctions\obj\Debug\StringFunctions.pdb

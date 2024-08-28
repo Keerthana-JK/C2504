@@ -1,0 +1,7 @@
+D:\GitHub\Quest Launchpad\C2504\21__28-08-24\List\List\bin\Debug\List.exe.config
+D:\GitHub\Quest Launchpad\C2504\21__28-08-24\List\List\bin\Debug\List.exe
+D:\GitHub\Quest Launchpad\C2504\21__28-08-24\List\List\bin\Debug\List.pdb
+D:\GitHub\Quest Launchpad\C2504\21__28-08-24\List\List\obj\Debug\ListIntro.csproj.AssemblyReference.cache
+D:\GitHub\Quest Launchpad\C2504\21__28-08-24\List\List\obj\Debug\ListIntro.csproj.CoreCompileInputs.cache
+D:\GitHub\Quest Launchpad\C2504\21__28-08-24\List\List\obj\Debug\List.exe
+D:\GitHub\Quest Launchpad\C2504\21__28-08-24\List\List\obj\Debug\List.pdb

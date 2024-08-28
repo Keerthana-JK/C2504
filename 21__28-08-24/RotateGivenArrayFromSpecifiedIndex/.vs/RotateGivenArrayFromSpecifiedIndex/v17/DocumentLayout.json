@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GitHub\\Quest Launchpad\\C2504\\21__28-08-24\\RotateGivenArrayFromSpecifiedIndex\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{22CC3719-C748-49FD-B604-2E095E5CE179}|RotateGivenArrayFromSpecifiedIndex\\RotateGivenArrayFromSpecifiedIndex.csproj|d:\\github\\quest launchpad\\c2504\\21__28-08-24\\rotategivenarrayfromspecifiedindex\\rotategivenarrayfromspecifiedindex\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22CC3719-C748-49FD-B604-2E095E5CE179}|RotateGivenArrayFromSpecifiedIndex\\RotateGivenArrayFromSpecifiedIndex.csproj|solutionrelative:rotategivenarrayfromspecifiedindex\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\Quest Launchpad\\C2504\\21__28-08-24\\RotateGivenArrayFromSpecifiedIndex\\RotateGivenArrayFromSpecifiedIndex\\Program.cs",
+              "RelativeDocumentMoniker": "RotateGivenArrayFromSpecifiedIndex\\Program.cs",
+              "ToolTip": "D:\\GitHub\\Quest Launchpad\\C2504\\21__28-08-24\\RotateGivenArrayFromSpecifiedIndex\\RotateGivenArrayFromSpecifiedIndex\\Program.cs",
+              "RelativeToolTip": "RotateGivenArrayFromSpecifiedIndex\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T05:28:14.52Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GitHub\\Quest Launchpad\\C2504\\21__28-08-24\\RemoveDuplicatesFromArray\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0D294E8C-F429-4E02-9DF5-946704817C6A}|RemoveDuplicatesFromArray\\RemoveDuplicatesFromArray.csproj|d:\\github\\quest launchpad\\c2504\\21__28-08-24\\removeduplicatesfromarray\\removeduplicatesfromarray\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D294E8C-F429-4E02-9DF5-946704817C6A}|RemoveDuplicatesFromArray\\RemoveDuplicatesFromArray.csproj|solutionrelative:removeduplicatesfromarray\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\Quest Launchpad\\C2504\\21__28-08-24\\RemoveDuplicatesFromArray\\RemoveDuplicatesFromArray\\Program.cs",
+              "RelativeDocumentMoniker": "RemoveDuplicatesFromArray\\Program.cs",
+              "ToolTip": "D:\\GitHub\\Quest Launchpad\\C2504\\21__28-08-24\\RemoveDuplicatesFromArray\\RemoveDuplicatesFromArray\\Program.cs",
+              "RelativeToolTip": "RemoveDuplicatesFromArray\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T04:27:16.46Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+D:\GitHub\Quest Launchpad\C2504\21__28-08-24\RotateGivenArrayFromSpecifiedIndex\RotateGivenArrayFromSpecifiedIndex\bin\Debug\RotateGivenArrayFromSpecifiedIndex.exe.config
+D:\GitHub\Quest Launchpad\C2504\21__28-08-24\RotateGivenArrayFromSpecifiedIndex\RotateGivenArrayFromSpecifiedIndex\bin\Debug\RotateGivenArrayFromSpecifiedIndex.exe
+D:\GitHub\Quest Launchpad\C2504\21__28-08-24\RotateGivenArrayFromSpecifiedIndex\RotateGivenArrayFromSpecifiedIndex\bin\Debug\RotateGivenArrayFromSpecifiedIndex.pdb
+D:\GitHub\Quest Launchpad\C2504\21__28-08-24\RotateGivenArrayFromSpecifiedIndex\RotateGivenArrayFromSpecifiedIndex\obj\Debug\RotateGivenArrayFromSpecifiedIndex.csproj.AssemblyReference.cache
+D:\GitHub\Quest Launchpad\C2504\21__28-08-24\RotateGivenArrayFromSpecifiedIndex\RotateGivenArrayFromSpecifiedIndex\obj\Debug\RotateGivenArrayFromSpecifiedIndex.csproj.CoreCompileInputs.cache
+D:\GitHub\Quest Launchpad\C2504\21__28-08-24\RotateGivenArrayFromSpecifiedIndex\RotateGivenArrayFromSpecifiedIndex\obj\Debug\RotateGivenArrayFromSpecifiedIndex.exe
+D:\GitHub\Quest Launchpad\C2504\21__28-08-24\RotateGivenArrayFromSpecifiedIndex\RotateGivenArrayFromSpecifiedIndex\obj\Debug\RotateGivenArrayFromSpecifiedIndex.pdb
