@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace CountCharFrequency
 {
     internal class Program
     {
@@ -13,13 +13,13 @@ namespace ConsoleApp1
             int index = 0;
             foreach (var ch in letters)
             {
-                if(ch==target) return index;
+                if (ch == target) return index;
                 index++;
             }
             return -1;
         }
 
-            static void Main(string[] args)
+        static void Main(string[] args)
         {
             // Count of frequency of characters in a string (without using dictionary)
             Console.Write("Enter the string: ");

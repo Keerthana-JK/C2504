@@ -1,7 +1,0 @@
-D:\GitHub\Quest Launchpad\C2504\21__28-08-24\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
-D:\GitHub\Quest Launchpad\C2504\21__28-08-24\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
-D:\GitHub\Quest Launchpad\C2504\21__28-08-24\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
-D:\GitHub\Quest Launchpad\C2504\21__28-08-24\ConsoleApp1\ConsoleApp1\obj\Debug\CountCharFrequency.csproj.AssemblyReference.cache
-D:\GitHub\Quest Launchpad\C2504\21__28-08-24\ConsoleApp1\ConsoleApp1\obj\Debug\CountCharFrequency.csproj.CoreCompileInputs.cache
-D:\GitHub\Quest Launchpad\C2504\21__28-08-24\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
-D:\GitHub\Quest Launchpad\C2504\21__28-08-24\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
