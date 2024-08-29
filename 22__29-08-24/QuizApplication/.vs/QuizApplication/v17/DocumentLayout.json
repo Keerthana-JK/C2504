@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GitHub\\Quest Launchpad\\C2504\\22__29-08-24\\QuizApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0AB7C9EA-7E81-45D9-92EE-C8E69C646EF6}|QuizApplication\\QuizApplication.csproj|d:\\github\\quest launchpad\\c2504\\22__29-08-24\\quizapplication\\quizapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AB7C9EA-7E81-45D9-92EE-C8E69C646EF6}|QuizApplication\\QuizApplication.csproj|solutionrelative:quizapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\Quest Launchpad\\C2504\\22__29-08-24\\QuizApplication\\QuizApplication\\Program.cs",
+              "RelativeDocumentMoniker": "QuizApplication\\Program.cs",
+              "ToolTip": "D:\\GitHub\\Quest Launchpad\\C2504\\22__29-08-24\\QuizApplication\\QuizApplication\\Program.cs",
+              "RelativeToolTip": "QuizApplication\\Program.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T10:03:59.051Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

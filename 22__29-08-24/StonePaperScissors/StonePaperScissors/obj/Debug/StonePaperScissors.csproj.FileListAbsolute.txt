@@ -1,0 +1,7 @@
+D:\GitHub\Quest Launchpad\C2504\22__29-08-24\StonePaperScissors\StonePaperScissors\bin\Debug\StonePaperScissors.exe.config
+D:\GitHub\Quest Launchpad\C2504\22__29-08-24\StonePaperScissors\StonePaperScissors\bin\Debug\StonePaperScissors.exe
+D:\GitHub\Quest Launchpad\C2504\22__29-08-24\StonePaperScissors\StonePaperScissors\bin\Debug\StonePaperScissors.pdb
+D:\GitHub\Quest Launchpad\C2504\22__29-08-24\StonePaperScissors\StonePaperScissors\obj\Debug\StonePaperScissors.csproj.AssemblyReference.cache
+D:\GitHub\Quest Launchpad\C2504\22__29-08-24\StonePaperScissors\StonePaperScissors\obj\Debug\StonePaperScissors.csproj.CoreCompileInputs.cache
+D:\GitHub\Quest Launchpad\C2504\22__29-08-24\StonePaperScissors\StonePaperScissors\obj\Debug\StonePaperScissors.exe
+D:\GitHub\Quest Launchpad\C2504\22__29-08-24\StonePaperScissors\StonePaperScissors\obj\Debug\StonePaperScissors.pdb
