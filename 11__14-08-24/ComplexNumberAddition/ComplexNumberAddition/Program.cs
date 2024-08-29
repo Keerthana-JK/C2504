@@ -24,6 +24,11 @@ namespace ComplexNumberAddition
              Real = this.Real + other.Real;
              Imaginary = this.Imaginary + other.Imaginary;
             return $"{ Real} + { Imaginary}i";
+            //Complex third = new Complex();
+            //third.R = this.R + other.R;
+            //third.I = this.I + other.I;
+            //return third;
+            
         }
 
     }
