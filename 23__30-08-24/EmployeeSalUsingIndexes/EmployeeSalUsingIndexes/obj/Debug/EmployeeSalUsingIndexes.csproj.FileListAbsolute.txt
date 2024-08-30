@@ -1,0 +1,7 @@
+D:\GitHub\Quest Launchpad\C2504\23__30-08-24\EmployeeSalUsingIndexes\EmployeeSalUsingIndexes\bin\Debug\EmployeeSalUsingIndexes.exe.config
+D:\GitHub\Quest Launchpad\C2504\23__30-08-24\EmployeeSalUsingIndexes\EmployeeSalUsingIndexes\bin\Debug\EmployeeSalUsingIndexes.exe
+D:\GitHub\Quest Launchpad\C2504\23__30-08-24\EmployeeSalUsingIndexes\EmployeeSalUsingIndexes\bin\Debug\EmployeeSalUsingIndexes.pdb
+D:\GitHub\Quest Launchpad\C2504\23__30-08-24\EmployeeSalUsingIndexes\EmployeeSalUsingIndexes\obj\Debug\EmployeeSalUsingIndexes.csproj.AssemblyReference.cache
+D:\GitHub\Quest Launchpad\C2504\23__30-08-24\EmployeeSalUsingIndexes\EmployeeSalUsingIndexes\obj\Debug\EmployeeSalUsingIndexes.csproj.CoreCompileInputs.cache
+D:\GitHub\Quest Launchpad\C2504\23__30-08-24\EmployeeSalUsingIndexes\EmployeeSalUsingIndexes\obj\Debug\EmployeeSalUsingIndexes.exe
+D:\GitHub\Quest Launchpad\C2504\23__30-08-24\EmployeeSalUsingIndexes\EmployeeSalUsingIndexes\obj\Debug\EmployeeSalUsingIndexes.pdb
