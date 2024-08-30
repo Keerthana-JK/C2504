@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GitHub\\Quest Launchpad\\C2504\\23__30-08-24\\Delegates_SetTimerAndFn\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8238FFAB-8F99-4514-BE4C-317C7B6DFEEC}|Delegates_SetTimerAndFn\\Delegates_SetTimerAndFn.csproj|d:\\github\\quest launchpad\\c2504\\23__30-08-24\\delegates_settimerandfn\\delegates_settimerandfn\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8238FFAB-8F99-4514-BE4C-317C7B6DFEEC}|Delegates_SetTimerAndFn\\Delegates_SetTimerAndFn.csproj|solutionrelative:delegates_settimerandfn\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\Quest Launchpad\\C2504\\23__30-08-24\\Delegates_SetTimerAndFn\\Delegates_SetTimerAndFn\\Program.cs",
+              "RelativeDocumentMoniker": "Delegates_SetTimerAndFn\\Program.cs",
+              "ToolTip": "D:\\GitHub\\Quest Launchpad\\C2504\\23__30-08-24\\Delegates_SetTimerAndFn\\Delegates_SetTimerAndFn\\Program.cs",
+              "RelativeToolTip": "Delegates_SetTimerAndFn\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T10:31:30.034Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

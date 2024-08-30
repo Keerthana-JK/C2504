@@ -1,0 +1,7 @@
+D:\GitHub\Quest Launchpad\C2504\23__30-08-24\Delegate_FnCheck\Delegate_FnCheck\bin\Debug\Delegate_FnCheck.exe.config
+D:\GitHub\Quest Launchpad\C2504\23__30-08-24\Delegate_FnCheck\Delegate_FnCheck\bin\Debug\Delegate_FnCheck.exe
+D:\GitHub\Quest Launchpad\C2504\23__30-08-24\Delegate_FnCheck\Delegate_FnCheck\bin\Debug\Delegate_FnCheck.pdb
+D:\GitHub\Quest Launchpad\C2504\23__30-08-24\Delegate_FnCheck\Delegate_FnCheck\obj\Debug\Delegate_FnCheck.csproj.AssemblyReference.cache
+D:\GitHub\Quest Launchpad\C2504\23__30-08-24\Delegate_FnCheck\Delegate_FnCheck\obj\Debug\Delegate_FnCheck.csproj.CoreCompileInputs.cache
+D:\GitHub\Quest Launchpad\C2504\23__30-08-24\Delegate_FnCheck\Delegate_FnCheck\obj\Debug\Delegate_FnCheck.exe
+D:\GitHub\Quest Launchpad\C2504\23__30-08-24\Delegate_FnCheck\Delegate_FnCheck\obj\Debug\Delegate_FnCheck.pdb

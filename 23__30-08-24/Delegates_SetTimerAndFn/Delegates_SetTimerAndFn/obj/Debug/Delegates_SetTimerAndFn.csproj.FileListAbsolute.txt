@@ -1,0 +1,7 @@
+D:\GitHub\Quest Launchpad\C2504\23__30-08-24\Delegates_SetTimerAndFn\Delegates_SetTimerAndFn\bin\Debug\Delegates_SetTimerAndFn.exe.config
+D:\GitHub\Quest Launchpad\C2504\23__30-08-24\Delegates_SetTimerAndFn\Delegates_SetTimerAndFn\bin\Debug\Delegates_SetTimerAndFn.exe
+D:\GitHub\Quest Launchpad\C2504\23__30-08-24\Delegates_SetTimerAndFn\Delegates_SetTimerAndFn\bin\Debug\Delegates_SetTimerAndFn.pdb
+D:\GitHub\Quest Launchpad\C2504\23__30-08-24\Delegates_SetTimerAndFn\Delegates_SetTimerAndFn\obj\Debug\Delegates_SetTimerAndFn.csproj.AssemblyReference.cache
+D:\GitHub\Quest Launchpad\C2504\23__30-08-24\Delegates_SetTimerAndFn\Delegates_SetTimerAndFn\obj\Debug\Delegates_SetTimerAndFn.csproj.CoreCompileInputs.cache
+D:\GitHub\Quest Launchpad\C2504\23__30-08-24\Delegates_SetTimerAndFn\Delegates_SetTimerAndFn\obj\Debug\Delegates_SetTimerAndFn.exe
+D:\GitHub\Quest Launchpad\C2504\23__30-08-24\Delegates_SetTimerAndFn\Delegates_SetTimerAndFn\obj\Debug\Delegates_SetTimerAndFn.pdb

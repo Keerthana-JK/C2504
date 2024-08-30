@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates_SetTimerAndFn", "Delegates_SetTimerAndFn\Delegates_SetTimerAndFn.csproj", "{8238FFAB-8F99-4514-BE4C-317C7B6DFEEC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8238FFAB-8F99-4514-BE4C-317C7B6DFEEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8238FFAB-8F99-4514-BE4C-317C7B6DFEEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8238FFAB-8F99-4514-BE4C-317C7B6DFEEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8238FFAB-8F99-4514-BE4C-317C7B6DFEEC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A85E1F34-9D4D-4542-A518-9279535360CB}
+	EndGlobalSection
+EndGlobal

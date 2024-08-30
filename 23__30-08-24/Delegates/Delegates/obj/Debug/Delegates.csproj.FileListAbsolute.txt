@@ -1,0 +1,7 @@
+D:\GitHub\Quest Launchpad\C2504\23__30-08-24\Delegates\Delegates\bin\Debug\Delegates.exe.config
+D:\GitHub\Quest Launchpad\C2504\23__30-08-24\Delegates\Delegates\bin\Debug\Delegates.exe
+D:\GitHub\Quest Launchpad\C2504\23__30-08-24\Delegates\Delegates\bin\Debug\Delegates.pdb
+D:\GitHub\Quest Launchpad\C2504\23__30-08-24\Delegates\Delegates\obj\Debug\Delegates.csproj.AssemblyReference.cache
+D:\GitHub\Quest Launchpad\C2504\23__30-08-24\Delegates\Delegates\obj\Debug\Delegates.csproj.CoreCompileInputs.cache
+D:\GitHub\Quest Launchpad\C2504\23__30-08-24\Delegates\Delegates\obj\Debug\Delegates.exe
+D:\GitHub\Quest Launchpad\C2504\23__30-08-24\Delegates\Delegates\obj\Debug\Delegates.pdb
