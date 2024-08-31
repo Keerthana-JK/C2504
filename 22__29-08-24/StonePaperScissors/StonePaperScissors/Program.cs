@@ -7,7 +7,8 @@ namespace StonePaperScissors
     {
         static void Main(string[] args)
         {
-            new Game().Start();
+            new Game().Start();  // Game game = new Game();
+                                //game.Start();
         }
     }
 }

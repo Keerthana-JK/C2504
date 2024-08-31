@@ -28,11 +28,8 @@ namespace ExponentOf2
             else
             {
                 return -1;
-            }
-            
+            } 
         }
-
-
 
         static void Main(string[] args)
         {
@@ -41,7 +38,7 @@ namespace ExponentOf2
             int power=ExponentOf2(n);
             if (power != -1)
             {
-                Console.WriteLine($"Exponent: {power}");
+                Console.WriteLine($"Exponent: {power-1}");
             }
         }
     }
