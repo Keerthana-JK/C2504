@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\GitHub\\Quest Launchpad\\C2504\\19__26-08-24\\MedicationDosageUsingLog4net\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6EEF07AB-E203-4987-9378-BA6E5FEAD373}|MedicationDosageUsingLog4net\\MedicationDosageUsingLog4net.csproj|d:\\github\\quest launchpad\\c2504\\19__26-08-24\\medicationdosageusinglog4net\\medicationdosageusinglog4net\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6EEF07AB-E203-4987-9378-BA6E5FEAD373}|MedicationDosageUsingLog4net\\MedicationDosageUsingLog4net.csproj|D:\\GitHub\\Quest Launchpad\\C2504\\19__26-08-24\\MedicationDosageUsingLog4net\\medicationdosageusinglog4net\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6EEF07AB-E203-4987-9378-BA6E5FEAD373}|MedicationDosageUsingLog4net\\MedicationDosageUsingLog4net.csproj|solutionrelative:medicationdosageusinglog4net\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CACDFA9B-C317-44BD-8001-E79F4200D131}|MedicationDosageUsingLog4netTests\\MedicationDosageUsingLog4netTests.csproj|D:\\GitHub\\Quest Launchpad\\C2504\\19__26-08-24\\MedicationDosageUsingLog4net\\medicationdosageusinglog4nettests\\prescriptiontests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CACDFA9B-C317-44BD-8001-E79F4200D131}|MedicationDosageUsingLog4netTests\\MedicationDosageUsingLog4netTests.csproj|d:\\github\\quest launchpad\\c2504\\19__26-08-24\\medicationdosageusinglog4net\\medicationdosageusinglog4nettests\\prescriptiontests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CACDFA9B-C317-44BD-8001-E79F4200D131}|MedicationDosageUsingLog4netTests\\MedicationDosageUsingLog4netTests.csproj|solutionrelative:medicationdosageusinglog4nettests\\prescriptiontests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Quest Launchpad\\C2504\\19__26-08-24\\MedicationDosageUsingLog4net\\SQLQuery2.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery2.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Quest Launchpad\\C2504\\19__26-08-24\\MedicationDosageUsingLog4net\\SQLQuery2.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery2.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,18 +38,19 @@
               "RelativeToolTip": "MedicationDosageUsingLog4netTests\\PrescriptionTests.cs",
               "ViewState": "AQIAADAAAAAAAAAAAAAowFUAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T07:32:54.091Z"
+              "WhenOpened": "2024-08-27T07:32:54.091Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "SQLQuery2.sql",
+              "Title": "SQLQuery2.sql ",
               "DocumentMoniker": "D:\\GitHub\\Quest Launchpad\\C2504\\19__26-08-24\\MedicationDosageUsingLog4net\\SQLQuery2.sql",
               "RelativeDocumentMoniker": "SQLQuery2.sql",
-              "ToolTip": "D:\\GitHub\\Quest Launchpad\\C2504\\19__26-08-24\\MedicationDosageUsingLog4net\\SQLQuery2.sql",
-              "RelativeToolTip": "SQLQuery2.sql",
+              "ToolTip": "SQLQuery2.sql ",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-08-27T06:39:08.476Z"
+              "WhenOpened": "2024-08-27T06:39:08.476Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -55,7 +60,7 @@
               "RelativeDocumentMoniker": "MedicationDosageUsingLog4net\\Program.cs",
               "ToolTip": "D:\\GitHub\\Quest Launchpad\\C2504\\19__26-08-24\\MedicationDosageUsingLog4net\\MedicationDosageUsingLog4net\\Program.cs",
               "RelativeToolTip": "MedicationDosageUsingLog4net\\Program.cs",
-              "ViewState": "AgIAANsAAAAAAAAAAAAAAO8AAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAANsAAAAAAAAAAAAAAO8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-27T06:29:08.733Z",
               "EditorCaption": ""
