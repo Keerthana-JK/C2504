@@ -42,6 +42,7 @@ namespace QuestTest5
                         {
                             log.Warn("No rows returned by SQL query.");
                         }
+
                         while (reader.Read())
                         {
                             prescriptions.Add(new Prescription
@@ -49,7 +50,7 @@ namespace QuestTest5
                                 PrescriptionID = (int)reader["PrescriptionID"],
                                 PatientName = reader["PatientName"].ToString(),
                                 MedicationName = reader["MedicationName"].ToString(),
-                                Dosage = Convert.ToDouble(reader["Dosage"])   // float -> int
+                                Dosage = Convert.ToDouble(reader["Dosage"])  // Correct conversion
                             });
                         }
 
@@ -64,7 +65,82 @@ namespace QuestTest5
                 return prescriptions;
             }
 
+            public void AddPrescription(Prescription prescription)
+            {
+                try
+                {
+                    using (SqlConnection conn = new SqlConnection("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=Prescription;Integrated Security=True;"))
+                    {
+                        conn.Open();
+                        string query = "INSERT INTO Prescription (PatientName, MedicationName, Dosage) VALUES (@PatientName, @MedicationName, @Dosage)";
+                        using (SqlCommand cmd = new SqlCommand(query, conn))
+                        {
+                            cmd.Parameters.AddWithValue("@PatientName", prescription.PatientName);
+                            cmd.Parameters.AddWithValue("@MedicationName", prescription.MedicationName);
+                            cmd.Parameters.AddWithValue("@Dosage", prescription.Dosage);
+
+                            int result = cmd.ExecuteNonQuery();
+                            log.Info($"{result} row(s) inserted into the Prescription table.");
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    log.Error("Error while inserting into the database: ", ex);
+                }
+            }
+
+            public void UpdatePrescription(Prescription prescription)
+            {
+                try
+                {
+                    using (SqlConnection conn = new SqlConnection("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=Prescription;Integrated Security=True;"))
+                    {
+                        conn.Open();
+                        string query = "UPDATE Prescription SET PatientName = @PatientName, MedicationName = @MedicationName, Dosage = @Dosage WHERE PrescriptionID = @PrescriptionID";
+                        using (SqlCommand cmd = new SqlCommand(query, conn))
+                        {
+                            cmd.Parameters.AddWithValue("@PrescriptionID", prescription.PrescriptionID);
+                            cmd.Parameters.AddWithValue("@PatientName", prescription.PatientName);
+                            cmd.Parameters.AddWithValue("@MedicationName", prescription.MedicationName);
+                            cmd.Parameters.AddWithValue("@Dosage", prescription.Dosage);
+
+                            int result = cmd.ExecuteNonQuery();
+                            log.Info($"{result} row(s) updated in the Prescription table.");
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    log.Error("Error while updating the database: ", ex);
+                }
+            }
+
+            public void DeletePrescription(int prescriptionID)
+            {
+                try
+                {
+                    using (SqlConnection conn = new SqlConnection("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=Prescription;Integrated Security=True;"))
+                    {
+                        conn.Open();
+                        string query = "DELETE FROM Prescription WHERE PrescriptionID = @PrescriptionID";
+                        using (SqlCommand cmd = new SqlCommand(query, conn))
+                        {
+                            cmd.Parameters.AddWithValue("@PrescriptionID", prescriptionID);
+
+                            int result = cmd.ExecuteNonQuery();
+                            log.Info($"{result} row(s) deleted from the Prescription table.");
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    log.Error("Error while deleting from the database: ", ex);
+                }
+            }
         }
+
+
 
         //Find Max Dosage
         public static Prescription FindMaxDosage(List<Prescription> prescriptions)
@@ -195,11 +271,14 @@ namespace QuestTest5
             while (!exit)
             {
                 Console.WriteLine("\nMenu:");
-                Console.WriteLine("1. Find Prescription with Maximum Dosage");
-                Console.WriteLine("2. Find Prescription with Third Least Dosage");
-                Console.WriteLine("3. Sort Prescriptions by Medication Name");
+                Console.WriteLine("1. Add New Prescription");
+                Console.WriteLine("2. Update Existing Prescription");
+                Console.WriteLine("3. Delete Prescription");
                 Console.WriteLine("4. Display All Prescriptions");
-                Console.WriteLine("5. Exit");
+                Console.WriteLine("5. Find Prescription with Maximum Dosage");
+                Console.WriteLine("6. Find Prescription with Third Least Dosage");
+                Console.WriteLine("7. Sort Prescriptions by Medication Name");
+                Console.WriteLine("8. Exit");
                 Console.Write("Enter your choice: ");
 
                 string choice = Console.ReadLine();
@@ -209,8 +288,103 @@ namespace QuestTest5
                     case "1":
                         try
                         {
-                            var maxDosagePrescription = FindMaxDosage(prescriptions);
-                            Console.WriteLine($"\nPrescription with the maximum dosage: {maxDosagePrescription.MedicationName}, Dosage: {maxDosagePrescription.Dosage} mg");
+                            Console.Write("Enter Patient Name: ");
+                            string patientName = Console.ReadLine();
+                            Console.Write("Enter Medication Name: ");
+                            string medicationName = Console.ReadLine();
+                            Console.Write("Enter Dosage (mg): ");
+                            double dosage = Convert.ToDouble(Console.ReadLine());
+
+                            var newPrescription = new Prescription
+                            {
+                                PatientName = patientName,
+                                MedicationName = medicationName,
+                                Dosage = dosage
+                            };
+
+                            dataHandler.AddPrescription(newPrescription);
+                            Console.WriteLine("Prescription added successfully.");
+                        }
+                        catch (Exception ex)
+                        {
+                            log.Error("An error occurred while adding a new prescription: ", ex);
+                        }
+                        break;
+
+                    case "2":
+                        try
+                        {
+                            Console.Write("Enter Prescription ID to update: ");
+                            int prescriptionID = Convert.ToInt32(Console.ReadLine());
+
+                            Console.Write("Enter new Patient Name: ");
+                            string patientName = Console.ReadLine();
+                            Console.Write("Enter new Medication Name: ");
+                            string medicationName = Console.ReadLine();
+                            Console.Write("Enter new Dosage (mg): ");
+                            double dosage = Convert.ToDouble(Console.ReadLine());
+
+                            var updatedPrescription = new Prescription
+                            {
+                                PrescriptionID = prescriptionID,
+                                PatientName = patientName,
+                                MedicationName = medicationName,
+                                Dosage = dosage
+                            };
+
+                            dataHandler.UpdatePrescription(updatedPrescription);
+                            Console.WriteLine("Prescription updated successfully.");
+                        }
+                        catch (Exception ex)
+                        {
+                            log.Error("An error occurred while updating the prescription: ", ex);
+                        }
+                        break;
+
+                    case "3":
+                        try
+                        {
+                            Console.Write("Enter Prescription ID to delete: ");
+                            int prescriptionID = Convert.ToInt32(Console.ReadLine());
+
+                            dataHandler.DeletePrescription(prescriptionID);
+                            Console.WriteLine("Prescription deleted successfully.");
+                        }
+                        catch (Exception ex)
+                        {
+                            log.Error("An error occurred while deleting the prescription: ", ex);
+                        }
+                        break;
+
+                    case "4":
+                        try
+                        {
+                            prescriptions = dataHandler.GetPrescriptionsFromDatabase();
+                            Console.WriteLine("\nAll Prescriptions:");
+                            foreach (var prescription in prescriptions)
+                            {
+                                Console.WriteLine($"ID: {prescription.PrescriptionID}, Patient: {prescription.PatientName}, Medication: {prescription.MedicationName}, Dosage: {prescription.Dosage} mg");
+                            }
+                        }
+                        catch (Exception ex)
+                        {
+                            log.Error("An error occurred while displaying all prescriptions: ", ex);
+                        }
+                        break;
+
+                    case "5":
+                        try
+                        {
+                            prescriptions = dataHandler.GetPrescriptionsFromDatabase();
+                            if (prescriptions.Count > 0)
+                            {
+                                var maxDosagePrescription = FindMaxDosage(prescriptions);
+                                Console.WriteLine($"\nPrescription with the maximum dosage: {maxDosagePrescription.MedicationName}, Dosage: {maxDosagePrescription.Dosage} mg");
+                            }
+                            else
+                            {
+                                Console.WriteLine("No prescriptions found.");
+                            }
                         }
                         catch (Exception ex)
                         {
@@ -218,11 +392,19 @@ namespace QuestTest5
                         }
                         break;
 
-                    case "2":
+                    case "6":
                         try
                         {
-                            var thirdLeastDosagePrescription = FindThirdLeastDosage(prescriptions);
-                            Console.WriteLine($"\nPrescription with the third least dosage: {thirdLeastDosagePrescription.MedicationName}, Dosage: {thirdLeastDosagePrescription.Dosage} mg");
+                            prescriptions = dataHandler.GetPrescriptionsFromDatabase();
+                            if (prescriptions.Count >= 3)
+                            {
+                                var thirdLeastDosagePrescription = FindThirdLeastDosage(prescriptions);
+                                Console.WriteLine($"\nPrescription with the third least dosage: {thirdLeastDosagePrescription.MedicationName}, Dosage: {thirdLeastDosagePrescription.Dosage} mg");
+                            }
+                            else
+                            {
+                                Console.WriteLine("Not enough prescriptions to find the third least dosage.");
+                            }
                         }
                         catch (Exception ex)
                         {
@@ -230,14 +412,22 @@ namespace QuestTest5
                         }
                         break;
 
-                    case "3":
+                    case "7":
                         try
                         {
-                            SortPrescriptionsByMedicationName(prescriptions);
-                            Console.WriteLine("\nPrescriptions sorted by Medication Name:");
-                            foreach (var prescription in prescriptions)
+                            prescriptions = dataHandler.GetPrescriptionsFromDatabase();
+                            if (prescriptions.Count > 0)
                             {
-                                Console.WriteLine($"Medication: {prescription.MedicationName}, Dosage: {prescription.Dosage} mg");
+                                SortPrescriptionsByMedicationName(prescriptions);
+                                Console.WriteLine("\nPrescriptions sorted by Medication Name:");
+                                foreach (var prescription in prescriptions)
+                                {
+                                    Console.WriteLine($"Medication: {prescription.MedicationName}, Dosage: {prescription.Dosage} mg");
+                                }
+                            }
+                            else
+                            {
+                                Console.WriteLine("No prescriptions found.");
                             }
                         }
                         catch (Exception ex)
@@ -246,15 +436,7 @@ namespace QuestTest5
                         }
                         break;
 
-                    case "4":
-                        Console.WriteLine("\nAll Prescriptions:");
-                        foreach (var prescription in prescriptions)
-                        {
-                            Console.WriteLine($"ID: {prescription.PrescriptionID}, Patient: {prescription.PatientName}, Medication: {prescription.MedicationName}, Dosage: {prescription.Dosage} mg");
-                        }
-                        break;
-
-                    case "5":
+                    case "8":
                         exit = true;
                         Console.WriteLine("Exiting the program...");
                         break;
@@ -263,7 +445,7 @@ namespace QuestTest5
                         Console.WriteLine("Invalid choice! Please select a valid option.");
                         break;
                 }
-            }    
+            }
         }
     }
 }

@@ -397,3 +397,36 @@ System.ArgumentException: Prescription list should have at least 3 items
 System.ArgumentException: Prescription list should have at least 3 items
    at QuestTest5.Program.FindThirdLeastDosage(List`1 prescriptions) in D:\GitHub\Quest Launchpad\C2504\Quest_Assessments\QuestTest5\QuestTest5\Program.cs:line 93
    at QuestTest5.Program.Main(String[] args) in D:\GitHub\Quest Launchpad\C2504\Quest_Assessments\QuestTest5\QuestTest5\Program.cs:line 225
+2024-08-31 19:26:15,766 [1] INFO  QuestTest5.Program - Database connection opened.
+2024-08-31 19:26:15,813 [1] INFO  QuestTest5.Program - SQL command created.
+2024-08-31 19:26:15,845 [1] INFO  QuestTest5.Program - SQL query executed.
+2024-08-31 19:26:15,861 [1] INFO  QuestTest5.Program - 2 prescriptions fetched from the database.
+2024-08-31 19:26:15,876 [1] INFO  QuestTest5.Program - SQL connection established.
+2024-08-31 19:30:45,105 [1] INFO  QuestTest5.Program - Database connection opened.
+2024-08-31 19:30:45,118 [1] INFO  QuestTest5.Program - SQL command created.
+2024-08-31 19:30:45,133 [1] INFO  QuestTest5.Program - SQL query executed.
+2024-08-31 19:30:45,152 [1] INFO  QuestTest5.Program - 2 prescriptions fetched from the database.
+2024-08-31 19:30:45,152 [1] INFO  QuestTest5.Program - SQL connection established.
+2024-08-31 19:33:45,718 [1] INFO  QuestTest5.Program - Database connection opened.
+2024-08-31 19:33:45,734 [1] INFO  QuestTest5.Program - SQL command created.
+2024-08-31 19:33:45,770 [1] INFO  QuestTest5.Program - SQL query executed.
+2024-08-31 19:33:45,781 [1] INFO  QuestTest5.Program - 2 prescriptions fetched from the database.
+2024-08-31 19:33:45,781 [1] INFO  QuestTest5.Program - SQL connection established.
+2024-08-31 19:37:17,773 [1] INFO  QuestTest5.Program - Database connection opened.
+2024-08-31 19:37:17,789 [1] INFO  QuestTest5.Program - SQL command created.
+2024-08-31 19:37:17,805 [1] INFO  QuestTest5.Program - SQL query executed.
+2024-08-31 19:37:17,820 [1] INFO  QuestTest5.Program - 2 prescriptions fetched from the database.
+2024-08-31 19:37:17,820 [1] INFO  QuestTest5.Program - SQL connection established.
+2024-08-31 19:37:50,700 [1] INFO  QuestTest5.Program - 1 row(s) inserted into the Prescription table.
+2024-08-31 19:37:54,270 [1] INFO  QuestTest5.Program - Database connection opened.
+2024-08-31 19:37:54,270 [1] INFO  QuestTest5.Program - SQL command created.
+2024-08-31 19:37:54,278 [1] INFO  QuestTest5.Program - SQL query executed.
+2024-08-31 19:37:54,286 [1] ERROR QuestTest5.Program - Error while reading from database: 
+System.InvalidCastException: Specified cast is not valid.
+   at QuestTest5.Program.PrescriptionDataHandler.GetPrescriptionsFromDatabase() in D:\GitHub\Quest Launchpad\C2504\Quest_Assessments\QuestTest5\QuestTest5\Program.cs:line 48
+2024-08-31 19:38:05,446 [1] INFO  QuestTest5.Program - Database connection opened.
+2024-08-31 19:38:05,446 [1] INFO  QuestTest5.Program - SQL command created.
+2024-08-31 19:38:05,446 [1] INFO  QuestTest5.Program - SQL query executed.
+2024-08-31 19:38:05,446 [1] ERROR QuestTest5.Program - Error while reading from database: 
+System.InvalidCastException: Specified cast is not valid.
+   at QuestTest5.Program.PrescriptionDataHandler.GetPrescriptionsFromDatabase() in D:\GitHub\Quest Launchpad\C2504\Quest_Assessments\QuestTest5\QuestTest5\Program.cs:line 48
