@@ -430,3 +430,401 @@ System.InvalidCastException: Specified cast is not valid.
 2024-08-31 19:38:05,446 [1] ERROR QuestTest5.Program - Error while reading from database: 
 System.InvalidCastException: Specified cast is not valid.
    at QuestTest5.Program.PrescriptionDataHandler.GetPrescriptionsFromDatabase() in D:\GitHub\Quest Launchpad\C2504\Quest_Assessments\QuestTest5\QuestTest5\Program.cs:line 48
+2024-09-02 15:31:56,553 [1] INFO  QuestTest5.Program - Database connection opened.
+2024-09-02 15:31:56,573 [1] INFO  QuestTest5.Program - SQL command created.
+2024-09-02 15:31:56,611 [1] INFO  QuestTest5.Program - SQL query executed.
+2024-09-02 15:31:56,637 [1] ERROR QuestTest5.Program - Error while reading from database: 
+System.InvalidCastException: Specified cast is not valid.
+   at QuestTest5.Program.PrescriptionDataHandler.GetPrescriptionsFromDatabase() in D:\GitHub\Quest Launchpad\C2504\Quest_Assessments\QuestTest5\QuestTest5\Program.cs:line 48
+2024-09-02 15:31:56,694 [1] INFO  QuestTest5.Program - SQL connection established.
+2024-09-02 15:34:33,248 [1] INFO  QuestTest5.Program - Database connection opened.
+2024-09-02 15:34:33,260 [1] INFO  QuestTest5.Program - SQL command created.
+2024-09-02 15:34:33,293 [1] INFO  QuestTest5.Program - SQL query executed.
+2024-09-02 15:34:33,314 [1] ERROR QuestTest5.Program - Error while reading from database: 
+System.InvalidCastException: Specified cast is not valid.
+   at QuestTest5.Program.PrescriptionDataHandler.GetPrescriptionsFromDatabase() in D:\GitHub\Quest Launchpad\C2504\Quest_Assessments\QuestTest5\QuestTest5\Program.cs:line 48
+2024-09-02 15:34:33,366 [1] INFO  QuestTest5.Program - SQL connection established.
+2024-09-02 15:34:44,310 [1] INFO  QuestTest5.Program - Database connection opened.
+2024-09-02 15:34:44,323 [1] INFO  QuestTest5.Program - SQL command created.
+2024-09-02 15:34:48,693 [1] INFO  QuestTest5.Program - SQL query executed.
+2024-09-02 15:34:48,728 [1] ERROR QuestTest5.Program - Error while reading from database: 
+System.InvalidCastException: Specified cast is not valid.
+   at QuestTest5.Program.PrescriptionDataHandler.GetPrescriptionsFromDatabase() in D:\GitHub\Quest Launchpad\C2504\Quest_Assessments\QuestTest5\QuestTest5\Program.cs:line 48
+2024-09-02 15:34:48,863 [1] INFO  QuestTest5.Program - SQL connection established.
+2024-09-02 16:00:17,900 [1] INFO  QuestTest5.Program - Database connection opened.
+2024-09-02 16:00:17,910 [1] INFO  QuestTest5.Program - SQL command created.
+2024-09-02 16:00:17,942 [1] INFO  QuestTest5.Program - SQL query executed.
+2024-09-02 16:00:17,965 [1] ERROR QuestTest5.Program - Error while reading from database: 
+System.InvalidCastException: Specified cast is not valid.
+   at QuestTest5.Program.PrescriptionDataHandler.GetPrescriptionsFromDatabase() in D:\GitHub\Quest Launchpad\C2504\Quest_Assessments\QuestTest5\QuestTest5\Program.cs:line 48
+2024-09-02 16:00:17,999 [1] INFO  QuestTest5.Program - SQL connection established.
+2024-09-02 16:01:28,124 [1] INFO  QuestTest5.Program - Database connection opened.
+2024-09-02 16:01:28,134 [1] INFO  QuestTest5.Program - SQL command created.
+2024-09-02 16:01:28,160 [1] INFO  QuestTest5.Program - SQL query executed.
+2024-09-02 16:01:28,178 [1] ERROR QuestTest5.Program - Error while reading from database: 
+System.InvalidCastException: Specified cast is not valid.
+   at QuestTest5.Program.PrescriptionDataHandler.GetPrescriptionsFromDatabase() in D:\GitHub\Quest Launchpad\C2504\Quest_Assessments\QuestTest5\QuestTest5\Program.cs:line 48
+2024-09-02 16:01:28,184 [1] INFO  QuestTest5.Program - SQL connection established.
+2024-09-02 16:01:48,127 [1] INFO  QuestTest5.Program - 1 row(s) inserted into the Prescription table.
+2024-09-02 16:01:55,265 [1] INFO  QuestTest5.Program - Database connection opened.
+2024-09-02 16:01:55,265 [1] INFO  QuestTest5.Program - SQL command created.
+2024-09-02 16:01:55,280 [1] INFO  QuestTest5.Program - SQL query executed.
+2024-09-02 16:01:55,281 [1] ERROR QuestTest5.Program - Error while reading from database: 
+System.InvalidCastException: Specified cast is not valid.
+   at QuestTest5.Program.PrescriptionDataHandler.GetPrescriptionsFromDatabase() in D:\GitHub\Quest Launchpad\C2504\Quest_Assessments\QuestTest5\QuestTest5\Program.cs:line 48
+2024-09-02 16:25:26,052 [1] INFO  QuestTest5.Program - Database connection opened.
+2024-09-02 16:25:26,065 [1] INFO  QuestTest5.Program - SQL command created.
+2024-09-02 16:25:26,098 [1] INFO  QuestTest5.Program - SQL query executed.
+2024-09-02 16:25:26,118 [1] ERROR QuestTest5.Program - Error while reading from database: 
+System.InvalidCastException: Specified cast is not valid.
+   at QuestTest5.Program.PrescriptionDataHandler.GetPrescriptionsFromDatabase() in D:\GitHub\Quest Launchpad\C2504\Quest_Assessments\QuestTest5\QuestTest5\Program.cs:line 48
+2024-09-02 16:25:26,153 [1] INFO  QuestTest5.Program - SQL connection established.
+2024-09-02 16:25:47,978 [1] ERROR QuestTest5.Program - Error while updating the database: 
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near '650'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at QuestTest5.Program.PrescriptionDataHandler.UpdatePrescription(Prescription prescription) in D:\GitHub\Quest Launchpad\C2504\Quest_Assessments\QuestTest5\QuestTest5\Program.cs:line 109
+ClientConnectionId:25923877-4c51-4889-af96-fcdc0bb6cc23
+Error Number:102,State:1,Class:15
+2024-09-02 16:25:54,381 [1] INFO  QuestTest5.Program - Database connection opened.
+2024-09-02 16:25:54,381 [1] INFO  QuestTest5.Program - SQL command created.
+2024-09-02 16:25:54,382 [1] INFO  QuestTest5.Program - SQL query executed.
+2024-09-02 16:25:54,382 [1] ERROR QuestTest5.Program - Error while reading from database: 
+System.InvalidCastException: Specified cast is not valid.
+   at QuestTest5.Program.PrescriptionDataHandler.GetPrescriptionsFromDatabase() in D:\GitHub\Quest Launchpad\C2504\Quest_Assessments\QuestTest5\QuestTest5\Program.cs:line 48
+2024-09-02 16:26:34,118 [1] ERROR QuestTest5.Program - Error while updating the database: 
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near '650'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at QuestTest5.Program.PrescriptionDataHandler.UpdatePrescription(Prescription prescription) in D:\GitHub\Quest Launchpad\C2504\Quest_Assessments\QuestTest5\QuestTest5\Program.cs:line 109
+ClientConnectionId:25923877-4c51-4889-af96-fcdc0bb6cc23
+Error Number:102,State:1,Class:15
+2024-09-02 16:26:36,690 [1] INFO  QuestTest5.Program - Database connection opened.
+2024-09-02 16:26:36,690 [1] INFO  QuestTest5.Program - SQL command created.
+2024-09-02 16:26:36,691 [1] INFO  QuestTest5.Program - SQL query executed.
+2024-09-02 16:26:36,691 [1] ERROR QuestTest5.Program - Error while reading from database: 
+System.InvalidCastException: Specified cast is not valid.
+   at QuestTest5.Program.PrescriptionDataHandler.GetPrescriptionsFromDatabase() in D:\GitHub\Quest Launchpad\C2504\Quest_Assessments\QuestTest5\QuestTest5\Program.cs:line 48
+2024-09-02 16:26:42,858 [1] INFO  QuestTest5.Program - Database connection opened.
+2024-09-02 16:26:42,858 [1] INFO  QuestTest5.Program - SQL command created.
+2024-09-02 16:26:42,861 [1] INFO  QuestTest5.Program - SQL query executed.
+2024-09-02 16:26:42,861 [1] ERROR QuestTest5.Program - Error while reading from database: 
+System.InvalidCastException: Specified cast is not valid.
+   at QuestTest5.Program.PrescriptionDataHandler.GetPrescriptionsFromDatabase() in D:\GitHub\Quest Launchpad\C2504\Quest_Assessments\QuestTest5\QuestTest5\Program.cs:line 48
+2024-09-02 16:27:52,152 [1] INFO  QuestTest5.Program - Database connection opened.
+2024-09-02 16:27:52,160 [1] INFO  QuestTest5.Program - SQL command created.
+2024-09-02 16:27:52,188 [1] INFO  QuestTest5.Program - SQL query executed.
+2024-09-02 16:27:52,207 [1] ERROR QuestTest5.Program - Error while reading from database: 
+System.InvalidCastException: Specified cast is not valid.
+   at QuestTest5.Program.PrescriptionDataHandler.GetPrescriptionsFromDatabase() in D:\GitHub\Quest Launchpad\C2504\Quest_Assessments\QuestTest5\QuestTest5\Program.cs:line 48
+2024-09-02 16:27:52,222 [1] INFO  QuestTest5.Program - SQL connection established.
+2024-09-02 16:28:00,159 [1] INFO  QuestTest5.Program - Adding prescription...
+2024-09-02 16:28:00,182 [1] INFO  QuestTest5.Program - 1 row(s) inserted into the Prescription table.
+2024-09-02 16:28:02,698 [1] INFO  QuestTest5.Program - Database connection opened.
+2024-09-02 16:28:02,698 [1] INFO  QuestTest5.Program - SQL command created.
+2024-09-02 16:28:02,699 [1] INFO  QuestTest5.Program - SQL query executed.
+2024-09-02 16:28:02,699 [1] ERROR QuestTest5.Program - Error while reading from database: 
+System.InvalidCastException: Specified cast is not valid.
+   at QuestTest5.Program.PrescriptionDataHandler.GetPrescriptionsFromDatabase() in D:\GitHub\Quest Launchpad\C2504\Quest_Assessments\QuestTest5\QuestTest5\Program.cs:line 48
+2024-09-02 16:28:41,999 [1] INFO  QuestTest5.Program - Database connection opened.
+2024-09-02 16:28:42,008 [1] INFO  QuestTest5.Program - SQL command created.
+2024-09-02 16:28:42,037 [1] INFO  QuestTest5.Program - SQL query executed.
+2024-09-02 16:28:42,053 [1] ERROR QuestTest5.Program - Error while reading from database: 
+System.InvalidCastException: Specified cast is not valid.
+   at QuestTest5.Program.PrescriptionDataHandler.GetPrescriptionsFromDatabase() in D:\GitHub\Quest Launchpad\C2504\Quest_Assessments\QuestTest5\QuestTest5\Program.cs:line 48
+2024-09-02 16:28:42,066 [1] INFO  QuestTest5.Program - SQL connection established.
+2024-09-02 16:28:49,691 [1] INFO  QuestTest5.Program - Adding prescription...
+2024-09-02 16:28:49,722 [1] INFO  QuestTest5.Program - 1 row(s) inserted into the Prescription table.
+2024-09-02 16:28:51,857 [1] INFO  QuestTest5.Program - Database connection opened.
+2024-09-02 16:28:51,857 [1] INFO  QuestTest5.Program - SQL command created.
+2024-09-02 16:28:51,858 [1] INFO  QuestTest5.Program - SQL query executed.
+2024-09-02 16:28:51,858 [1] ERROR QuestTest5.Program - Error while reading from database: 
+System.InvalidCastException: Specified cast is not valid.
+   at QuestTest5.Program.PrescriptionDataHandler.GetPrescriptionsFromDatabase() in D:\GitHub\Quest Launchpad\C2504\Quest_Assessments\QuestTest5\QuestTest5\Program.cs:line 48
+2024-09-02 17:49:24,035 [1] INFO  QuestTest5.Program - Database connection opened.
+2024-09-02 17:49:24,049 [1] INFO  QuestTest5.Program - SQL command created.
+2024-09-02 17:49:24,097 [1] INFO  QuestTest5.Program - SQL query executed.
+2024-09-02 17:49:24,120 [1] ERROR QuestTest5.Program - Error while reading from database: 
+System.InvalidCastException: Specified cast is not valid.
+   at QuestTest5.Program.PrescriptionDataHandler.GetPrescriptionsFromDatabase() in D:\GitHub\Quest Launchpad\C2504\Quest_Assessments\QuestTest5\QuestTest5\Program.cs:line 48
+2024-09-02 17:49:45,845 [1] INFO  QuestTest5.Program - Database connection opened.
+2024-09-02 17:49:45,853 [1] INFO  QuestTest5.Program - SQL command created.
+2024-09-02 17:49:45,885 [1] INFO  QuestTest5.Program - SQL query executed.
+2024-09-02 17:49:45,904 [1] ERROR QuestTest5.Program - Error while reading from database: 
+System.InvalidCastException: Specified cast is not valid.
+   at QuestTest5.Program.PrescriptionDataHandler.GetPrescriptionsFromDatabase() in D:\GitHub\Quest Launchpad\C2504\Quest_Assessments\QuestTest5\QuestTest5\Program.cs:line 48
+2024-09-02 17:49:54,594 [1] INFO  QuestTest5.Program - Adding prescription...
+2024-09-02 17:49:54,648 [1] INFO  QuestTest5.Program - 1 row(s) inserted into the Prescription table.
+2024-09-02 17:49:57,426 [1] INFO  QuestTest5.Program - Database connection opened.
+2024-09-02 17:49:57,426 [1] INFO  QuestTest5.Program - SQL command created.
+2024-09-02 17:49:57,428 [1] INFO  QuestTest5.Program - SQL query executed.
+2024-09-02 17:49:57,428 [1] ERROR QuestTest5.Program - Error while reading from database: 
+System.InvalidCastException: Specified cast is not valid.
+   at QuestTest5.Program.PrescriptionDataHandler.GetPrescriptionsFromDatabase() in D:\GitHub\Quest Launchpad\C2504\Quest_Assessments\QuestTest5\QuestTest5\Program.cs:line 48
+2024-09-02 18:50:53,786 [1] INFO  QuestTest5.Program+Prescription - --------------------------------Loading Data from Database------------------------------
+2024-09-02 18:50:53,807 [1] INFO  QuestTest5.Program+Prescription - Loading data from database...
+2024-09-02 18:50:55,088 [1] INFO  QuestTest5.Program+Prescription - Database connection opened.
+2024-09-02 18:50:55,088 [1] INFO  QuestTest5.Program+Prescription - SQL command created.
+2024-09-02 18:50:55,133 [1] INFO  QuestTest5.Program+Prescription - SQL query executed.
+2024-09-02 18:50:55,133 [1] INFO  QuestTest5.Program+Prescription - 0 prescriptions fetched from the database.
+2024-09-02 18:50:55,133 [1] INFO  QuestTest5.Program+Prescription - 
+2024-09-02 18:50:55,133 [1] INFO  QuestTest5.Program+Prescription - --------------------------------Find Max Dosage------------------------------
+2024-09-02 18:51:08,712 [1] INFO  QuestTest5.Program+Prescription - --------------------------------Loading Data from Database------------------------------
+2024-09-02 18:51:08,741 [1] INFO  QuestTest5.Program+Prescription - Loading data from database...
+2024-09-02 18:51:08,962 [1] INFO  QuestTest5.Program+Prescription - Database connection opened.
+2024-09-02 18:51:08,962 [1] INFO  QuestTest5.Program+Prescription - SQL command created.
+2024-09-02 18:51:08,994 [1] INFO  QuestTest5.Program+Prescription - SQL query executed.
+2024-09-02 18:51:08,994 [1] INFO  QuestTest5.Program+Prescription - 0 prescriptions fetched from the database.
+2024-09-02 18:51:09,013 [1] INFO  QuestTest5.Program+Prescription - 
+2024-09-02 18:51:09,013 [1] INFO  QuestTest5.Program+Prescription - --------------------------------Find Max Dosage------------------------------
+2024-09-02 18:57:37,069 [1] INFO  QuestTest5.Program+Prescription - --------------------------------Loading Data from Database------------------------------
+2024-09-02 18:57:37,085 [1] INFO  QuestTest5.Program+Prescription - Loading data from database...
+2024-09-02 18:57:37,369 [1] INFO  QuestTest5.Program+Prescription - Database connection opened.
+2024-09-02 18:57:37,369 [1] INFO  QuestTest5.Program+Prescription - SQL command created.
+2024-09-02 18:57:37,416 [1] INFO  QuestTest5.Program+Prescription - SQL query executed.
+2024-09-02 18:57:37,416 [1] INFO  QuestTest5.Program+Prescription - 0 prescriptions fetched from the database.
+2024-09-02 18:57:37,416 [1] INFO  QuestTest5.Program+Prescription - Data loaded successfully.
+2024-09-02 18:57:37,416 [1] INFO  QuestTest5.Program+Prescription - 
+2024-09-02 18:57:37,416 [1] INFO  QuestTest5.Program+Prescription - --------------------------------Find Max Dosage------------------------------
+2024-09-02 18:57:56,256 [1] INFO  QuestTest5.Program+Prescription - --------------------------------Loading Data from Database------------------------------
+2024-09-02 18:57:56,287 [1] INFO  QuestTest5.Program+Prescription - Loading data from database...
+2024-09-02 18:57:56,524 [1] INFO  QuestTest5.Program+Prescription - Database connection opened.
+2024-09-02 18:57:56,524 [1] INFO  QuestTest5.Program+Prescription - SQL command created.
+2024-09-02 18:57:56,555 [1] INFO  QuestTest5.Program+Prescription - SQL query executed.
+2024-09-02 18:57:56,571 [1] INFO  QuestTest5.Program+Prescription - 0 prescriptions fetched from the database.
+2024-09-02 18:57:56,571 [1] INFO  QuestTest5.Program+Prescription - Data loaded successfully.
+2024-09-02 18:57:56,571 [1] INFO  QuestTest5.Program+Prescription - 
+2024-09-02 18:57:56,571 [1] INFO  QuestTest5.Program+Prescription - --------------------------------Find Max Dosage------------------------------
+2024-09-02 18:58:15,265 [1] INFO  QuestTest5.Program+Prescription - --------------------------------Loading Data from Database------------------------------
+2024-09-02 18:58:15,281 [1] INFO  QuestTest5.Program+Prescription - Loading data from database...
+2024-09-02 18:58:15,597 [1] INFO  QuestTest5.Program+Prescription - Database connection opened.
+2024-09-02 18:58:15,597 [1] INFO  QuestTest5.Program+Prescription - SQL command created.
+2024-09-02 18:58:15,633 [1] INFO  QuestTest5.Program+Prescription - SQL query executed.
+2024-09-02 18:58:15,645 [1] INFO  QuestTest5.Program+Prescription - 0 prescriptions fetched from the database.
+2024-09-02 18:58:15,645 [1] INFO  QuestTest5.Program+Prescription - Data loaded successfully.
+2024-09-02 18:58:15,645 [1] INFO  QuestTest5.Program+Prescription - 
+2024-09-02 18:58:15,645 [1] INFO  QuestTest5.Program+Prescription - --------------------------------Find Max Dosage------------------------------
+2024-09-02 18:58:24,637 [1] INFO  QuestTest5.Program+Prescription - --------------------------------Loading Data from Database------------------------------
+2024-09-02 18:58:24,669 [1] INFO  QuestTest5.Program+Prescription - Loading data from database...
+2024-09-02 18:58:24,905 [1] INFO  QuestTest5.Program+Prescription - Database connection opened.
+2024-09-02 18:58:24,905 [1] INFO  QuestTest5.Program+Prescription - SQL command created.
+2024-09-02 18:58:24,938 [1] INFO  QuestTest5.Program+Prescription - SQL query executed.
+2024-09-02 18:58:24,952 [1] INFO  QuestTest5.Program+Prescription - 0 prescriptions fetched from the database.
+2024-09-02 18:58:24,952 [1] INFO  QuestTest5.Program+Prescription - Data loaded successfully.
+2024-09-02 18:58:24,952 [1] INFO  QuestTest5.Program+Prescription - 
+2024-09-02 18:58:24,952 [1] INFO  QuestTest5.Program+Prescription - --------------------------------Find Max Dosage------------------------------
+2024-09-02 19:04:10,306 [1] INFO  QuestTest5.Program+Prescription - --------------------------------Loading Data from Database------------------------------
+2024-09-02 19:04:10,322 [1] INFO  QuestTest5.Program+Prescription - Loading data from database...
+2024-09-02 19:04:10,639 [1] INFO  QuestTest5.Program+Prescription - Database connection opened.
+2024-09-02 19:04:10,639 [1] INFO  QuestTest5.Program+Prescription - SQL command created.
+2024-09-02 19:04:10,670 [1] INFO  QuestTest5.Program+Prescription - SQL query executed.
+2024-09-02 19:04:10,686 [1] INFO  QuestTest5.Program+Prescription - 0 prescriptions fetched from the database.
+2024-09-02 19:04:10,686 [1] INFO  QuestTest5.Program+Prescription - Data loaded successfully.
+2024-09-02 19:04:10,686 [1] INFO  QuestTest5.Program+Prescription - 
+2024-09-02 19:04:10,686 [1] INFO  QuestTest5.Program+Prescription - --------------------------------Find Max Dosage------------------------------
+2024-09-02 19:04:10,686 [1] INFO  QuestTest5.Program+Prescription - 
+2024-09-02 19:04:10,686 [1] INFO  QuestTest5.Program+Prescription - --------------------------------FindThirdLeastDosage------------------------------
+2024-09-02 19:15:05,465 [1] INFO  QuestTest5.Program+Prescription - --------------------------------Loading Data from Database------------------------------
+2024-09-02 19:15:05,494 [1] INFO  QuestTest5.Program+Prescription - Loading data from database...
+2024-09-02 19:15:05,765 [1] INFO  QuestTest5.Program+Prescription - Database connection opened.
+2024-09-02 19:15:05,765 [1] INFO  QuestTest5.Program+Prescription - SQL command created.
+2024-09-02 19:15:05,811 [1] ERROR QuestTest5.Program+Prescription - Error while reading from database: 
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Prescription'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at QuestTest5.Program.Prescription.LoadDataFromDatabase() in D:\GitHub\Quest Launchpad\C2504\Quest_Assessments\QuestTest5\QuestTest5\Program.cs:line 41
+ClientConnectionId:2855d72b-7d6a-46c2-899a-e53a399aa650
+Error Number:208,State:1,Class:16
+2024-09-02 19:15:05,858 [1] INFO  QuestTest5.Program+Prescription - 
+2024-09-02 19:15:05,858 [1] INFO  QuestTest5.Program+Prescription - --------------------------------Find Max Dosage------------------------------
+2024-09-02 19:15:05,858 [1] INFO  QuestTest5.Program+Prescription - 
+2024-09-02 19:15:05,858 [1] INFO  QuestTest5.Program+Prescription - --------------------------------FindThirdLeastDosage------------------------------
+2024-09-02 19:20:28,650 [1] INFO  QuestTest5.Program+Prescription - --------------------------------Loading Data from Database------------------------------
+2024-09-02 19:20:28,665 [1] INFO  QuestTest5.Program+Prescription - Loading data from database...
+2024-09-02 19:20:29,013 [1] INFO  QuestTest5.Program+Prescription - Database connection opened.
+2024-09-02 19:20:29,013 [1] INFO  QuestTest5.Program+Prescription - SQL command created.
+2024-09-02 19:20:29,044 [1] ERROR QuestTest5.Program+Prescription - Error while reading from database: 
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Prescription'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at QuestTest5.Program.Prescription.LoadDataFromDatabase() in D:\GitHub\Quest Launchpad\C2504\Quest_Assessments\QuestTest5\QuestTest5\Program.cs:line 41
+ClientConnectionId:afa933b9-253d-4879-86b1-c3a9e364ccdf
+Error Number:208,State:1,Class:16
+2024-09-02 19:20:29,060 [1] INFO  QuestTest5.Program+Prescription - 
+2024-09-02 19:20:29,060 [1] INFO  QuestTest5.Program+Prescription - --------------------------------Find Max Dosage------------------------------
+2024-09-02 19:20:29,060 [1] WARN  QuestTest5.Program+Prescription - No prescriptions available.
+2024-09-02 19:20:29,060 [1] INFO  QuestTest5.Program+Prescription - 
+2024-09-02 19:20:29,060 [1] INFO  QuestTest5.Program+Prescription - --------------------------------FindThirdLeastDosage------------------------------
+2024-09-02 19:20:47,213 [1] INFO  QuestTest5.Program+Prescription - --------------------------------Loading Data from Database------------------------------
+2024-09-02 19:20:47,229 [1] INFO  QuestTest5.Program+Prescription - Loading data from database...
+2024-09-02 19:20:47,552 [1] INFO  QuestTest5.Program+Prescription - Database connection opened.
+2024-09-02 19:20:47,552 [1] INFO  QuestTest5.Program+Prescription - SQL command created.
+2024-09-02 19:20:47,579 [1] ERROR QuestTest5.Program+Prescription - Error while reading from database: 
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Prescription'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at QuestTest5.Program.Prescription.LoadDataFromDatabase() in D:\GitHub\Quest Launchpad\C2504\Quest_Assessments\QuestTest5\QuestTest5\Program.cs:line 41
+ClientConnectionId:680cbd8c-27c7-44fc-9be9-3721f3be932a
+Error Number:208,State:1,Class:16
+2024-09-02 19:20:47,595 [1] INFO  QuestTest5.Program+Prescription - 
+2024-09-02 19:20:47,595 [1] INFO  QuestTest5.Program+Prescription - --------------------------------Find Max Dosage------------------------------
+2024-09-02 19:20:47,595 [1] WARN  QuestTest5.Program+Prescription - No prescriptions available.
+2024-09-02 19:20:47,595 [1] INFO  QuestTest5.Program+Prescription - 
+2024-09-02 19:20:47,595 [1] INFO  QuestTest5.Program+Prescription - --------------------------------FindThirdLeastDosage------------------------------
+2024-09-02 19:23:37,346 [1] INFO  QuestTest5.Program+Prescription - --------------------------------Loading Data from Database------------------------------
+2024-09-02 19:23:37,357 [1] INFO  QuestTest5.Program+Prescription - Loading data from database...
+2024-09-02 19:23:37,704 [1] INFO  QuestTest5.Program+Prescription - Database connection opened.
+2024-09-02 19:23:37,704 [1] INFO  QuestTest5.Program+Prescription - SQL command created.
+2024-09-02 19:23:37,752 [1] ERROR QuestTest5.Program+Prescription - Error while reading from database: 
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Prescription'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at QuestTest5.Program.Prescription.LoadDataFromDatabase() in D:\GitHub\Quest Launchpad\C2504\Quest_Assessments\QuestTest5\QuestTest5\Program.cs:line 41
+ClientConnectionId:cc1f61b1-6599-4527-9719-d28d0c1f3c47
+Error Number:208,State:1,Class:16
+2024-09-02 19:23:37,783 [1] INFO  QuestTest5.Program+Prescription - 
+2024-09-02 19:23:37,783 [1] INFO  QuestTest5.Program+Prescription - --------------------------------Find Max Dosage------------------------------
+2024-09-02 19:23:37,783 [1] WARN  QuestTest5.Program+Prescription - No prescriptions available.
+2024-09-02 19:23:37,783 [1] INFO  QuestTest5.Program+Prescription - 
+2024-09-02 19:23:37,783 [1] INFO  QuestTest5.Program+Prescription - --------------------------------FindThirdLeastDosage------------------------------
+2024-09-02 19:27:08,136 [1] INFO  QuestTest5.Program+Prescription - --------------------------------Loading Data from Database------------------------------
+2024-09-02 19:27:08,167 [1] INFO  QuestTest5.Program+Prescription - Loading data from database...
+2024-09-02 19:27:08,531 [1] INFO  QuestTest5.Program+Prescription - Database connection opened.
+2024-09-02 19:27:08,578 [1] ERROR QuestTest5.Program+Prescription - Error while reading from database: 
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Prescription'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at QuestTest5.Program.Prescription.LoadDataFromDatabase() in D:\GitHub\Quest Launchpad\C2504\Quest_Assessments\QuestTest5\QuestTest5\Program.cs:line 41
+ClientConnectionId:40213deb-c67d-4dd6-b762-8c8b5d79952f
+Error Number:208,State:1,Class:16
+2024-09-02 19:27:08,609 [1] INFO  QuestTest5.Program+Prescription - 
+2024-09-02 19:27:08,609 [1] INFO  QuestTest5.Program+Prescription - --------------------------------Find Max Dosage------------------------------
+2024-09-02 19:27:08,609 [1] WARN  QuestTest5.Program+Prescription - No prescriptions available.
+2024-09-02 19:27:08,609 [1] INFO  QuestTest5.Program+Prescription - 
+2024-09-02 19:27:08,609 [1] INFO  QuestTest5.Program+Prescription - --------------------------------FindThirdLeastDosage------------------------------
+2024-09-02 19:29:14,342 [1] INFO  QuestTest5.Program+Prescription - --------------------------------Loading Data from Database------------------------------
+2024-09-02 19:29:14,374 [1] INFO  QuestTest5.Program+Prescription - Loading data from database...
+2024-09-02 19:29:14,690 [1] INFO  QuestTest5.Program+Prescription - Database connection opened.
+2024-09-02 19:29:14,737 [1] ERROR QuestTest5.Program+Prescription - Error while reading from database: 
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Prescription'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at QuestTest5.Program.Prescription.LoadDataFromDatabase() in D:\GitHub\Quest Launchpad\C2504\Quest_Assessments\QuestTest5\QuestTest5\Program.cs:line 41
+ClientConnectionId:9870b664-4244-4533-b3a5-572320a91003
+Error Number:208,State:1,Class:16
+2024-09-02 19:29:14,752 [1] INFO  QuestTest5.Program+Prescription - 
+2024-09-02 19:29:14,752 [1] INFO  QuestTest5.Program+Prescription - --------------------------------Find Max Dosage------------------------------
+2024-09-02 19:29:14,752 [1] WARN  QuestTest5.Program+Prescription - No prescriptions available.
+2024-09-02 19:29:14,752 [1] INFO  QuestTest5.Program+Prescription - 
+2024-09-02 19:29:14,752 [1] INFO  QuestTest5.Program+Prescription - --------------------------------FindThirdLeastDosage------------------------------
+2024-09-02 19:29:14,752 [1] ERROR QuestTest5.Program+Prescription - Error: 
+System.ArgumentException: Prescription list should have at least 3 items
+   at QuestTest5.Program.Prescription.FindThirdLeastDosage(List`1 prescriptions) in D:\GitHub\Quest Launchpad\C2504\Quest_Assessments\QuestTest5\QuestTest5\Program.cs:line 102
+2024-09-02 19:29:14,752 [1] INFO  QuestTest5.Program+Prescription - 
+2024-09-02 19:29:14,752 [1] INFO  QuestTest5.Program+Prescription - --------------------------------SortPrescriptionsByMedicationName------------------------------
+2024-09-02 19:35:38,247 [1] INFO  QuestTest5.Program+Prescription - Application is starting.
+2024-09-02 19:35:38,278 [1] INFO  QuestTest5.Program+Prescription - --------------------------------Loading Data from Database------------------------------
+2024-09-02 19:35:38,294 [1] INFO  QuestTest5.Program+Prescription - Loading data from database...
+2024-09-02 19:35:38,641 [1] INFO  QuestTest5.Program+Prescription - Database connection opened.
+2024-09-02 19:35:38,688 [1] ERROR QuestTest5.Program+Prescription - Error while reading from database: 
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Prescription'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at QuestTest5.Program.Prescription.LoadDataFromDatabase() in D:\GitHub\Quest Launchpad\C2504\Quest_Assessments\QuestTest5\QuestTest5\Program.cs:line 42
+ClientConnectionId:ee5d6dce-6fad-4f3b-a10c-7eff3c6f2b30
+Error Number:208,State:1,Class:16
+2024-09-02 19:35:38,703 [1] INFO  QuestTest5.Program+Prescription - 
+2024-09-02 19:35:38,703 [1] INFO  QuestTest5.Program+Prescription - --------------------------------Find Max Dosage------------------------------
+2024-09-02 19:35:38,703 [1] WARN  QuestTest5.Program+Prescription - No prescriptions available.
+2024-09-02 19:35:38,703 [1] INFO  QuestTest5.Program+Prescription - 
+2024-09-02 19:35:38,703 [1] INFO  QuestTest5.Program+Prescription - --------------------------------FindThirdLeastDosage------------------------------
+2024-09-02 19:35:38,703 [1] ERROR QuestTest5.Program+Prescription - Error: 
+System.ArgumentException: Prescription list should have at least 3 items
+   at QuestTest5.Program.Prescription.FindThirdLeastDosage(List`1 prescriptions) in D:\GitHub\Quest Launchpad\C2504\Quest_Assessments\QuestTest5\QuestTest5\Program.cs:line 103
+2024-09-02 19:35:38,703 [1] INFO  QuestTest5.Program+Prescription - 
+2024-09-02 19:35:38,703 [1] INFO  QuestTest5.Program+Prescription - --------------------------------SortPrescriptionsByMedicationName------------------------------
+2024-09-02 19:35:38,703 [1] INFO  QuestTest5.Program+Prescription - Application is ending.

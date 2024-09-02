@@ -33,5 +33,14 @@ namespace CreateUnitTestDemo.Tests
 
             Assert.AreEqual(5.0, product);
         }
+
+        [TestMethod()]
+        public void DivideTest()
+        {
+            Calc calc = new Calc();
+            double product = calc.Multiply(5.0, 1.0);
+
+            Assert.AreEqual(5.0, product);
+        }
     }
 }

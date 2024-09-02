@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GitHub\\Quest Launchpad\\C2504\\Practice Questions\\PrivateMethod_TernaryOperator_OddOrEven\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{60F925D1-C5F6-46A5-AA2D-B73A0FB3E237}|PrivateMethod_TernaryOperator_OddOrEven\\PrivateMethod_TernaryOperator_OddOrEven.csproj|d:\\github\\quest launchpad\\c2504\\practice questions\\privatemethod_ternaryoperator_oddoreven\\privatemethod_ternaryoperator_oddoreven\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60F925D1-C5F6-46A5-AA2D-B73A0FB3E237}|PrivateMethod_TernaryOperator_OddOrEven\\PrivateMethod_TernaryOperator_OddOrEven.csproj|solutionrelative:privatemethod_ternaryoperator_oddoreven\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\Quest Launchpad\\C2504\\Practice Questions\\PrivateMethod_TernaryOperator_OddOrEven\\PrivateMethod_TernaryOperator_OddOrEven\\Program.cs",
+              "RelativeDocumentMoniker": "PrivateMethod_TernaryOperator_OddOrEven\\Program.cs",
+              "ToolTip": "D:\\GitHub\\Quest Launchpad\\C2504\\Practice Questions\\PrivateMethod_TernaryOperator_OddOrEven\\PrivateMethod_TernaryOperator_OddOrEven\\Program.cs*",
+              "RelativeToolTip": "PrivateMethod_TernaryOperator_OddOrEven\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T16:25:48.999Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

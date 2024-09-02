@@ -5,3 +5,6 @@ D:\GitHub\Quest Launchpad\C2504\19__26-08-24\CreateUnitTestDemo\CreateUnitTestDe
 D:\GitHub\Quest Launchpad\C2504\19__26-08-24\CreateUnitTestDemo\CreateUnitTestDemo\obj\Debug\CreateUnitTestDemo.csproj.CoreCompileInputs.cache
 D:\GitHub\Quest Launchpad\C2504\19__26-08-24\CreateUnitTestDemo\CreateUnitTestDemo\obj\Debug\CreateUnitTestDemo.exe
 D:\GitHub\Quest Launchpad\C2504\19__26-08-24\CreateUnitTestDemo\CreateUnitTestDemo\obj\Debug\CreateUnitTestDemo.pdb
+D:\GitHub\Quest Launchpad\C2504\19__26-08-24\CreateUnitTestDemo\CreateUnitTestDemo\bin\Debug\log4net.dll
+D:\GitHub\Quest Launchpad\C2504\19__26-08-24\CreateUnitTestDemo\CreateUnitTestDemo\bin\Debug\log4net.xml
+D:\GitHub\Quest Launchpad\C2504\19__26-08-24\CreateUnitTestDemo\CreateUnitTestDemo\obj\Debug\CreateUn.12B80EC8.Up2Date

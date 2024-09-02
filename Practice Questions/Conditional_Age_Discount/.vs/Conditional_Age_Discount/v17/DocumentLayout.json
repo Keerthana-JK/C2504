@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GitHub\\Quest Launchpad\\C2504\\Practice Questions\\Conditional_Age_Discount\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D3748A82-32CB-4ACD-8B7A-1F00E6EFE1C8}|Conditional_Age_Discount\\Conditional_Age_Discount.csproj|d:\\github\\quest launchpad\\c2504\\practice questions\\conditional_age_discount\\conditional_age_discount\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3748A82-32CB-4ACD-8B7A-1F00E6EFE1C8}|Conditional_Age_Discount\\Conditional_Age_Discount.csproj|solutionrelative:conditional_age_discount\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\Quest Launchpad\\C2504\\Practice Questions\\Conditional_Age_Discount\\Conditional_Age_Discount\\Program.cs",
+              "RelativeDocumentMoniker": "Conditional_Age_Discount\\Program.cs",
+              "ToolTip": "D:\\GitHub\\Quest Launchpad\\C2504\\Practice Questions\\Conditional_Age_Discount\\Conditional_Age_Discount\\Program.cs",
+              "RelativeToolTip": "Conditional_Age_Discount\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T04:24:11.088Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

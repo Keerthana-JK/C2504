@@ -1,0 +1,7 @@
+D:\GitHub\Quest Launchpad\C2504\Practice Questions\Looping_String_Count\Looping_String_Count\bin\Debug\Looping_String_Count.exe.config
+D:\GitHub\Quest Launchpad\C2504\Practice Questions\Looping_String_Count\Looping_String_Count\bin\Debug\Looping_String_Count.exe
+D:\GitHub\Quest Launchpad\C2504\Practice Questions\Looping_String_Count\Looping_String_Count\bin\Debug\Looping_String_Count.pdb
+D:\GitHub\Quest Launchpad\C2504\Practice Questions\Looping_String_Count\Looping_String_Count\obj\Debug\Looping_String_Count.csproj.AssemblyReference.cache
+D:\GitHub\Quest Launchpad\C2504\Practice Questions\Looping_String_Count\Looping_String_Count\obj\Debug\Looping_String_Count.csproj.CoreCompileInputs.cache
+D:\GitHub\Quest Launchpad\C2504\Practice Questions\Looping_String_Count\Looping_String_Count\obj\Debug\Looping_String_Count.exe
+D:\GitHub\Quest Launchpad\C2504\Practice Questions\Looping_String_Count\Looping_String_Count\obj\Debug\Looping_String_Count.pdb

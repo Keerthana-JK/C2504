@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "D:\\GitHub\\Quest Launchpad\\C2504\\19__26-08-24\\CreateUnitTestDemo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1AEE5C7C-25BF-4561-8F2E-DD544537EEFC}|CreateUnitTestDemo\\CreateUnitTestDemo.csproj|D:\\GitHub\\Quest Launchpad\\C2504\\19__26-08-24\\CreateUnitTestDemo\\createunittestdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1AEE5C7C-25BF-4561-8F2E-DD544537EEFC}|CreateUnitTestDemo\\CreateUnitTestDemo.csproj|d:\\github\\quest launchpad\\c2504\\19__26-08-24\\createunittestdemo\\createunittestdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1AEE5C7C-25BF-4561-8F2E-DD544537EEFC}|CreateUnitTestDemo\\CreateUnitTestDemo.csproj|solutionrelative:createunittestdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E54595A-5A1D-4C6C-BE3C-F5217988B4DF}|CreateUnitTestDemoTests\\CreateUnitTestDemoTests.csproj|d:\\github\\quest launchpad\\c2504\\19__26-08-24\\createunittestdemo\\createunittestdemotests\\calctests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1E54595A-5A1D-4C6C-BE3C-F5217988B4DF}|CreateUnitTestDemoTests\\CreateUnitTestDemoTests.csproj|D:\\GitHub\\Quest Launchpad\\C2504\\19__26-08-24\\CreateUnitTestDemo\\createunittestdemotests\\calctests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E54595A-5A1D-4C6C-BE3C-F5217988B4DF}|CreateUnitTestDemoTests\\CreateUnitTestDemoTests.csproj|solutionrelative:createunittestdemotests\\calctests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "CreateUnitTestDemoTests\\CalcTests.cs",
               "ToolTip": "D:\\GitHub\\Quest Launchpad\\C2504\\19__26-08-24\\CreateUnitTestDemo\\CreateUnitTestDemoTests\\CalcTests.cs",
               "RelativeToolTip": "CreateUnitTestDemoTests\\CalcTests.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-26T06:01:22.003Z",
               "EditorCaption": ""
@@ -41,7 +41,7 @@
               "RelativeDocumentMoniker": "CreateUnitTestDemo\\Program.cs",
               "ToolTip": "D:\\GitHub\\Quest Launchpad\\C2504\\19__26-08-24\\CreateUnitTestDemo\\CreateUnitTestDemo\\Program.cs",
               "RelativeToolTip": "CreateUnitTestDemo\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAkAAAA",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-26T05:57:05.203Z",
               "EditorCaption": ""

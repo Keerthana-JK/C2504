@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GitHub\\Quest Launchpad\\C2504\\Practice Questions\\Polymorphism_Animal_MakeSound\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{03B03E8D-0EA8-436C-9E74-D131C98F1080}|Polymorphism_Animal_MakeSound\\Polymorphism_Animal_MakeSound.csproj|d:\\github\\quest launchpad\\c2504\\practice questions\\polymorphism_animal_makesound\\polymorphism_animal_makesound\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03B03E8D-0EA8-436C-9E74-D131C98F1080}|Polymorphism_Animal_MakeSound\\Polymorphism_Animal_MakeSound.csproj|solutionrelative:polymorphism_animal_makesound\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\Quest Launchpad\\C2504\\Practice Questions\\Polymorphism_Animal_MakeSound\\Polymorphism_Animal_MakeSound\\Program.cs",
+              "RelativeDocumentMoniker": "Polymorphism_Animal_MakeSound\\Program.cs",
+              "ToolTip": "D:\\GitHub\\Quest Launchpad\\C2504\\Practice Questions\\Polymorphism_Animal_MakeSound\\Polymorphism_Animal_MakeSound\\Program.cs*",
+              "RelativeToolTip": "Polymorphism_Animal_MakeSound\\Program.cs*",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wCsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T06:47:14.935Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

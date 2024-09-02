@@ -1,8 +1,8 @@
 ﻿create database Prescription;
-use Prescription;
-create table Prescription(PrescriptionID int, PatientName varchar(25), MedicationName varchar(25), Dosage float);
-insert into Prescription(PrescriptionID, PatientName, MedicationName, Dosage)values
-(1, 'Shreya', 'Dolo 650', 30),
-(2, 'Nived', 'Paracetamol', 250);
+create table Prescription(PrescriptionID int identity(1,1), PatientName varchar(25), MedicationName varchar(25), Dosage float);
+set identity_insert Prescription on;
+insert into Prescription(PrescriptionID, PatientName, MedicationName, Dosage) values
+(1,'Aaradhya', 'Dolo 650', 250),
+(2,'Mitsuha', 'Calpol', 350),
+(3,'Xing', 'Paracetamol',480);
 select * from Prescription;
---SELECT PrescriptionID, PatientName, MedicationName, Dosage FROM Prescription;

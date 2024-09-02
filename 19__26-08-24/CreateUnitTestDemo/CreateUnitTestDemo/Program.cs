@@ -12,12 +12,17 @@ namespace CreateUnitTestDemo
         {
             return first * second;
         }
+        public double Divide(double first, double second)
+        {
+            return first / second;
+        }
         internal class Program
         {
             static void Main(string[] args)
             {
                 Calc calc = new Calc();
                 calc.Multiply(1, 2);
+                calc.Divide(10, 2);
             }
         }
     }
