@@ -79,6 +79,7 @@ namespace QuestTest5Task1
 
 
         }
+        //Sort based on Patient Name
         public static void Sort(Prescription[] pres)
         {
             int n = pres.Length;

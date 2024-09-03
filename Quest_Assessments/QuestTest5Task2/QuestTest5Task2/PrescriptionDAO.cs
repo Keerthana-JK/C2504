@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using QuestTest5Task2;
+using QuestTest5Task2PrescriptionUI;
 
 namespace QuestTest5Task2PrescriptionDAO
 {
@@ -20,24 +21,44 @@ namespace QuestTest5Task2PrescriptionDAO
                 cmd.Parameters.AddWithValue("@MedicationName", prescription.MedicationName);
                 cmd.Parameters.AddWithValue("@Dosage", prescription.Dosage);
                 conn.Open();
-                int rowsAffected = cmd.ExecuteNonQuery();
-                if (rowsAffected == 0)
+                cmd.ExecuteNonQuery();
+                //if (rowsAffected == 0)
+                //{
+                //    // Handle the case where no rows were affected
+                //    Console.WriteLine("No rows inserted. Check if the PrescriptionID already exists.");
+                //}
+            }
+        }
+
+        //Read Particular Prescription
+        public Prescription Read(Prescription prescription)
+        {
+            Prescription p = null;
+            string query = "SELECT PrescriptionID, PatientName, MedicationName, Dosage FROM Prescription WHERE PrescriptionID = @PrescriptionID";
+
+            using (SqlConnection conn = new SqlConnection(connString))
+            {
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@PrescriptionID", prescription.PrescriptionID);
+
+                conn.Open();
+                SqlDataReader reader = cmd.ExecuteReader();
+
+                if (reader.Read())
                 {
-                    // Handle the case where no rows were affected
-                    Console.WriteLine("No rows inserted. Check if the PrescriptionID already exists.");
+                    p = new Prescription
+                    {
+                        PrescriptionID = (int)reader["PrescriptionID"],
+                        PatientName = reader["PatientName"].ToString(),
+                        MedicationName = reader["MedicationName"].ToString(),
+                        Dosage = Convert.ToDouble(reader["Dosage"])
+                    };
                 }
             }
-
+            return p;
         }
 
-        public void Read(Prescription prescription)
-        {
-            foreach (Prescription p in GetPrescriptionsFromDatabase())
-            {
-               Console.WriteLine($"PrescriptionID: {p.PrescriptionID}, PatientName: {p.PatientName}, MedicationName: {p.MedicationName}, Dosage: {p.Dosage}");
-            }
-        }
-
+        //Update Prescription
         public void UpdatePrescription(Prescription prescription)
         {
             string query = "UPDATE Prescription SET PatientName = @PatientName, MedicationName = @MedicationName, Dosage = @Dosage WHERE PrescriptionID = @PrescriptionID";
@@ -59,7 +80,7 @@ namespace QuestTest5Task2PrescriptionDAO
                 }
             }
         }
-
+        //Delete Prescription
         public void DeletePrescription(int prescriptionID)
         {
 
@@ -99,6 +120,40 @@ namespace QuestTest5Task2PrescriptionDAO
             }
             return prescriptions;
         }
+        public Prescription GetPrescriptionById(int prescriptionID)
+        {
+            Prescription prescription = null;
+            string query = "SELECT PrescriptionID, PatientName, MedicationName, Dosage FROM Prescription WHERE PrescriptionID = @PrescriptionID";
 
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(connString))
+                {
+                    SqlCommand cmd = new SqlCommand(query, conn);
+                    cmd.Parameters.AddWithValue("@PrescriptionID", prescriptionID);
+
+                    conn.Open();
+                    SqlDataReader reader = cmd.ExecuteReader();
+
+                    if (reader.Read())
+                    {
+                        prescription = new Prescription
+                        {
+                            PrescriptionID = (int)reader["PrescriptionID"],
+                            PatientName = reader["PatientName"].ToString(),
+                            MedicationName = reader["MedicationName"].ToString(),
+                            Dosage = Convert.ToDouble(reader["Dosage"])
+                        };
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                // Log the exception using a logging framework like log4net
+                Console.WriteLine($"An error occurred while retrieving the prescription: {ex.Message}");
+            }
+
+            return prescription;
+        }
     }
 }

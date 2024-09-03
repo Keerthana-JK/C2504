@@ -21,27 +21,24 @@ namespace QuestTest5Task2PrescriptionUI
 
             Prescription prescription = new Prescription(0, PatientName, MedicationName, Dosage);
 
-            prescriptionDAO.GetPrescriptionsFromDatabase();
+            prescriptionDAO.CreatePrescription(prescription);
             Console.WriteLine("Prescription created successfully.");
         }
 
         public void ReadPrescription()
         {
-            //string myString = "Hello, World!";
-            //object myObject = myString;
-
             Console.Write("Enter Prescription ID: ");
             int id = int.Parse(Console.ReadLine());
-            Prescription p = new Prescription();
-            p.PrescriptionID = id;
             Prescription prescription = new Prescription(id);
+            Prescription p = prescriptionDAO.GetPrescriptionById(prescription.PrescriptionID);
+            //p.PrescriptionID = id;
             //Prescription prescription = prescriptionDAO.CreatePrescription(p.PrescriptionID);
-            if (prescription != null)
+            if (p != null)
             {
-                Console.WriteLine($"PrescriptionID: {prescription.PrescriptionID}");
-                Console.WriteLine($"Patient Name: {prescription.PatientName}");
-                Console.WriteLine($"Medication Name: {prescription.MedicationName}");
-                Console.WriteLine($"Dosage: {prescription.Dosage}");
+                Console.WriteLine($"PrescriptionID: {p.PrescriptionID}");
+                Console.WriteLine($"Patient Name: {p.PatientName}");
+                Console.WriteLine($"Medication Name: {p.MedicationName}");
+                Console.WriteLine($"Dosage: {p.Dosage}");
             }
             else
             {
