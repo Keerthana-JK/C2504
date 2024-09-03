@@ -47,3 +47,24 @@
 2024-09-03 11:33:56,190 [1] INFO  QuestTest5Task1.Program - PrescriptionID:1,PatientName: Aaradhya,MedicationName: Dolo 650,Dosage: 250
 2024-09-03 11:33:56,192 [1] INFO  QuestTest5Task1.Program - PrescriptionID:2,PatientName: Mitsuha,MedicationName: Calpol,Dosage: 350
 2024-09-03 11:33:56,192 [1] INFO  QuestTest5Task1.Program - PrescriptionID:3,PatientName: Xing,MedicationName: Paracetamol,Dosage: 480
+2024-09-03 15:38:44,656 [1] INFO  QuestTest5Task1.Program - Loading Data from Database
+2024-09-03 15:38:45,673 [1] INFO  QuestTest5Task1.Program - Prescription with the highest dosage: Paracetamol, Dosage: 480 mg
+2024-09-03 15:38:45,674 [1] INFO  QuestTest5Task1.Program - Third Max Dosage is:PrescriptionID:2,PatientName: Vijay,MedicationName: Calpol,Dosage: 230
+2024-09-03 15:38:45,674 [1] INFO  QuestTest5Task1.Program - sorted by patient name:
+2024-09-03 15:38:45,674 [1] INFO  QuestTest5Task1.Program - PrescriptionID:1,PatientName: Aaradhya,MedicationName: Dolo 650,Dosage: 250
+2024-09-03 15:38:45,675 [1] INFO  QuestTest5Task1.Program - PrescriptionID:2,PatientName: Vijay,MedicationName: Calpol,Dosage: 230
+2024-09-03 15:38:45,675 [1] INFO  QuestTest5Task1.Program - PrescriptionID:3,PatientName: Xing,MedicationName: Paracetamol,Dosage: 480
+2024-09-03 15:38:55,307 [1] INFO  QuestTest5Task1.Program - Loading Data from Database
+2024-09-03 15:38:55,612 [1] INFO  QuestTest5Task1.Program - Prescription with the highest dosage: Paracetamol, Dosage: 480 mg
+2024-09-03 15:38:55,614 [1] INFO  QuestTest5Task1.Program - Third Max Dosage is:PrescriptionID:2,PatientName: Vijay,MedicationName: Calpol,Dosage: 230
+2024-09-03 15:38:55,614 [1] INFO  QuestTest5Task1.Program - sorted by patient name:
+2024-09-03 15:38:55,614 [1] INFO  QuestTest5Task1.Program - PrescriptionID:1,PatientName: Aaradhya,MedicationName: Dolo 650,Dosage: 250
+2024-09-03 15:38:55,616 [1] INFO  QuestTest5Task1.Program - PrescriptionID:2,PatientName: Vijay,MedicationName: Calpol,Dosage: 230
+2024-09-03 15:38:55,616 [1] INFO  QuestTest5Task1.Program - PrescriptionID:3,PatientName: Xing,MedicationName: Paracetamol,Dosage: 480
+2024-09-03 15:40:03,002 [1] INFO  QuestTest5Task1.Program - Loading Data from Database
+2024-09-03 15:40:03,265 [1] INFO  QuestTest5Task1.Program - Prescription with the highest dosage: Paracetamol, Dosage: 480 mg
+2024-09-03 15:40:03,265 [1] INFO  QuestTest5Task1.Program - Third Max Dosage is:PrescriptionID:2,PatientName: Vijay,MedicationName: Calpol,Dosage: 230
+2024-09-03 15:40:03,265 [1] INFO  QuestTest5Task1.Program - sorted by patient name:
+2024-09-03 15:40:03,265 [1] INFO  QuestTest5Task1.Program - PrescriptionID:1,PatientName: Aaradhya,MedicationName: Dolo 650,Dosage: 250
+2024-09-03 15:40:03,267 [1] INFO  QuestTest5Task1.Program - PrescriptionID:2,PatientName: Vijay,MedicationName: Calpol,Dosage: 230
+2024-09-03 15:40:03,267 [1] INFO  QuestTest5Task1.Program - PrescriptionID:3,PatientName: Xing,MedicationName: Paracetamol,Dosage: 480

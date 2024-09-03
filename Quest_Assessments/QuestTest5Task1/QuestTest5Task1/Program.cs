@@ -7,10 +7,7 @@ using System.Collections;
 using System.Xml.Linq;
 namespace QuestTest5Task1
 {
-    public class ServerException : Exception
-    {
-        public ServerException(string message) : base(message) { }
-    }
+
     public class Prescription
     {
         public int PrescriptionID { get; set; }
@@ -32,7 +29,7 @@ namespace QuestTest5Task1
     public class PrescriptionService
     {
         private static readonly ILog log = LogManager.GetLogger(typeof(Program));
-        private static string connectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=Prescription;Integrated Security=True;";
+        private static readonly string connectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=Prescription;Integrated Security=True;";
         public static void Read(Prescription[] pres)
         {
             /* for (int i = 0; i < pres.Length; i++)
@@ -157,7 +154,7 @@ namespace QuestTest5Task1
             {
                 PrescriptionService.Read(pres);
             }
-            catch (ServerException ex)
+            catch (Exception ex)
             {
                 log.Error($"{ex.Message}");
             }

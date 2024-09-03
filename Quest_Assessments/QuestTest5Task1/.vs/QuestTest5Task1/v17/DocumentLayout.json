@@ -7,10 +7,6 @@
       "RelativeMoniker": "D:0:0:{267303A0-F85F-47AE-919D-E05532261F9E}|QuestTest5Task1\\QuestTest5Task1.csproj|solutionrelative:questtest5task1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{267303A0-F85F-47AE-919D-E05532261F9E}|QuestTest5Task1\\QuestTest5Task1.csproj|D:\\GitHub\\Quest Launchpad\\C2504\\Quest_Assessments\\QuestTest5Task1\\questtest5task1\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{267303A0-F85F-47AE-919D-E05532261F9E}|QuestTest5Task1\\QuestTest5Task1.csproj|solutionrelative:questtest5task1\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E5DD5196-9ED1-47D4-BEAF-9FCFD08E995B}|QuestTest5Task1Tests\\QuestTest5Task1Tests.csproj|D:\\GitHub\\Quest Launchpad\\C2504\\Quest_Assessments\\QuestTest5Task1\\questtest5task1tests\\prescriptionservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5DD5196-9ED1-47D4-BEAF-9FCFD08E995B}|QuestTest5Task1Tests\\QuestTest5Task1Tests.csproj|solutionrelative:questtest5task1tests\\prescriptionservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -22,23 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "App.config",
-              "DocumentMoniker": "D:\\GitHub\\Quest Launchpad\\C2504\\Quest_Assessments\\QuestTest5Task1\\QuestTest5Task1\\App.config",
-              "RelativeDocumentMoniker": "QuestTest5Task1\\App.config",
-              "ToolTip": "D:\\GitHub\\Quest Launchpad\\C2504\\Quest_Assessments\\QuestTest5Task1\\QuestTest5Task1\\App.config",
-              "RelativeToolTip": "QuestTest5Task1\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-09-03T05:47:44.046Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "PrescriptionServiceTests.cs",
               "DocumentMoniker": "D:\\GitHub\\Quest Launchpad\\C2504\\Quest_Assessments\\QuestTest5Task1\\QuestTest5Task1Tests\\PrescriptionServiceTests.cs",
               "RelativeDocumentMoniker": "QuestTest5Task1Tests\\PrescriptionServiceTests.cs",
@@ -46,7 +30,8 @@
               "RelativeToolTip": "QuestTest5Task1Tests\\PrescriptionServiceTests.cs",
               "ViewState": "AgIAADQAAAAAAAAAAAAcwDcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T05:17:26.555Z"
+              "WhenOpened": "2024-09-03T05:17:26.555Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -56,7 +41,7 @@
               "RelativeDocumentMoniker": "QuestTest5Task1\\Program.cs",
               "ToolTip": "D:\\GitHub\\Quest Launchpad\\C2504\\Quest_Assessments\\QuestTest5Task1\\QuestTest5Task1\\Program.cs",
               "RelativeToolTip": "QuestTest5Task1\\Program.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAAAEoAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-03T04:59:15.132Z",
               "EditorCaption": ""
