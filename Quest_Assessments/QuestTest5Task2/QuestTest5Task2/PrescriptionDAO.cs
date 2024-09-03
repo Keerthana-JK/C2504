@@ -7,22 +7,30 @@ namespace QuestTest5Task2PrescriptionDAO
 {
     public class PrescriptionDAO
     {
+        string connString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=Prescription;Integrated Security=True;";
         public void CreatePrescription(Prescription prescription)
         {
-            using (SqlConnection conn = new SqlConnection("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=Prescription;Integrated Security=True;"))
+            string query = "INSERT INTO Prescription (PatientName, MedicationName, Dosage) VALUES (@PatientName, @MedicationName, @Dosage)";
+            using (SqlConnection conn = new SqlConnection(connString))
             {
+                SqlCommand cmd = new SqlCommand(query, conn);
+
+                //cmd.Parameters.AddWithValue("@PrescriptionID", prescription.PrescriptionID);
+                cmd.Parameters.AddWithValue("@PatientName", prescription.PatientName);
+                cmd.Parameters.AddWithValue("@MedicationName", prescription.MedicationName);
+                cmd.Parameters.AddWithValue("@Dosage", prescription.Dosage);
                 conn.Open();
-                string query = "INSERT INTO Prescription (PatientName, MedicationName, Dosage) VALUES (@PatientName, @MedicationName, @Dosage)";
-                using (SqlCommand cmd = new SqlCommand(query, conn))
+                int rowsAffected = cmd.ExecuteNonQuery();
+                if (rowsAffected == 0)
                 {
-                    cmd.Parameters.AddWithValue("@PatientName", prescription.PatientName);
-                    cmd.Parameters.AddWithValue("@MedicationName", prescription.MedicationName);
-                    cmd.Parameters.AddWithValue("@Dosage", prescription.Dosage);
-                    int result = cmd.ExecuteNonQuery();
+                    // Handle the case where no rows were affected
+                    Console.WriteLine("No rows inserted. Check if the PrescriptionID already exists.");
                 }
             }
+
         }
-        public void Read(int id)
+
+        public void Read(Prescription prescription)
         {
             foreach (Prescription p in GetPrescriptionsFromDatabase())
             {
@@ -30,22 +38,24 @@ namespace QuestTest5Task2PrescriptionDAO
             }
         }
 
-            public void UpdatePrescription(Prescription prescription)
+        public void UpdatePrescription(Prescription prescription)
         {
-            using (SqlConnection conn = new SqlConnection("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=Prescription;Integrated Security=True;"))
+            string query = "UPDATE Prescription SET PatientName = @PatientName, MedicationName = @MedicationName, Dosage = @Dosage WHERE PrescriptionID = @PrescriptionID";
+            using (SqlConnection conn = new SqlConnection(connString))
             {
+                SqlCommand cmd = new SqlCommand(query, conn);
                 conn.Open();
-                //string query = "UPDATE Prescription SET PatientName = @PatientName, MedicationName = @MedicationName, Dosage = @Dosage WHERE PrescriptionID = @PrescriptionID";
-                string query = $"UPDATE Prescription SET PatientName = {"Ganga"}, MedicationName = {"Dolo 650"}, Dosage={230}";
-                using (SqlCommand cmd = new SqlCommand(query, conn))
+                
+                cmd.Parameters.AddWithValue("@PrescriptionID", prescription.PrescriptionID);
+                cmd.Parameters.AddWithValue("@PatientName", prescription.PatientName);
+                cmd.Parameters.AddWithValue("@MedicationName", prescription.MedicationName);
+                cmd.Parameters.AddWithValue("@Dosage", prescription.Dosage);
+
+                int rowsAffected = cmd.ExecuteNonQuery();//num of rows affected
+                if (rowsAffected == 0)
                 {
-                    cmd.Parameters.AddWithValue("@PrescriptionID", prescription.PrescriptionID);
-                    cmd.Parameters.AddWithValue("@PatientName", prescription.PatientName);
-                    cmd.Parameters.AddWithValue("@MedicationName", prescription.MedicationName);
-                    cmd.Parameters.AddWithValue("@Dosage", prescription.Dosage);
-
-                    int result = cmd.ExecuteNonQuery();//num of rows affected
-
+                    // Handle the case where no rows were affected (e.g., ID not found)
+                    Console.WriteLine("No rows updated. Prescription might not exist.");
                 }
             }
         }
@@ -53,7 +63,7 @@ namespace QuestTest5Task2PrescriptionDAO
         public void DeletePrescription(int prescriptionID)
         {
 
-            using (SqlConnection conn = new SqlConnection("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=Prescription;Integrated Security=True;"))
+            using (SqlConnection conn = new SqlConnection(connString))
             {
                 conn.Open();
                 string query = "DELETE FROM Prescription WHERE PrescriptionID = @PrescriptionID";
@@ -68,12 +78,12 @@ namespace QuestTest5Task2PrescriptionDAO
         public List<Prescription> GetPrescriptionsFromDatabase()
         {
             List<Prescription> prescriptions = new List<Prescription>();
-
-            using (SqlConnection conn = new SqlConnection("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=Prescription;Integrated Security=True;"))
+            string query = "SELECT PrescriptionID, PatientName, MedicationName, Dosage FROM Prescription";
+            
+            using (SqlConnection conn = new SqlConnection(connString))
             {
+                SqlCommand cmd = new SqlCommand(query, conn);
                 conn.Open();
-
-                SqlCommand cmd = new SqlCommand("SELECT PrescriptionID, PatientName, MedicationName, Dosage FROM Prescription", conn);
                 SqlDataReader reader = cmd.ExecuteReader();
 
                 while (reader.Read())

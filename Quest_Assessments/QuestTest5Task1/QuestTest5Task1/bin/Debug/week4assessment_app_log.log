@@ -1,0 +1,10 @@
+2024-09-03 10:34:31,237 [1] INFO  Week4AssessmentApp.Program - Prescription with the highest dosage: Paracetamol, Dosage: 480 mg
+2024-09-03 10:34:31,246 [1] INFO  Week4AssessmentApp.Program - sorted by patient name:
+2024-09-03 10:34:31,246 [1] INFO  Week4AssessmentApp.Program - PrescriptionID:1,PatientName: Aaradhya,MedicationName: Dolo 650,Dosage: 250
+2024-09-03 10:34:31,248 [1] INFO  Week4AssessmentApp.Program - PrescriptionID:2,PatientName: Mitsuha,MedicationName: Calpol,Dosage: 350
+2024-09-03 10:34:31,248 [1] INFO  Week4AssessmentApp.Program - PrescriptionID:3,PatientName: Xing,MedicationName: Paracetamol,Dosage: 480
+2024-09-03 11:17:01,394 [1] INFO  QuestTest5Task1.Program - Prescription with the highest dosage: Paracetamol, Dosage: 480 mg
+2024-09-03 11:17:01,406 [1] INFO  QuestTest5Task1.Program - sorted by patient name:
+2024-09-03 11:17:01,406 [1] INFO  QuestTest5Task1.Program - PrescriptionID:1,PatientName: Aaradhya,MedicationName: Dolo 650,Dosage: 250
+2024-09-03 11:17:01,407 [1] INFO  QuestTest5Task1.Program - PrescriptionID:2,PatientName: Mitsuha,MedicationName: Calpol,Dosage: 350
+2024-09-03 11:17:01,407 [1] INFO  QuestTest5Task1.Program - PrescriptionID:3,PatientName: Xing,MedicationName: Paracetamol,Dosage: 480

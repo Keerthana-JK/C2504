@@ -12,6 +12,11 @@ namespace QuestTest5Task2
         {
         }
 
+        public Prescription(int prescriptionID)
+        {
+            PrescriptionID = prescriptionID;
+        }
+
         public Prescription(int prescriptionID, string patientName, string medicationName, double dosage)
         {
             PrescriptionID = prescriptionID;

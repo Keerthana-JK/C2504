@@ -1,12 +1,12 @@
 SDLC 
 
 - Stages :
-	1. Planning 
-	2. Defining
-	3. Designing
-	4. Building
+	1. Requirement Analysis & Planning 
+	2. Defining Requirements  			- SRS (Software Requirement Specification)
+	3. Designing & pdt approach			- DDS (Design Document Specification)
+	4. Developing
 	5. Testing
-	6. Deployment
+	6. Deployment & Maintenance
 
 - SDLC Models
 	1. Waterfall model

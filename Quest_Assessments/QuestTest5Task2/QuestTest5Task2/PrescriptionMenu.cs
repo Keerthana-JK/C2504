@@ -13,7 +13,7 @@ namespace QuestTest5Task2Menu
 
             while (running)
             {
-                Console.WriteLine("\nPrescription Management System");
+                Console.WriteLine("\n^^^^^Prescription Management System^^^^^");
                 Console.WriteLine("1. Create Prescription");
                 Console.WriteLine("2. Read Prescription");
                 Console.WriteLine("3. Update Prescription");

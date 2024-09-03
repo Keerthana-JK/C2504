@@ -12,11 +12,11 @@ namespace QuestTest5Task2PrescriptionUI
 
         public void CreatePrescription()
         {
-            Console.Write("Enter Name: ");
+            Console.Write("Enter Patient Name: ");
             string PatientName = Console.ReadLine();
-            Console.Write("Enter Place: ");
+            Console.Write("Enter Medication Name: ");
             string MedicationName = Console.ReadLine();
-            Console.Write("Enter Skill: ");
+            Console.Write("Enter Dosage: ");
             float Dosage = float.Parse(Console.ReadLine());
 
             Prescription prescription = new Prescription(0, PatientName, MedicationName, Dosage);
@@ -27,15 +27,20 @@ namespace QuestTest5Task2PrescriptionUI
 
         public void ReadPrescription()
         {
+            //string myString = "Hello, World!";
+            //object myObject = myString;
+
             Console.Write("Enter Prescription ID: ");
             int id = int.Parse(Console.ReadLine());
-
-            Prescription prescription = prescriptionDAO.CreatePrescription(p.id);
+            Prescription p = new Prescription();
+            p.PrescriptionID = id;
+            Prescription prescription = new Prescription(id);
+            //Prescription prescription = prescriptionDAO.CreatePrescription(p.PrescriptionID);
             if (prescription != null)
             {
                 Console.WriteLine($"PrescriptionID: {prescription.PrescriptionID}");
-                Console.WriteLine($"PatientName: {prescription.PatientName}");
-                Console.WriteLine($"MedicationName: {prescription.MedicationName}");
+                Console.WriteLine($"Patient Name: {prescription.PatientName}");
+                Console.WriteLine($"Medication Name: {prescription.MedicationName}");
                 Console.WriteLine($"Dosage: {prescription.Dosage}");
             }
             else
@@ -48,18 +53,20 @@ namespace QuestTest5Task2PrescriptionUI
         {
             Console.Write("Enter Prescription ID: ");
             int id = int.Parse(Console.ReadLine());
+            Prescription prescription = new Prescription(id);
 
-            Prescription Prescription = prescriptionDAO.Read(id);
-            if (Prescription != null)
+            prescription.PrescriptionID = id;
+            //Prescription prescription = prescriptionDAO.Read(prescription);
+            if (prescription != null)
             {
                 Console.Write("Enter new Patient Name: ");
-                Prescription.PatientName = Console.ReadLine();
-                Console.Write("Enter new MedicationName: ");
-                Prescription.MedicationName = Console.ReadLine();
+                prescription.PatientName = Console.ReadLine();
+                Console.Write("Enter new Medication Name: ");
+                prescription.MedicationName = Console.ReadLine();
                 Console.Write("Enter new Dosage: ");
-                Prescription.Dosage = int.Parse(Console.ReadLine());
+                prescription.Dosage = double.Parse(Console.ReadLine());
 
-                prescriptionDAO.UpdatePrescription(Prescription);
+                prescriptionDAO.UpdatePrescription(prescription);
                 Console.WriteLine("Prescription updated successfully.");
             }
             else
@@ -80,9 +87,16 @@ namespace QuestTest5Task2PrescriptionUI
         public void ListAllPrescriptions()
         {
             List<Prescription> pres = prescriptionDAO.GetPrescriptionsFromDatabase();
-            foreach (Prescription Prescription in pres)
+            if (pres.Count == 0)
             {
-                Console.WriteLine($"ID: {Prescription.PrescriptionID}, PatientName: {Prescription.PatientName}, MedicationName: {Prescription.MedicationName}, Dosage: {Prescription.Dosage}");
+                Console.WriteLine("No prescriptions found.");
+            }
+            else
+            {
+                foreach (Prescription p in pres)
+                {
+                    Console.WriteLine($"PrescriptionID: {p.PrescriptionID}, PatientName: {p.PatientName}, MedicationName: {p.MedicationName}, Dosage: {p.Dosage}");
+                }
             }
         }
     }
