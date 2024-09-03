@@ -1,0 +1,7 @@
+D:\GitHub\Quest Launchpad\C2504\23__30-08-24\Extension_StringClass\Extension_StringClass\bin\Debug\Extension_StringClass.exe.config
+D:\GitHub\Quest Launchpad\C2504\23__30-08-24\Extension_StringClass\Extension_StringClass\bin\Debug\Extension_StringClass.exe
+D:\GitHub\Quest Launchpad\C2504\23__30-08-24\Extension_StringClass\Extension_StringClass\bin\Debug\Extension_StringClass.pdb
+D:\GitHub\Quest Launchpad\C2504\23__30-08-24\Extension_StringClass\Extension_StringClass\obj\Debug\Extension_StringClass.csproj.AssemblyReference.cache
+D:\GitHub\Quest Launchpad\C2504\23__30-08-24\Extension_StringClass\Extension_StringClass\obj\Debug\Extension_StringClass.csproj.CoreCompileInputs.cache
+D:\GitHub\Quest Launchpad\C2504\23__30-08-24\Extension_StringClass\Extension_StringClass\obj\Debug\Extension_StringClass.exe
+D:\GitHub\Quest Launchpad\C2504\23__30-08-24\Extension_StringClass\Extension_StringClass\obj\Debug\Extension_StringClass.pdb

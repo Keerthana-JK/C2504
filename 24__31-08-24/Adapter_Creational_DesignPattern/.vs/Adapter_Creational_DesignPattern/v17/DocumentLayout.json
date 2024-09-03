@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\GitHub\\Quest Launchpad\\C2504\\24_31-08-24\\Adapter_Creational_DesignPattern\\",
+  "WorkspaceRootPath": "D:\\GitHub\\Quest Launchpad\\C2504\\24__31-08-24\\Adapter_Creational_DesignPattern\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{78100D21-63D7-4318-9E74-A388DD3BE6D3}|Adapter_Creational_DesignPattern\\Adapter_Creational_DesignPattern.csproj|d:\\github\\quest launchpad\\c2504\\24_31-08-24\\adapter_creational_designpattern\\adapter_creational_designpattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{78100D21-63D7-4318-9E74-A388DD3BE6D3}|Adapter_Creational_DesignPattern\\Adapter_Creational_DesignPattern.csproj|d:\\github\\quest launchpad\\c2504\\24__31-08-24\\adapter_creational_designpattern\\adapter_creational_designpattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78100D21-63D7-4318-9E74-A388DD3BE6D3}|Adapter_Creational_DesignPattern\\Adapter_Creational_DesignPattern.csproj|solutionrelative:adapter_creational_designpattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,9 +20,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\GitHub\\Quest Launchpad\\C2504\\24_31-08-24\\Adapter_Creational_DesignPattern\\Adapter_Creational_DesignPattern\\Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\Quest Launchpad\\C2504\\24__31-08-24\\Adapter_Creational_DesignPattern\\Adapter_Creational_DesignPattern\\Program.cs",
               "RelativeDocumentMoniker": "Adapter_Creational_DesignPattern\\Program.cs",
-              "ToolTip": "D:\\GitHub\\Quest Launchpad\\C2504\\24_31-08-24\\Adapter_Creational_DesignPattern\\Adapter_Creational_DesignPattern\\Program.cs",
+              "ToolTip": "D:\\GitHub\\Quest Launchpad\\C2504\\24__31-08-24\\Adapter_Creational_DesignPattern\\Adapter_Creational_DesignPattern\\Program.cs",
               "RelativeToolTip": "Adapter_Creational_DesignPattern\\Program.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAgwCgAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

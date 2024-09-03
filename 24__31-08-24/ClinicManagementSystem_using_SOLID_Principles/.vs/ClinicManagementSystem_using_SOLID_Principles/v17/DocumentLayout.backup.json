@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\GitHub\\Quest Launchpad\\C2504\\24_31-08-24\\ClinicManagementSystem_using_SOLID_Principles\\",
+  "WorkspaceRootPath": "D:\\GitHub\\Quest Launchpad\\C2504\\24__31-08-24\\ClinicManagementSystem_using_SOLID_Principles\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FD7424B1-296D-413A-BE6D-4981FA1345E1}|ClinicManagementSystem_using_SOLID_Principles\\ClinicManagementSystem_using_SOLID_Principles.csproj|d:\\github\\quest launchpad\\c2504\\24_31-08-24\\clinicmanagementsystem_using_solid_principles\\clinicmanagementsystem_using_solid_principles\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FD7424B1-296D-413A-BE6D-4981FA1345E1}|ClinicManagementSystem_using_SOLID_Principles\\ClinicManagementSystem_using_SOLID_Principles.csproj|d:\\github\\quest launchpad\\c2504\\24__31-08-24\\clinicmanagementsystem_using_solid_principles\\clinicmanagementsystem_using_solid_principles\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD7424B1-296D-413A-BE6D-4981FA1345E1}|ClinicManagementSystem_using_SOLID_Principles\\ClinicManagementSystem_using_SOLID_Principles.csproj|solutionrelative:clinicmanagementsystem_using_solid_principles\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\GitHub\\Quest Launchpad\\C2504\\24_31-08-24\\ClinicManagementSystem_using_SOLID_Principles\\ClinicManagementSystem_using_SOLID_Principles\\Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\Quest Launchpad\\C2504\\24__31-08-24\\ClinicManagementSystem_using_SOLID_Principles\\ClinicManagementSystem_using_SOLID_Principles\\Program.cs",
               "RelativeDocumentMoniker": "ClinicManagementSystem_using_SOLID_Principles\\Program.cs",
-              "ToolTip": "D:\\GitHub\\Quest Launchpad\\C2504\\24_31-08-24\\ClinicManagementSystem_using_SOLID_Principles\\ClinicManagementSystem_using_SOLID_Principles\\Program.cs",
-              "RelativeToolTip": "ClinicManagementSystem_using_SOLID_Principles\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ToolTip": "D:\\GitHub\\Quest Launchpad\\C2504\\24__31-08-24\\ClinicManagementSystem_using_SOLID_Principles\\ClinicManagementSystem_using_SOLID_Principles\\Program.cs*",
+              "RelativeToolTip": "ClinicManagementSystem_using_SOLID_Principles\\Program.cs*",
+              "ViewState": "AgIAABcBAAAAAAAAAAAQwDQBAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-31T07:27:41.885Z",
               "EditorCaption": ""
