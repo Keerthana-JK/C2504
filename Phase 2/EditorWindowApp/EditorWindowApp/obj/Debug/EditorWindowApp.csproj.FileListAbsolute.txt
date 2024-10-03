@@ -1,0 +1,15 @@
+C:\Users\2021454\source\repos\EditorWindowApp\EditorWindowApp\obj\Debug\EditorWindowApp.csproj.AssemblyReference.cache
+C:\Users\2021454\source\repos\EditorWindowApp\EditorWindowApp\obj\Debug\App.g.cs
+C:\Users\2021454\source\repos\EditorWindowApp\EditorWindowApp\obj\Debug\EditorWindowApp_MarkupCompile.cache
+C:\Users\2021454\source\repos\EditorWindowApp\EditorWindowApp\bin\Debug\EditorWindowApp.exe.config
+C:\Users\2021454\source\repos\EditorWindowApp\EditorWindowApp\bin\Debug\EditorWindowApp.exe
+C:\Users\2021454\source\repos\EditorWindowApp\EditorWindowApp\bin\Debug\EditorWindowApp.pdb
+C:\Users\2021454\source\repos\EditorWindowApp\EditorWindowApp\obj\Debug\MainWindow.g.cs
+C:\Users\2021454\source\repos\EditorWindowApp\EditorWindowApp\obj\Debug\EditorWindowApp_MarkupCompile.lref
+C:\Users\2021454\source\repos\EditorWindowApp\EditorWindowApp\obj\Debug\MainWindow.baml
+C:\Users\2021454\source\repos\EditorWindowApp\EditorWindowApp\obj\Debug\EditorWindowApp.g.resources
+C:\Users\2021454\source\repos\EditorWindowApp\EditorWindowApp\obj\Debug\EditorWindowApp.Properties.Resources.resources
+C:\Users\2021454\source\repos\EditorWindowApp\EditorWindowApp\obj\Debug\EditorWindowApp.csproj.GenerateResource.cache
+C:\Users\2021454\source\repos\EditorWindowApp\EditorWindowApp\obj\Debug\EditorWindowApp.csproj.CoreCompileInputs.cache
+C:\Users\2021454\source\repos\EditorWindowApp\EditorWindowApp\obj\Debug\EditorWindowApp.exe
+C:\Users\2021454\source\repos\EditorWindowApp\EditorWindowApp\obj\Debug\EditorWindowApp.pdb
