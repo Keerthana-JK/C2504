@@ -1,0 +1,13 @@
+C:\Users\2021454\source\repos\AnimalSolution\AnimalProject\bin\Debug\AnimalProject.exe.config
+C:\Users\2021454\source\repos\AnimalSolution\AnimalProject\bin\Debug\AnimalProject.exe
+C:\Users\2021454\source\repos\AnimalSolution\AnimalProject\bin\Debug\AnimalProject.pdb
+C:\Users\2021454\source\repos\AnimalSolution\AnimalProject\obj\Debug\AnimalProject.csproj.AssemblyReference.cache
+C:\Users\2021454\source\repos\AnimalSolution\AnimalProject\obj\Debug\AnimalProject.frmAnimalHomePage.resources
+C:\Users\2021454\source\repos\AnimalSolution\AnimalProject\obj\Debug\AnimalProject.frmCrow.resources
+C:\Users\2021454\source\repos\AnimalSolution\AnimalProject\obj\Debug\AnimalProject.frmDuck.resources
+C:\Users\2021454\source\repos\AnimalSolution\AnimalProject\obj\Debug\AnimalProject.frmPeacock.resources
+C:\Users\2021454\source\repos\AnimalSolution\AnimalProject\obj\Debug\AnimalProject.Properties.Resources.resources
+C:\Users\2021454\source\repos\AnimalSolution\AnimalProject\obj\Debug\AnimalProject.csproj.GenerateResource.cache
+C:\Users\2021454\source\repos\AnimalSolution\AnimalProject\obj\Debug\AnimalProject.csproj.CoreCompileInputs.cache
+C:\Users\2021454\source\repos\AnimalSolution\AnimalProject\obj\Debug\AnimalProject.exe
+C:\Users\2021454\source\repos\AnimalSolution\AnimalProject\obj\Debug\AnimalProject.pdb
