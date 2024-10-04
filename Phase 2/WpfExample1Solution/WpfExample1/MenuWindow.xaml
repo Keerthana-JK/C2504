@@ -1,0 +1,15 @@
+﻿<Window x:Class="WpfExample1.MenuWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfExample1"
+        mc:Ignorable="d"
+        Title="MenuWindow" Height="450" Width="800" Closing="Window_Closing">
+	<Grid x:Name="MenuWindow1">
+		<Button x:Name="btnCounter" Content="Counter" HorizontalAlignment="Left" Height="68" Margin="68,171,0,0" VerticalAlignment="Top" Width="161" FontSize="18" Click="btnCounter_Click"/>
+		<Button x:Name="btnSumCalc" Content="Sum Calc" HorizontalAlignment="Left" Height="68" Margin="297,171,0,0" VerticalAlignment="Top" Width="161" FontSize="18" Click="btnSumCalc_Click"/>
+		<Button x:Name="btnSquareCube" Content="Square/Cube Calc" HorizontalAlignment="Left" Height="68" Margin="541,171,0,0" VerticalAlignment="Top" Width="161" RenderTransformOrigin="2.045,0.5" FontSize="18" Click="btnSquareCube_Click"/>
+
+	</Grid>
+</Window>

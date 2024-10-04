@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfExample1.SquareCubeCalcWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfExample1"
+        mc:Ignorable="d"
+        Title="SquareCubeCalcWindow" Height="450" Width="800" Closing="Window_Closing">
+	<Grid Margin="0,3,0,-3">
+		<TextBlock x:Name="lblNumber" HorizontalAlignment="Left" Height="40" Margin="73,72,0,0" TextWrapping="Wrap" Text="Number" TextAlignment="Center" VerticalAlignment="Top" Width="114"/>
+		<TextBox x:Name="txtNumber" HorizontalAlignment="Left" Height="39" Margin="257,63,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="165"/>
+		<Button x:Name="btnFindSquare" Content="Find Square" HorizontalAlignment="Left" Height="41" Margin="104,231,0,0" VerticalAlignment="Top" Width="124" Click="btnFindSquare_Click"/>
+		<Button x:Name="btnFindCube" Content="Find Cube" HorizontalAlignment="Left" Height="41" Margin="286,231,0,0" VerticalAlignment="Top" Width="124" Click="btnFindCube_Click"/>
+		<TextBlock x:Name="lblResult" HorizontalAlignment="Left" Height="27" Margin="108,143,0,0" TextWrapping="Wrap" Text="Result" VerticalAlignment="Top" Width="71"/>
+		<TextBox x:Name="txtResult" HorizontalAlignment="Left" Height="39" Margin="257,133,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="165" IsEnabled="False"/>
+
+	</Grid>
+</Window>
