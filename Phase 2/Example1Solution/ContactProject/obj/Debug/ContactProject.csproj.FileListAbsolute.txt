@@ -1,0 +1,10 @@
+C:\Users\2021454\source\repos\Example1Solution\ContactProject\bin\Debug\ContactProject.exe.config
+C:\Users\2021454\source\repos\Example1Solution\ContactProject\bin\Debug\ContactProject.exe
+C:\Users\2021454\source\repos\Example1Solution\ContactProject\bin\Debug\ContactProject.pdb
+C:\Users\2021454\source\repos\Example1Solution\ContactProject\obj\Debug\ContactProject.csproj.AssemblyReference.cache
+C:\Users\2021454\source\repos\Example1Solution\ContactProject\obj\Debug\ContactProject.Form1.resources
+C:\Users\2021454\source\repos\Example1Solution\ContactProject\obj\Debug\ContactProject.Properties.Resources.resources
+C:\Users\2021454\source\repos\Example1Solution\ContactProject\obj\Debug\ContactProject.csproj.GenerateResource.cache
+C:\Users\2021454\source\repos\Example1Solution\ContactProject\obj\Debug\ContactProject.csproj.CoreCompileInputs.cache
+C:\Users\2021454\source\repos\Example1Solution\ContactProject\obj\Debug\ContactProject.exe
+C:\Users\2021454\source\repos\Example1Solution\ContactProject\obj\Debug\ContactProject.pdb

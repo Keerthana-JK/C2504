@@ -1,0 +1,12 @@
+C:\Users\2021454\source\repos\Example1Solution\Example12Project\bin\Debug\Example12Project.exe.config
+C:\Users\2021454\source\repos\Example1Solution\Example12Project\bin\Debug\Example12Project.exe
+C:\Users\2021454\source\repos\Example1Solution\Example12Project\bin\Debug\Example12Project.pdb
+C:\Users\2021454\source\repos\Example1Solution\Example12Project\obj\Debug\Example12Project.csproj.AssemblyReference.cache
+C:\Users\2021454\source\repos\Example1Solution\Example12Project\obj\Debug\Example12Project.CounterApp.resources
+C:\Users\2021454\source\repos\Example1Solution\Example12Project\obj\Debug\Example12Project.CounterForm.resources
+C:\Users\2021454\source\repos\Example1Solution\Example12Project\obj\Debug\Example12Project.Properties.Resources.resources
+C:\Users\2021454\source\repos\Example1Solution\Example12Project\obj\Debug\Example12Project.csproj.GenerateResource.cache
+C:\Users\2021454\source\repos\Example1Solution\Example12Project\obj\Debug\Example12Project.csproj.CoreCompileInputs.cache
+C:\Users\2021454\source\repos\Example1Solution\Example12Project\obj\Debug\Example12Project.exe
+C:\Users\2021454\source\repos\Example1Solution\Example12Project\obj\Debug\Example12Project.pdb
+C:\Users\2021454\source\repos\Example1Solution\Example12Project\obj\Debug\Example12Project.ExtendedCounterForm.resources
