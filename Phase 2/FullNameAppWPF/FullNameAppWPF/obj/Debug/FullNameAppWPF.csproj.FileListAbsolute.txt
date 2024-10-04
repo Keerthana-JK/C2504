@@ -1,0 +1,17 @@
+C:\Users\2021454\source\repos\FullNameAppWPF\FullNameAppWPF\bin\Debug\FullNameAppWPF.exe.config
+C:\Users\2021454\source\repos\FullNameAppWPF\FullNameAppWPF\bin\Debug\FullNameAppWPF.exe
+C:\Users\2021454\source\repos\FullNameAppWPF\FullNameAppWPF\bin\Debug\FullNameAppWPF.pdb
+C:\Users\2021454\source\repos\FullNameAppWPF\FullNameAppWPF\obj\Debug\FullNameAppWPF.csproj.AssemblyReference.cache
+C:\Users\2021454\source\repos\FullNameAppWPF\FullNameAppWPF\obj\Debug\EditFullNameWindow.g.cs
+C:\Users\2021454\source\repos\FullNameAppWPF\FullNameAppWPF\obj\Debug\DisplayPersonApp.g.cs
+C:\Users\2021454\source\repos\FullNameAppWPF\FullNameAppWPF\obj\Debug\App.g.cs
+C:\Users\2021454\source\repos\FullNameAppWPF\FullNameAppWPF\obj\Debug\FullNameAppWPF_MarkupCompile.cache
+C:\Users\2021454\source\repos\FullNameAppWPF\FullNameAppWPF\obj\Debug\FullNameAppWPF_MarkupCompile.lref
+C:\Users\2021454\source\repos\FullNameAppWPF\FullNameAppWPF\obj\Debug\EditFullNameWindow.baml
+C:\Users\2021454\source\repos\FullNameAppWPF\FullNameAppWPF\obj\Debug\DisplayPersonApp.baml
+C:\Users\2021454\source\repos\FullNameAppWPF\FullNameAppWPF\obj\Debug\FullNameAppWPF.g.resources
+C:\Users\2021454\source\repos\FullNameAppWPF\FullNameAppWPF\obj\Debug\FullNameAppWPF.Properties.Resources.resources
+C:\Users\2021454\source\repos\FullNameAppWPF\FullNameAppWPF\obj\Debug\FullNameAppWPF.csproj.GenerateResource.cache
+C:\Users\2021454\source\repos\FullNameAppWPF\FullNameAppWPF\obj\Debug\FullNameAppWPF.csproj.CoreCompileInputs.cache
+C:\Users\2021454\source\repos\FullNameAppWPF\FullNameAppWPF\obj\Debug\FullNameAppWPF.exe
+C:\Users\2021454\source\repos\FullNameAppWPF\FullNameAppWPF\obj\Debug\FullNameAppWPF.pdb
